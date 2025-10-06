@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 sitemap: false
 ---
 
-# X Marks the Spot in Hydejack 9.2
+# About ME
 ## New Social Media Icons
 
 Lots of things have changed in the world of social media since the last release. To bring Hydejack up to date, the default logo for Twitter has changed:
