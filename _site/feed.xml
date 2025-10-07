@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-07T15:07:44+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>author1</name></author><entry><title type="html">My Journey in Data Science and Beyond</title><link href="http://localhost:4000/career/2025-10-06-journey/" rel="alternate" type="text/html" title="My Journey in Data Science and Beyond" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-06T16:05:14+11:00</updated><id>http://localhost:4000/career/journey</id><content type="html" xml:base="http://localhost:4000/career/2025-10-06-journey/"><![CDATA[<blockquote>
+  <p>“Eager to use data to solve meaningful problems and excited to bring my skills to projects that make a real impact across industries.”<br />
+<cite>— Andrean Ignasius</cite></p>
+</blockquote>
+
+<h2 id="-education-timeline">🎓 Education Timeline</h2>
+
+<h3 id="20232025--master-of-data-science-professional-deakin-university-australia">2023–2025 — Master of Data Science (Professional), Deakin University (Australia)</h3>
+<ul>
+  <li>Graduated with <strong>High Distinction</strong></li>
+  <li>Awarded <strong>International Scholarship</strong></li>
+  <li>Focused on applied AI, cloud solutions, and professional data practices</li>
+</ul>
+
+<h3 id="20192023--bachelor-of-computer-science-global-class-bina-nusantara-university-indonesia">2019–2023 — Bachelor of Computer Science (Global Class), Bina Nusantara University (Indonesia)</h3>
+<ul>
+  <li>Graduated with <strong>GPA 3.85 / 4.00</strong></li>
+  <li><strong>Best Research Paper</strong> at ICCSCI 2021</li>
+  <li>Thesis: <em>Development of Web-Based Boarding House Marketplace Using VILT Stack</em></li>
+</ul>
+
+<h3 id="2022--student-exchange-kaunas-university-of-technology-lithuania">2022 — Student Exchange, Kaunas University of Technology (Lithuania)</h3>
+<ul>
+  <li>Gained global exposure in data science and computing education</li>
+  <li>Strengthened cross-cultural collaboration skills</li>
+</ul>
+
+<hr />
+
+<h2 id="-professional-experience">💼 Professional Experience</h2>
+
+<h3 id="20242025--pet-sitter-camp-paws-melbourne-australia">2024–2025 — Pet Sitter, Camp Paws (Melbourne, Australia)</h3>
+<ul>
+  <li>Managed multi-household pet care including feeding, walking, and administering medication</li>
+  <li>Communicated daily with pet owners, maintaining consistent trust and satisfaction</li>
+</ul>
+
+<h3 id="20222023--data-scientist-telkom-indonesia">2022–2023 — Data Scientist, Telkom Indonesia</h3>
+<ul>
+  <li>Developed <strong>computer vision</strong> model for employee face detection (80% accuracy on 1,000+ images)</li>
+  <li>Built <strong>multi-class ML models</strong> improving data analysis efficiency by 6%</li>
+  <li>Collaborated with business teams to align AI projects with real-world needs</li>
+  <li>Delivered complete documentation and knowledge transfer sessions</li>
+</ul>
+
+<h3 id="2019--librarian-citra-kasih-grade-school-jakarta">2019 — Librarian, Citra Kasih Grade School (Jakarta)</h3>
+<ul>
+  <li>Managed cataloging, record-keeping, and book circulation</li>
+  <li>Supported library operations and maintained an organized collection</li>
+</ul>
+
+<hr />
+
+<h2 id="-professional-development--achievements">🧠 Professional Development &amp; Achievements</h2>
+
+<ul>
+  <li><strong>Microsoft Certified: Azure AI Engineer Associate (AI-102)</strong> — May 2024</li>
+  <li><strong>Microsoft Certified: Azure AI Fundamentals (AI-900)</strong> — May 2024</li>
+  <li><strong>Learn with Google AI – Explore ML</strong> — March 2022</li>
+  <li><strong>Best Research Paper Award, ICCSCI 2021</strong> — November 2021</li>
+  <li><strong>Finalist, SGU Mobile App Programming Competition</strong> — August 2018</li>
+</ul>
+
+<hr />
+
+<h2 id="-volunteer-experience">🌍 Volunteer Experience</h2>
+
+<h3 id="2018--teaching-volunteer-bojong-koneng-indonesia">2018 — Teaching Volunteer, Bojong Koneng, Indonesia</h3>
+<ul>
+  <li>Taught 30 sixth-grade students in preparation for national exams</li>
+  <li>Assisted in Physical Education and calisthenics supervision</li>
+</ul>
+
+<hr />
+
+<h2 id="-technical-toolkit">🧩 Technical Toolkit</h2>
+
+<p><strong>Programming:</strong> Python, R, Java, SQL<br />
+<strong>Libraries:</strong> PyTorch, TensorFlow, Pandas, NumPy<br />
+<strong>Web Stack:</strong> VILT (Vue, Inertia, Laravel, Tailwind)<br />
+<strong>Cloud &amp; DevOps:</strong> Microsoft Azure, Docker, Jenkins<br />
+<strong>Visualization:</strong> Power BI, Tableau<br />
+<strong>Soft Skills:</strong> Collaboration, Adaptability, Problem-solving</p>
+
+<hr />
+
+<h2 id="️-timeline-overview">🗺️ Timeline Overview</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: left">Milestone</th>
+      <th style="text-align: left">Organization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2025</td>
+      <td style="text-align: left">Pet Sitting &amp; AI Certification</td>
+      <td style="text-align: left">Camp Paws / Microsoft</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2023</td>
+      <td style="text-align: left">Graduated B.CompSci (Global Class)</td>
+      <td style="text-align: left">Bina Nusantara University</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2022</td>
+      <td style="text-align: left">Data Scientist Internship</td>
+      <td style="text-align: left">Telkom Indonesia</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2022</td>
+      <td style="text-align: left">Exchange Program</td>
+      <td style="text-align: left">Kaunas University of Technology</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: left">Best Research Paper Award</td>
+      <td style="text-align: left">ICCSCI 2021</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2018</td>
+      <td style="text-align: left">Teaching Volunteer</td>
+      <td style="text-align: left">Bojong Koneng Village</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<blockquote>
+  <p><em>“From data models to daily care, I believe impact can come from both intelligent systems and human empathy.”</em></p>
+</blockquote>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[From teaching volunteer to data scientist and pet carer — a story of curiosity, adaptability, and impact.]]></summary></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-07T14:34:52+11:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
+  
+  <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
+   
+  <a href="/assets/files/resume-andrean.pdf" class="btn btn--primary" target="_blank">📄 PDF</a>
+    
+  <a href="/assets/files/resume.json" class="btn btn--primary" target="_blank">🧠 JSON</a>
+  
+</p>
+
+<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
+  👁 Show Resume
+</button></p>
+
+<div id="pdf-container" style="display: none">
+  <embed src="/assets/files/resume-andrean.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("toggle-pdf");
+    const container = document.getElementById("pdf-container");
+    btn.addEventListener("click", function () {
+      if (container.style.display === "none") {
+        container.style.display = "block";
+        btn.textContent = "🙈 Hide Resume (PDF)";
+      } else {
+        container.style.display = "none";
+        btn.textContent = "👁 Show Resume (PDF)";
+      }
+    });
+  });
+</script>
+
+<section class="lead">
+Master’s in Data Science (High Distinction, Deakin University) with a bachelor's in Computer Science from Bina Nusantara.  
+Awarded Best Research Paper at ICCSCI 2021 and former Data Scientist at Telkom Indonesia, where I built a full pipeline of computer vision and multi-class Machine Learning models.  
+Certified in Microsoft Azure AI, with experience deploying machine learning solutions in cloud environments.  
+Eager to use data to solve meaningful problems and bring my skills to projects that make real impact across industries.
+</section>
+
+<hr />
+
+<h2 id="‍-experience">🧑‍💼 Experience</h2>
+
+<p><strong>Pet Sitter — Camp Paws, Melbourne, Australia</strong><br />
+<small>Mar 2024 – Jul 2025</small></p>
+<ul>
+  <li>Managed pet care across multiple households, including feeding, walking, and medication.</li>
+  <li>Maintained daily communication and updates for pet owners.</li>
+</ul>
+
+<p><strong>Data Scientist — Telkom Indonesia, Jakarta, Indonesia</strong><br />
+<small>Sep 2022 – Mar 2023</small></p>
+<ul>
+  <li>Built computer vision model for employee face detection (80% accuracy across 1000 faces).</li>
+  <li>Improved machine learning pipeline accuracy by <strong>5–6%</strong>.</li>
+  <li>Collaborated cross-functionally to align ML projects with business needs.</li>
+  <li>Created documentation and led stakeholder knowledge transfer.</li>
+</ul>
+
+<p><strong>Librarian — Citra Kasih Grade School, Jakarta, Indonesia</strong><br />
+<small>Apr 2019 – May 2019</small></p>
+<ul>
+  <li>Managed loan requests, cataloging, and data entry.</li>
+  <li>Supported cataloging of new acquisitions and organized library inventory.</li>
+</ul>
+
+<hr />
+
+<h2 id="-education">🎓 Education</h2>
+
+<p><strong>Master of Data Science (Professional)</strong><br />
+<em>Deakin University, Burwood, Australia</em><br />
+<small>Nov 2023 – Jun 2025</small></p>
+<ul>
+  <li>Graduated with <strong>High Distinction</strong></li>
+  <li>Awarded <strong>International Scholarship</strong></li>
+</ul>
+
+<p><strong>Bachelor of Computer Science (Global Class)</strong><br />
+<em>Bina Nusantara University, Indonesia</em><br />
+<small>Aug 2019 – Aug 2023</small></p>
+<ul>
+  <li>GPA: <strong>3.85 / 4.00</strong></li>
+  <li><strong>Best Research Paper Award</strong>, ICCSCI 2021</li>
+  <li>Thesis: <em>Development of Web-Based Boarding House Marketplace and Management Application using VILT Stack</em></li>
+</ul>
+
+<hr />
+
+<h2 id="-technical-skills">🧠 Technical Skills</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Skills</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Programming</strong></td>
+      <td>Python, SQL, R, Java</td>
+    </tr>
+    <tr>
+      <td><strong>Python Libraries</strong></td>
+      <td>PyTorch, TensorFlow, Pandas, NumPy</td>
+    </tr>
+    <tr>
+      <td><strong>Web Development</strong></td>
+      <td>VILT Stack, Flask</td>
+    </tr>
+    <tr>
+      <td><strong>Cloud &amp; DevOps</strong></td>
+      <td>Microsoft Azure, Docker, Jenkins</td>
+    </tr>
+    <tr>
+      <td><strong>Data Visualization</strong></td>
+      <td>Tableau, Power BI</td>
+    </tr>
+    <tr>
+      <td><strong>Tools</strong></td>
+      <td>Microsoft Office, Git, VS Code</td>
+    </tr>
+    <tr>
+      <td><strong>Soft Skills</strong></td>
+      <td>Collaboration, Critical Thinking, Problem-solving, Adaptability</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-certifications--awards">🏆 Certifications &amp; Awards</h2>
+
+<ul>
+  <li><strong>Microsoft Certified — Azure AI Engineer Associate (AI-102)</strong> — Microsoft, <em>May 2024</em></li>
+  <li><strong>Microsoft Certified — Azure AI Fundamentals (AI-900)</strong> — Microsoft, <em>May 2024</em></li>
+  <li><strong>Student Exchange Program</strong> — Kaunas University of Technology, Lithuania, <em>Jan–Jul 2022</em></li>
+  <li><strong>Learn with Google AI: Explore ML</strong> — Google, <em>Mar 2022</em></li>
+  <li><strong>Best Research Paper Award</strong> — ICCSCI 2021, <em>Nov 2021</em></li>
+  <li><strong>Finalist — SGU Mobile App Programming Competition</strong> — Swiss German University, <em>Aug 2018</em></li>
+</ul>
+
+<hr />
+
+<h2 id="-volunteering">🤝 Volunteering</h2>
+
+<p><strong>Teaching Volunteer — Bojong Koneng, Bogor, Indonesia</strong><br />
+<small>Jul 2018</small></p>
+<ul>
+  <li>Taught 6th-grade students in preparation for national exams.</li>
+  <li>Supervised physical education and calisthenics sessions.</li>
+</ul>
+
+<hr />
+
+<h2 id="-contact">📬 Contact</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Email</strong></td>
+      <td><a href="mailto:andrean.2000@gmail.com">andrean.2000@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td><strong>Phone</strong></td>
+      <td>047 829 1075</td>
+    </tr>
+    <tr>
+      <td><strong>Address</strong></td>
+      <td>51 Station Street, Burwood VIC 3125</td>
+    </tr>
+    <tr>
+      <td><strong>LinkedIn</strong></td>
+      <td><a href="https://www.linkedin.com/in/andrean-ignasius/">linkedin.com/in/andrean-ignasius</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-07T14:21:23+11:00</updated><id>http://localhost:4000/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
+When I started working as a <strong>Pet Sitter at Camp Paws</strong> in Melbourne, I thought it would be simple. Feed them, walk them, keep them company. But it turned out to be so much more. Each animal had its own personality, routine, and little quirks that made every day feel different from the one before.
+</section>
+
+<hr />
+
+<h3 id="-getting-to-know-the-pack">🐾 Getting to Know the Pack</h3>
+
+<p>The first few days were a blur of wagging tails, curious eyes, and a lot of barking. Some dogs were shy, others greeted me like an old friend. Cats, of course, acted like they owned the place. It took time for them to trust me. I learned to speak their language, not through words, but through patience, rhythm, and consistency.</p>
+
+<p><img src="/assets/img/career-petsitter-dogwindow.jpg" alt="Golden retriever looking out a window" class="img-fluid rounded shadow" /></p>
+
+<p>One dog named Milo always refused to eat unless I sat next to him. Another, Daisy, only calmed down when I hummed softly during walks. Every pet had a story, and I slowly became part of those stories, one walk and one meal at a time.</p>
+
+<hr />
+
+<h3 id="-mornings-at-camp-paws">🌞 Mornings at Camp Paws</h3>
+
+<p>Mornings began early. The city was quiet, and the air carried the smell of wet grass and coffee from the nearby café. I would start by feeding the dogs, checking their water bowls, and making sure each one got a bit of attention before their walks. There was a peaceful rhythm to it — the kind that makes you forget about time for a while.</p>
+
+<p><img src="/assets/img/career-petsitter-walk.jpg" alt="Dog on morning walk in park" class="img-fluid rounded shadow" /></p>
+
+<p>Walking through the park with four dogs at once was always an adventure. Some wanted to chase birds, others wanted to roll in the grass. It was both chaos and calm at the same time, and I learned how to find balance in the middle of it.</p>
+
+<hr />
+
+<h3 id="-little-lessons-from-quiet-companions">🐶 Little Lessons from Quiet Companions</h3>
+
+<p>What surprised me most was how much the animals taught me. They reminded me that care is not about control but about understanding. You cannot rush trust; you have to earn it with consistency and calm energy. The more time I spent with them, the more I realized that the same principles apply to people.</p>
+
+<p><img src="/assets/img/career-petsitter-blanket.jpg" alt="Dog resting on blanket at home" class="img-fluid rounded shadow" /></p>
+
+<p>Some days were exhausting, especially when owners called last minute or a pet got sick. But seeing the joy in their eyes when they recognized me made it all worth it. There is something grounding about being trusted by a creature that speaks no words yet understands everything through your tone and patience.</p>
+
+<hr />
+
+<h3 id="️-saying-goodbye">❤️ Saying Goodbye</h3>
+
+<p>The hardest part was always the goodbyes. Pets would rush to the door, tails wagging, as their owners returned from trips. The house would suddenly feel a little quieter. It was bittersweet — a small reminder that I had done my job well.</p>
+
+<p><img src="/assets/img/career-petsitter-goodbye.jpg" alt="Owner hugging their dog at pickup" class="img-fluid rounded shadow" /></p>
+
+<p>Each visit was a small connection, a reminder of how simple and pure trust can be when it is built with care. I left every home with a little fur on my clothes and a full heart.</p>
+
+<hr />
+
+<h3 id="-what-i-learned">💭 What I Learned</h3>
+
+<p>Being a pet sitter taught me the quiet power of empathy. Animals notice your energy more than your words. They teach you to slow down, to listen, and to stay present. Caring for them is not only about responsibility but also about respect.</p>
+
+<p>It reminded me that kindness is not something grand. Sometimes, it looks like filling a bowl of water, going for one more walk in the rain, or sitting beside a restless dog until it falls asleep.</p>
+
+<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-07T14:59:04+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
+In May 2024, I earned the Microsoft Certified Azure AI Engineer Associate credential.  
+The program deepened my understanding of how to design, implement, and manage AI applications that run in production environments on Azure.  
+It connected theoretical knowledge of machine learning with real implementation practices using cloud infrastructure.
+</section>
+
+<hr />
+
+<h3 id="-what-i-learned">💡 What I Learned</h3>
+
+<p>The course introduced me to Azure Cognitive Services, the Machine Learning Studio, and the orchestration of data pipelines for scalable AI models.<br />
+Through practical projects, I learned how to integrate services for vision, speech, and language understanding into complete end-to-end solutions.<br />
+It also taught me how to optimize performance, secure data, and ensure ethical and responsible use of AI.</p>
+
+<p>More than the technical material, this certification improved how I think about deploying AI at scale.<br />
+I began to see the importance of reliability, monitoring, and transparency when designing systems that directly impact users and organizations.</p>
+
+<hr />
+
+<h3 id="-certificate">📄 Certificate</h3>
+
+<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
+  👁 Show AI 102 Certificate
+</button></p>
+
+<div id="pdf-container" style="display: none">
+  <embed src="/assets/files/certificate/azure-102.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("toggle-pdf");
+    const container = document.getElementById("pdf-container");
+    btn.addEventListener("click", function () {
+      if (container.style.display === "none") {
+        container.style.display = "block";
+        btn.textContent = "🙈 Hide AI 102 Certificate (PDF)";
+      } else {
+        container.style.display = "none";
+        btn.textContent = "👁 Show AI 102 Certificate (PDF)";
+      }
+    });
+  });
+</script>
+
+<hr />
+
+<h3 id="-reflection">💭 Reflection</h3>
+
+<p>Completing the AI 102 certification gave me confidence in my ability to bridge development and data science in the cloud.<br />
+It reminded me that artificial intelligence is not only about algorithms but also about building solutions that can be maintained, trusted, and used responsibly.</p>
+
+<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Engineer Associate</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Azure Ai900</title><link href="http://localhost:4000/career/2024-05-01-azure-ai900/" rel="alternate" type="text/html" title="Azure Ai900" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-07T14:25:42+11:00</updated><id>http://localhost:4000/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/career/2024-05-01-azure-ai900/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Data Scientist — Telkom Indonesia</title><link href="http://localhost:4000/career/data-scientist/" rel="alternate" type="text/html" title="Data Scientist — Telkom Indonesia" /><published>2023-03-01T00:00:00+11:00</published><updated>2025-10-07T14:20:27+11:00</updated><id>http://localhost:4000/career/data-scientist</id><content type="html" xml:base="http://localhost:4000/career/data-scientist/"><![CDATA[<section class="lead" style="text-align: justify;">
+Working as a <strong>Data Scientist at Telkom Indonesia</strong> was both exciting and humbling. It was my first time applying machine learning in a large company environment, surrounded by people whose curiosity matched their technical skill. Every day brought a mix of learning, experimentation, and teamwork that reminded me why I fell in love with data in the first place.
+</section>
+
+<hr />
+
+<h3 id="-first-impressions">🧠 First Impressions</h3>
+
+<p>The first few weeks were filled with exploration. I spent hours reading documentation, studying internal systems, and understanding how different teams approached data problems. I had worked with models before, but this was different. Here, my code was part of something larger — a system that affected real employees, real processes, and real decisions.</p>
+
+<p><img src="/assets/img/career-datascientist-office.jpg" alt="Office workspace with data screens" class="img-fluid rounded shadow" /></p>
+
+<p>My first major project focused on facial recognition for employee management. The idea was simple: create a system that could identify staff members efficiently, helping automate attendance and improve security. Simple ideas, however, rarely stay simple. There were countless details to consider — image quality, lighting, and the reality that people do not always look the same from one photo to the next.</p>
+
+<hr />
+
+<h3 id="-finding-clarity-in-data">🧩 Finding Clarity in Data</h3>
+
+<p>There were days when nothing seemed to work. A small bug could turn a model’s accuracy upside down, and I learned to be patient with both the process and myself. I began to appreciate that data science is not about building perfect models. It is about asking the right questions, and then asking them again when the answers do not make sense.</p>
+
+<p><img src="/assets/img/career-datascientist-graphs.jpg" alt="Working on a computer screen with graphs" class="img-fluid rounded shadow" /></p>
+
+<p>Gradually, our results improved. The model reached an accuracy level that satisfied the team, and it was rewarding to see the outcome integrated into Telkom’s internal systems. But what I remember most is not the accuracy score. It was the long discussions with colleagues, the excitement when a new idea clicked, and the quiet satisfaction of solving something together.</p>
+
+<hr />
+
+<h3 id="-team-and-collaboration">👥 Team and Collaboration</h3>
+
+<p>The team at Telkom Indonesia was diverse and full of energy. Some specialized in computer vision, others in data engineering, and a few, like me, sat somewhere in between. We learned from one another constantly. Someone was always willing to explain a complex algorithm or debug a stubborn error at the end of the day. The collaboration taught me that progress is rarely made alone. It is the sum of shared curiosity and persistence.</p>
+
+<p><img src="/assets/img/career-datascientist-team.jpg" alt="Team brainstorming at whiteboard" class="img-fluid rounded shadow" /></p>
+
+<p>Outside of work, we shared meals, talked about trends in artificial intelligence, and sometimes debated which machine learning framework was better. Those small interactions made the workplace feel like a community rather than a cubicle maze.</p>
+
+<hr />
+
+<h3 id="-lessons-beyond-code">🔍 Lessons Beyond Code</h3>
+
+<p>That experience shaped the way I approach problems today. It reminded me that technical skill means little without communication, patience, and empathy for the people using the systems we build. A model can predict, but only humans can understand the story behind the data.</p>
+
+<p><img src="/assets/img/career-datascientist-coffee.jpg" alt="Laptop with code and notebook beside coffee cup" class="img-fluid rounded shadow" /></p>
+
+<p>Being part of Telkom Indonesia’s data science team was not just about algorithms or metrics. It was about learning how to work with people, how to listen, and how to stay curious no matter how complex the challenge became.</p>
+
+<p><small><em>September 2022 – March 2023 · Telkom Indonesia, Jakarta</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A reflective story about my journey as a Data Scientist at Telkom Indonesia, learning teamwork, problem solving, and the art of turning data into meaningful insight.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-datascientist-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-datascientist-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Student Exchange: Kaunas University of Technology (KTU), Lithuania</title><link href="http://localhost:4000/career/ktu-exchange/" rel="alternate" type="text/html" title="Student Exchange: Kaunas University of Technology (KTU), Lithuania" /><published>2022-07-01T00:00:00+10:00</published><updated>2025-10-07T15:07:44+11:00</updated><id>http://localhost:4000/career/ktu-exchange</id><content type="html" xml:base="http://localhost:4000/career/ktu-exchange/"><![CDATA[<section class="lead" style="text-align: justify;">
+From February to June 2022, I joined the <strong>Kaunas University of Technology (KTU)</strong> in Lithuania as an exchange student under the Faculty of Informatics.  
+It was one of the most enriching experiences of my academic journey, combining creativity, technical challenges, and cultural growth in equal measure.
+</section>
+
+<hr />
+
+<h3 id="-game-development-project-temple-runner">🎮 Game Development Project: Temple Runner</h3>
+
+<p>In the <em>Fundamentals of Computer Game Development</em> module, I created a 3D endless runner game inspired by Temple Run using <strong>Unity</strong>.<br />
+The project focused on infinite terrain generation, obstacle placement, and a chasing AI that followed the player in real time.<br />
+Designing this system taught me how procedural generation and pathfinding interact to create engaging gameplay loops.</p>
+
+<p>The development process deepened my understanding of object-oriented design, physics handling, and performance optimization in Unity.<br />
+It also strengthened my appreciation for how creativity and engineering come together in game design.</p>
+
+<hr />
+
+<h3 id="-web-and-database-project-nahflex">🎬 Web and Database Project: NahFlex</h3>
+
+<p>In the <em>Databases</em> and <em>Interactive Web Technology</em> modules, I worked on <strong>NahFlex</strong> — a prototype web-based movie streaming service.<br />
+The goal was to integrate front-end design, server logic, and relational database management into a complete product.</p>
+
+<p>NahFlex featured user authentication, film categorization, watch history tracking, and an administrative dashboard.<br />
+The project was built to demonstrate how thoughtful database schema design supports scalable and user-friendly interfaces.<br />
+It became one of my favorite projects, combining both creativity and structure in web development.</p>
+
+<hr />
+
+<h3 id="-introduction-to-artificial-intelligence">🤖 Introduction to Artificial Intelligence</h3>
+
+<p>In the <em>Introduction to Artificial Intelligence</em> course, I explored search algorithms, neural network fundamentals, and decision-making models.<br />
+I implemented small AI experiments in Python, including classification and pattern recognition tasks.<br />
+The subject offered a strong conceptual foundation that later guided my approach to applied AI projects.</p>
+
+<hr />
+
+<h3 id="-ui-and-design-principles">🧩 UI and Design Principles</h3>
+
+<p>The <em>User Interface Design Principles</em> module focused on usability, accessibility, and interaction flow.<br />
+Through case studies and hands-on projects, I learned how interface decisions influence user engagement and comprehension.<br />
+The lessons from this course helped refine my design thinking and improved how I plan user experiences for software and data systems.</p>
+
+<hr />
+
+<h3 id="-certificate-of-enrollment">📄 Certificate of Enrollment</h3>
+
+<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
+  👁 Show Certificate of Enrollment
+</button></p>
+
+<div id="pdf-container" style="display: none">
+  <embed src="/assets/files/certificate/ktu.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("toggle-pdf");
+    const container = document.getElementById("pdf-container");
+    btn.addEventListener("click", function () {
+      if (container.style.display === "none") {
+        container.style.display = "block";
+        btn.textContent = "🙈 Hide Certificate of Enrollment (PDF)";
+      } else {
+        container.style.display = "none";
+        btn.textContent = "👁 Show Certificate of Enrollment (PDF)";
+      }
+    });
+  });
+</script>
+
+<hr />
+
+<h3 id="-reflection">💭 Reflection</h3>
+
+<p>My time at KTU was more than just an exchange; it was a test of independence and adaptability.<br />
+I learned how to collaborate across cultures, communicate ideas in different contexts, and work through new academic challenges.<br />
+Every project — from the Unity game to the database-driven website — reinforced that technology is a universal language for creativity and problem-solving.</p>
+
+<p><small><em>February – June 2022 · Faculty of Informatics, Kaunas University of Technology, Lithuania</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on my 2022 student exchange at Kaunas University of Technology, where I studied Informatics and developed projects in game development, artificial intelligence, databases, and user interface design.]]></summary></entry><entry><title type="html">Google Exploreml</title><link href="http://localhost:4000/career/2022-03-01-google-exploreml/" rel="alternate" type="text/html" title="Google Exploreml" /><published>2022-03-01T00:00:00+11:00</published><updated>2025-10-07T14:25:26+11:00</updated><id>http://localhost:4000/career/google-exploreml</id><content type="html" xml:base="http://localhost:4000/career/2022-03-01-google-exploreml/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Best Research Paper Award: ICCSCI 2021</title><link href="http://localhost:4000/career/iccscipaper-award/" rel="alternate" type="text/html" title="Best Research Paper Award: ICCSCI 2021" /><published>2021-11-01T00:00:00+11:00</published><updated>2025-10-07T14:55:01+11:00</updated><id>http://localhost:4000/career/iccscipaper-award</id><content type="html" xml:base="http://localhost:4000/career/iccscipaper-award/"><![CDATA[<section class="lead" style="text-align: justify;">
+In November 2021, I received the Best Research Paper Award at the International Conference on Computer Science and Computational Intelligence (ICCSCI).  
+The study was titled <em>“Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode”</em> and examined how different pre-processing methods influence the accuracy of Optical Character Recognition in translating printed text into Braille Unicode.  
+The paper was presented orally and later published in <em>Procedia Computer Science</em> (Elsevier) in 2023 after a delay caused by the COVID-19 pandemic.
+</section>
+
+<hr />
+
+<h3 id="-the-research">🧠 The Research</h3>
+
+<p>The project explored how image pre-processing steps such as grayscale conversion, noise reduction, and thresholding affect the accuracy of Optical Character Recognition.<br />
+The goal was to improve text-to-Braille conversion for visually impaired readers by identifying which combination of pre-processing techniques yields the highest recognition accuracy.</p>
+
+<p>The experiment compared multiple pre-processing pipelines on a dataset of scanned text images.<br />
+Findings showed that specific combinations of filtering and thresholding significantly increased OCR precision and improved the reliability of Braille Unicode generation.</p>
+
+<p>This research deepened my understanding of how small computational choices can make a real difference in accessibility technology.<br />
+It also reminded me that meaningful innovation often comes from improving the details that help others read, learn, and communicate.</p>
+
+<hr />
+
+<h3 id="-publication">📘 Publication</h3>
+
+<p>The paper was published in <em>Procedia Computer Science</em> by Elsevier and is available online through ScienceDirect.<br />
+You can read it here:</p>
+
+<p>🔗 <a href="https://www.sciencedirect.com/science/article/pii/S1877050923017660" target="_blank"><strong>Image Pre-Processing Effect on OCR’s Performance for Image Conversion to Braille Unicode — ScienceDirect</strong></a></p>
+
+<hr />
+
+<h3 id="-certificate">📄 Certificate</h3>
+
+<p>I received the Oral Presentation Certificate for this work since the physical award ceremony was canceled during the pandemic.<br />
+It remains one of the most meaningful recognitions in my academic journey.</p>
+
+<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
+  👁 Show Oral Presentation Certificate
+</button></p>
+
+<div id="pdf-container" style="display: none">
+  <embed src="/assets/files/certificate/iccsci.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("toggle-pdf");
+    const container = document.getElementById("pdf-container");
+    btn.addEventListener("click", function () {
+      if (container.style.display === "none") {
+        container.style.display = "block";
+        btn.textContent = "🙈 Hide Oral Presentation Certificate (PDF)";
+      } else {
+        container.style.display = "none";
+        btn.textContent = "👁 Show Oral Presentation Certificate (PDF)";
+      }
+    });
+  });
+</script>
+
+<hr />
+
+<h3 id="-reflection">💭 Reflection</h3>
+
+<p>This experience taught me that research is most valuable when it has purpose beyond theory.<br />
+Working on assistive technology showed me how computation can empower inclusion and accessibility.<br />
+It shaped my perspective on data science and engineering as tools not only for progress but also for empathy.</p>
+
+<p><small><em>Presented 2021 · Published 2023 · ICCSCI Conference, Jakarta — Procedia Computer Science (Elsevier)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on my Best Research Paper Award at ICCSCI 2021 for the study 'Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode', published in Procedia Computer Science (Elsevier) in 2023.]]></summary></entry><entry><title type="html">Librarian — Citra Kasih Grade School</title><link href="http://localhost:4000/career/librarian/" rel="alternate" type="text/html" title="Librarian — Citra Kasih Grade School" /><published>2019-04-01T00:00:00+11:00</published><updated>2025-10-07T14:19:31+11:00</updated><id>http://localhost:4000/career/librarian</id><content type="html" xml:base="http://localhost:4000/career/librarian/"><![CDATA[<section class="lead" style="text-align: justify;">
+Returning to <strong>Citra Kasih Grade School</strong> felt like walking through a memory. The same hallways, the same smell of paper and sunlight through the windows greeted me. This time I was not the student rushing to borrow books. I was the librarian who kept them organized and waiting for curious hands.
+</section>
+
+<hr />
+
+<h3 id="-back-to-familiar-halls">🏫 Back to Familiar Halls</h3>
+
+<p>The first day felt surreal. I recognized almost everything from the wooden counters to the reading corner where my friends and I used to sit after exams. The shelves seemed smaller, but the memories were bigger. I stood in the same spot where I once queued to borrow novels and realized how comforting it was to return, now standing on the other side of the counter.</p>
+
+<p><img src="/assets/img/career-librarian-shelves.jpg" alt="Library shelves and morning sunlight" class="img-fluid rounded shadow" /></p>
+
+<p>The first week was noisy and full of energy. The students were cheerful and difficult to manage at times, but I began to see their excitement for what it was: curiosity. Every “please be quiet” came with a smile, because deep down I was watching a reflection of my younger self.</p>
+
+<hr />
+
+<h3 id="-finding-my-rhythm">📚 Finding My Rhythm</h3>
+
+<p>After a few days I started to find a rhythm. Some students began greeting me in the hallway. A few stopped by just to talk, even when they had nothing to return. One boy, who never seemed to sit still, started borrowing a new storybook every week. When he told me he had finished one completely, his smile was enough to make the chaos worth it.</p>
+
+<p><img src="/assets/img/career-librarian-student.jpg" alt="Student reading quietly at a desk" class="img-fluid rounded shadow" /></p>
+
+<p>I realized that managing a library was not only about maintaining order. It was also about building small connections, encouraging curiosity, and making the library a place where stories felt alive.</p>
+
+<hr />
+
+<h3 id="‍-a-familiar-face">🧑‍🏫 A Familiar Face</h3>
+
+<p>One afternoon I met my old Bahasa Indonesia teacher, <strong>Ms. Rina</strong>. She looked just as kind as I remembered. She smiled and said, “So you have gone from borrowing books to managing them now?” We both laughed. For a brief moment time seemed to stop. I felt proud, grateful, and a little nostalgic.</p>
+
+<p><img src="/assets/img/career-librarian-teacher.jpg" alt="Teacher and librarian smiling near bookshelves" class="img-fluid rounded shadow" /></p>
+
+<hr />
+
+<h3 id="-quiet-mornings-and-lively-afternoons">🌅 Quiet Mornings and Lively Afternoons</h3>
+
+<p>My favorite time of day was the morning before classes started. I would open the windows and let the warm air drift through the room. The sunlight touched the shelves and made the dust in the air look like tiny sparks of gold. It was peaceful and calm, the kind of silence that feels alive.</p>
+
+<p><img src="/assets/img/career-librarian-morning.jpg" alt="Empty library in morning sunlight" class="img-fluid rounded shadow" /></p>
+
+<p>Then the students arrived. The calm turned into laughter, chatter, and movement. The quiet disappeared, but the joy remained. The library was never meant to stay silent; it was meant to breathe.</p>
+
+<hr />
+
+<h3 id="-what-i-learned">💭 What I Learned</h3>
+
+<p>Working there taught me more than how to organize books. It taught me patience and understanding. True patience is not about waiting quietly but about staying kind when things are unpredictable. Empathy is not a weakness but a quiet strength that keeps everything together.</p>
+
+<p>That short time reminded me that growth often happens in small moments. Sometimes it sounds like pages turning, laughter echoing, and stories being discovered again and again.</p>
+
+<p><small><em>April – May 2019 · Citra Kasih Grade School, Jakarta</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about returning to Citra Kasih Grade School as a librarian, rediscovering familiar halls, reconnecting with teachers, and learning patience through laughter and books.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-librarian-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-librarian-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
