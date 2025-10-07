@@ -1,0 +1,29 @@
+<button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
+  👁 Show {{ include.label }}
+</button>
+
+<div id="pdf-container" style="display: none">
+  <embed
+    src="{{ include.file }}"
+    type="application/pdf"
+    width="100%"
+    height="850px"
+    style="border: 1px solid #ddd; border-radius: 8px"
+  />
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("toggle-pdf");
+    const container = document.getElementById("pdf-container");
+    btn.addEventListener("click", function () {
+      if (container.style.display === "none") {
+        container.style.display = "block";
+        btn.textContent = "🙈 Hide {{ include.label }} (PDF)";
+      } else {
+        container.style.display = "none";
+        btn.textContent = "👁 Show {{ include.label }} (PDF)";
+      }
+    });
+  });
+</script>

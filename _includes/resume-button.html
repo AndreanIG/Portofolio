@@ -1,0 +1,19 @@
+{% if page.buttons %}
+<p class="page__buttons" style="margin-top: 1rem">
+  {% if page.buttons.print %}
+  <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
+  {% endif %} {% if page.buttons.pdf %}
+  <a href="{{ page.buttons.pdf }}" class="btn btn--primary" target="_blank"
+    >📄 PDF</a
+  >
+  {% endif %} {% if page.buttons.vcf %}
+  <a href="{{ page.buttons.vcf }}" class="btn btn--primary" target="_blank"
+    >💾 vCard</a
+  >
+  {% endif %} {% if page.buttons.json %}
+  <a href="{{ page.buttons.json }}" class="btn btn--primary" target="_blank"
+    >🧠 JSON</a
+  >
+  {% endif %}
+</p>
+{% endif %}
