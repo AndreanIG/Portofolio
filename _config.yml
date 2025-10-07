@@ -52,10 +52,8 @@ author: author1
 menu:
   - title:             About Me
     url:               /about/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  - title:             Resume
+    url:               /resume/
   - title:             Projects
     url:               /project/
   - title:             Career
@@ -97,7 +95,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/wallpaper.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -303,10 +301,6 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
-  
-  # career:
-  #   permalink:         /career/:path/
-  #   output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
