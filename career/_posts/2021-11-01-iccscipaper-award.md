@@ -41,7 +41,9 @@ You can read it here:
 I received the Oral Presentation Certificate for this work since the physical award ceremony was canceled during the pandemic.  
 It remains one of the most meaningful recognitions in my academic journey.
 
-{% include toggle-file.html label="Oral Presentation Certificate" file="Portofolio/assets/files/certificate/iccsci.pdf" id="iccscipaper" %}
+{% include toggle-file.html label="Oral Presentation Certificate" file="/assets/files/certificate/iccsci.pdf"%}
+
+
 
 ---
 

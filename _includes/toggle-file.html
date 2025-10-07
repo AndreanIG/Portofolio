@@ -4,7 +4,7 @@
 
 <div id="pdf-container" style="display: none">
   <embed
-    src="{{ site.baseurl  }}{{ file }}"
+    src="{{ include.file | relative_url }}"
     type="application/pdf"
     width="100%"
     height="850px"
