@@ -45,7 +45,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Student Exchange: Kaunas University of Technology (KTU), Lithuania" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Andrean> <Ignasius>"},"dateModified":"2025-10-07T15:07:44+11:00","datePublished":"2022-07-01T00:00:00+10:00","description":"Reflection on my 2022 student exchange at Kaunas University of Technology, where I studied Informatics and developed projects in game development, artificial intelligence, databases, and user interface design.","headline":"Student Exchange: Kaunas University of Technology (KTU), Lithuania","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/career/ktu-exchange/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"<Andrean> <Ignasius>"},"url":"http://localhost:4000/career/ktu-exchange/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Andrean> <Ignasius>"},"dateModified":"2025-10-07T19:29:23+11:00","datePublished":"2022-07-01T00:00:00+10:00","description":"Reflection on my 2022 student exchange at Kaunas University of Technology, where I studied Informatics and developed projects in game development, artificial intelligence, databases, and user interface design.","headline":"Student Exchange: Kaunas University of Technology (KTU), Lithuania","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/career/ktu-exchange/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"<Andrean> <Ignasius>"},"url":"http://localhost:4000/career/ktu-exchange/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -116,7 +116,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2025-10-07T15:07:44+11:00',
+    INDEX_KEY: 'index--2025-10-07T20:01:08+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -319,29 +319,74 @@ The lessons from this course helped refine my design thinking and improved how I
 
 <h3 id="-certificate-of-enrollment">📄 Certificate of Enrollment</h3>
 
-<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
-  👁 Show Certificate of Enrollment
-</button></p>
+<!-- <div class="pdf-toggle" data-id="ktutor">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Certificate of Enrollment
+  </button>
 
-<div id="pdf-container" style="display: none">
-  <embed src="/assets/files/certificate/ktu.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div
+    id="pdf-container-ktutor"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="/Portofolio/assets/files/certificate/ktu.pdf"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
-    btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide Certificate of Enrollment (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show Certificate of Enrollment (PDF)";
-      }
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
+<p>–&gt;</p>
+
+<div class="pdf-toggle" data-id="ktu">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Certificate of Enrollment
+  </button>
+
+  <div id="pdf-container-ktu" class="pdf-container" style="display: none">
+    <embed src="/assets/files/certificate/ktu.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
+</div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  });
+</script> -->
 
 <hr />
 
@@ -588,54 +633,98 @@ Every project — from the Unity game to the database-driven website — reinfor
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
 <script>
-  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
-    function e(e){
-      (console.error?console.error:console.log).call(console,e)
-    }
-
-    function t(e){
-      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
-    }
-
-    function r(e,t){
-      var r=e.substr(t,2);return parseInt(r,16)
-    }
-
-    function n(e,n){
-      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
-        var l=r(e,a)^c;
-        o+=String.fromCharCode(l)
+  document
+    .getElementById("_pushState")
+    .addEventListener("hy-push-state-after", function (e) {
+      function e(e) {
+        (console.error ? console.error : console.log).call(console, e);
       }
-      return t(o)
-    }
 
-    var o="/cdn-cgi/l/email-protection#",
-        c=".__cf_email__",
-        a="data-cfemail",
-        l=document.createElement("div");
+      function t(e) {
+        return (
+          (l.innerHTML = '<a href="' + e.replace(/"/g, "&quot;") + '"></a>'),
+          l.childNodes[0].getAttribute("href")
+        );
+      }
 
-    !function(){
-      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
-        try{
-          var c=t[r],a=c.href.indexOf(o);
-          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
-        }catch(t){
-          e(t)
+      function r(e, t) {
+        var r = e.substr(t, 2);
+        return parseInt(r, 16);
+      }
+
+      function n(e, n) {
+        for (var o = "", c = r(e, n), a = n + 2; a < e.length; a += 2) {
+          var l = r(e, a) ^ c;
+          o += String.fromCharCode(l);
         }
-    }(),
-    function(){
-      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
-        try{
-          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
-          o.parentNode.replaceChild(i,o)
-        }catch(t){
-          e(t)
-        }
-    }()
-  });
+        return t(o);
+      }
+
+      var o = "/cdn-cgi/l/email-protection#",
+        c = ".__cf_email__",
+        a = "data-cfemail",
+        l = document.createElement("div");
+
+      !(function () {
+        for (
+          var t = document.getElementsByTagName("a"), r = 0;
+          r < t.length;
+          r++
+        )
+          try {
+            var c = t[r],
+              a = c.href.indexOf(o);
+            a > -1 && (c.href = "mailto:" + n(c.href, a + o.length));
+          } catch (t) {
+            e(t);
+          }
+      })(),
+        (function () {
+          for (var t = document.querySelectorAll(c), r = 0; r < t.length; r++)
+            try {
+              var o = t[r],
+                l = n(o.getAttribute(a), 0),
+                i = document.createTextNode(l);
+              o.parentNode.replaceChild(i, o);
+            } catch (t) {
+              e(t);
+            }
+        })();
+    });
 </script>
 
 
+
+<script>
+  function bindPdfToggles() {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      if (!btn || !container || btn.dataset.bound === "true") return;
+
+      btn.dataset.bound = "true"; // prevent duplicate bindings
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  }
+
+  // Run once on initial load
+  document.addEventListener("DOMContentLoaded", bindPdfToggles);
+
+  // Run again after every Hydejack page navigation
+  document
+    .getElementById("_pushState")
+    .addEventListener("hy-push-state-after", bindPdfToggles);
+</script>
 
 
 

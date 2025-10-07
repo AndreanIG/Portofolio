@@ -45,7 +45,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Microsoft Certified: Azure AI Engineer Associate (AI 102)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Andrean> <Ignasius>"},"dateModified":"2025-10-07T14:59:04+11:00","datePublished":"2024-05-30T00:00:00+10:00","description":"Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.","headline":"Microsoft Certified: Azure AI Engineer Associate (AI 102)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/career/azure-ai102/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"<Andrean> <Ignasius>"},"url":"http://localhost:4000/career/azure-ai102/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Andrean> <Ignasius>"},"dateModified":"2025-10-07T19:29:23+11:00","datePublished":"2024-05-30T00:00:00+10:00","description":"Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.","headline":"Microsoft Certified: Azure AI Engineer Associate (AI 102)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/career/azure-ai102/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"<Andrean> <Ignasius>"},"url":"http://localhost:4000/career/azure-ai102/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -116,7 +116,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2025-10-07T15:07:44+11:00',
+    INDEX_KEY: 'index--2025-10-07T20:01:08+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -293,29 +293,103 @@ I began to see the importance of reliability, monitoring, and transparency when 
 
 <h3 id="-certificate">📄 Certificate</h3>
 
-<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
-  👁 Show AI 102 Certificate
-</button></p>
+<!-- <div class="pdf-toggle" data-id="azureai102">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show AI 102 Certificate
+  </button>
 
-<div id="pdf-container" style="display: none">
-  <embed src="/assets/files/certificate/azure-102.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div
+    id="pdf-container-azureai102"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="/Portofolio/assets/files/certificate/azure-102.pdf"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
-    btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide AI 102 Certificate (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show AI 102 Certificate (PDF)";
-      }
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
+<p>–&gt;</p>
+
+<div class="pdf-toggle" data-id="azure102">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show AI 102 Certificate
+  </button>
+
+  <div id="pdf-container-azure102" class="pdf-container" style="display: none">
+    <embed src="/assets/files/certificate/azure102.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
+</div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  });
+</script> -->
+
+<div class="pdf-toggle" data-id="Resume">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Resume
+  </button>
+
+  <div id="pdf-container-Resume" class="pdf-container" style="display: none">
+    <embed src="/assets/files/resume-andrean.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
+</div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  });
+</script> -->
 
 <hr />
 
@@ -561,54 +635,98 @@ It reminded me that artificial intelligence is not only about algorithms but als
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
 <script>
-  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
-    function e(e){
-      (console.error?console.error:console.log).call(console,e)
-    }
-
-    function t(e){
-      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
-    }
-
-    function r(e,t){
-      var r=e.substr(t,2);return parseInt(r,16)
-    }
-
-    function n(e,n){
-      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
-        var l=r(e,a)^c;
-        o+=String.fromCharCode(l)
+  document
+    .getElementById("_pushState")
+    .addEventListener("hy-push-state-after", function (e) {
+      function e(e) {
+        (console.error ? console.error : console.log).call(console, e);
       }
-      return t(o)
-    }
 
-    var o="/cdn-cgi/l/email-protection#",
-        c=".__cf_email__",
-        a="data-cfemail",
-        l=document.createElement("div");
+      function t(e) {
+        return (
+          (l.innerHTML = '<a href="' + e.replace(/"/g, "&quot;") + '"></a>'),
+          l.childNodes[0].getAttribute("href")
+        );
+      }
 
-    !function(){
-      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
-        try{
-          var c=t[r],a=c.href.indexOf(o);
-          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
-        }catch(t){
-          e(t)
+      function r(e, t) {
+        var r = e.substr(t, 2);
+        return parseInt(r, 16);
+      }
+
+      function n(e, n) {
+        for (var o = "", c = r(e, n), a = n + 2; a < e.length; a += 2) {
+          var l = r(e, a) ^ c;
+          o += String.fromCharCode(l);
         }
-    }(),
-    function(){
-      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
-        try{
-          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
-          o.parentNode.replaceChild(i,o)
-        }catch(t){
-          e(t)
-        }
-    }()
-  });
+        return t(o);
+      }
+
+      var o = "/cdn-cgi/l/email-protection#",
+        c = ".__cf_email__",
+        a = "data-cfemail",
+        l = document.createElement("div");
+
+      !(function () {
+        for (
+          var t = document.getElementsByTagName("a"), r = 0;
+          r < t.length;
+          r++
+        )
+          try {
+            var c = t[r],
+              a = c.href.indexOf(o);
+            a > -1 && (c.href = "mailto:" + n(c.href, a + o.length));
+          } catch (t) {
+            e(t);
+          }
+      })(),
+        (function () {
+          for (var t = document.querySelectorAll(c), r = 0; r < t.length; r++)
+            try {
+              var o = t[r],
+                l = n(o.getAttribute(a), 0),
+                i = document.createTextNode(l);
+              o.parentNode.replaceChild(i, o);
+            } catch (t) {
+              e(t);
+            }
+        })();
+    });
 </script>
 
 
+
+<script>
+  function bindPdfToggles() {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      if (!btn || !container || btn.dataset.bound === "true") return;
+
+      btn.dataset.bound = "true"; // prevent duplicate bindings
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  }
+
+  // Run once on initial load
+  document.addEventListener("DOMContentLoaded", bindPdfToggles);
+
+  // Run again after every Hydejack page navigation
+  document
+    .getElementById("_pushState")
+    .addEventListener("hy-push-state-after", bindPdfToggles);
+</script>
 
 
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-07T15:07:44+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-07T20:01:08+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
 </subtitle><author><name>author1</name></author><entry><title type="html">My Journey in Data Science and Beyond</title><link href="http://localhost:4000/career/2025-10-06-journey/" rel="alternate" type="text/html" title="My Journey in Data Science and Beyond" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-06T16:05:14+11:00</updated><id>http://localhost:4000/career/journey</id><content type="html" xml:base="http://localhost:4000/career/2025-10-06-journey/"><![CDATA[<blockquote>
   <p>“Eager to use data to solve meaningful problems and excited to bring my skills to projects that make a real impact across industries.”<br />
 <cite>— Andrean Ignasius</cite></p>
@@ -133,39 +133,44 @@
 
 <blockquote>
   <p><em>“From data models to daily care, I believe impact can come from both intelligent systems and human empathy.”</em></p>
-</blockquote>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[From teaching volunteer to data scientist and pet carer — a story of curiosity, adaptability, and impact.]]></summary></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-07T14:34:52+11:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
+</blockquote>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[From teaching volunteer to data scientist and pet carer — a story of curiosity, adaptability, and impact.]]></summary></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-07T19:29:23+11:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
    
-  <a href="/assets/files/resume-andrean.pdf" class="btn btn--primary" target="_blank">📄 PDF</a>
+  <a href="/Portofolio/assets/files/resume-andrean.pdf" class="btn btn--primary" target="_blank">📄 PDF</a>
     
-  <a href="/assets/files/resume.json" class="btn btn--primary" target="_blank">🧠 JSON</a>
+  <a href="/Portofolio/assets/files/resume.json" class="btn btn--primary" target="_blank">🧠 JSON</a>
   
 </p>
 
-<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
-  👁 Show Resume
-</button></p>
+<div class="pdf-toggle" data-id="Resume">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Resume
+  </button>
 
-<div id="pdf-container" style="display: none">
-  <embed src="/assets/files/resume-andrean.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div id="pdf-container-Resume" class="pdf-container" style="display: none">
+    <embed src="/assets/files/resume-andrean.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
-    btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide Resume (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show Resume (PDF)";
-      }
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
 
 <section class="lead">
 Master’s in Data Science (High Distinction, Deakin University) with a bachelor's in Computer Science from Bina Nusantara.  
@@ -320,7 +325,7 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
   </tbody>
 </table>
 
-<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-07T14:21:23+11:00</updated><id>http://localhost:4000/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
+<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
 When I started working as a <strong>Pet Sitter at Camp Paws</strong> in Melbourne, I thought it would be simple. Feed them, walk them, keep them company. But it turned out to be so much more. Each animal had its own personality, routine, and little quirks that made every day feel different from the one before.
 </section>
 
@@ -372,7 +377,7 @@ When I started working as a <strong>Pet Sitter at Camp Paws</strong> in Melbourn
 
 <p>It reminded me that kindness is not something grand. Sometimes, it looks like filling a bowl of water, going for one more walk in the rain, or sitting beside a restless dog until it falls asleep.</p>
 
-<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-07T14:59:04+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-07T19:29:23+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
 In May 2024, I earned the Microsoft Certified Azure AI Engineer Associate credential.  
 The program deepened my understanding of how to design, implement, and manage AI applications that run in production environments on Azure.  
 It connected theoretical knowledge of machine learning with real implementation practices using cloud infrastructure.
@@ -393,29 +398,103 @@ I began to see the importance of reliability, monitoring, and transparency when 
 
 <h3 id="-certificate">📄 Certificate</h3>
 
-<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
-  👁 Show AI 102 Certificate
-</button></p>
+<!-- <div class="pdf-toggle" data-id="azureai102">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show AI 102 Certificate
+  </button>
 
-<div id="pdf-container" style="display: none">
-  <embed src="/assets/files/certificate/azure-102.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div
+    id="pdf-container-azureai102"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="/Portofolio/assets/files/certificate/azure-102.pdf"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
-    btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide AI 102 Certificate (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show AI 102 Certificate (PDF)";
-      }
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
+<p>–&gt;</p>
+
+<div class="pdf-toggle" data-id="azure102">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show AI 102 Certificate
+  </button>
+
+  <div id="pdf-container-azure102" class="pdf-container" style="display: none">
+    <embed src="/assets/files/certificate/azure102.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
+</div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  });
+</script> -->
+
+<div class="pdf-toggle" data-id="Resume">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Resume
+  </button>
+
+  <div id="pdf-container-Resume" class="pdf-container" style="display: none">
+    <embed src="/assets/files/resume-andrean.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
+</div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  });
+</script> -->
 
 <hr />
 
@@ -424,7 +503,7 @@ I began to see the importance of reliability, monitoring, and transparency when 
 <p>Completing the AI 102 certification gave me confidence in my ability to bridge development and data science in the cloud.<br />
 It reminded me that artificial intelligence is not only about algorithms but also about building solutions that can be maintained, trusted, and used responsibly.</p>
 
-<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Engineer Associate</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Azure Ai900</title><link href="http://localhost:4000/career/2024-05-01-azure-ai900/" rel="alternate" type="text/html" title="Azure Ai900" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-07T14:25:42+11:00</updated><id>http://localhost:4000/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/career/2024-05-01-azure-ai900/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Data Scientist — Telkom Indonesia</title><link href="http://localhost:4000/career/data-scientist/" rel="alternate" type="text/html" title="Data Scientist — Telkom Indonesia" /><published>2023-03-01T00:00:00+11:00</published><updated>2025-10-07T14:20:27+11:00</updated><id>http://localhost:4000/career/data-scientist</id><content type="html" xml:base="http://localhost:4000/career/data-scientist/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Engineer Associate</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Azure Ai900</title><link href="http://localhost:4000/career/2024-05-01-azure-ai900/" rel="alternate" type="text/html" title="Azure Ai900" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/career/2024-05-01-azure-ai900/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Data Scientist — Telkom Indonesia</title><link href="http://localhost:4000/career/data-scientist/" rel="alternate" type="text/html" title="Data Scientist — Telkom Indonesia" /><published>2023-03-01T00:00:00+11:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/data-scientist</id><content type="html" xml:base="http://localhost:4000/career/data-scientist/"><![CDATA[<section class="lead" style="text-align: justify;">
 Working as a <strong>Data Scientist at Telkom Indonesia</strong> was both exciting and humbling. It was my first time applying machine learning in a large company environment, surrounded by people whose curiosity matched their technical skill. Every day brought a mix of learning, experimentation, and teamwork that reminded me why I fell in love with data in the first place.
 </section>
 
@@ -468,7 +547,7 @@ Working as a <strong>Data Scientist at Telkom Indonesia</strong> was both exciti
 
 <p>Being part of Telkom Indonesia’s data science team was not just about algorithms or metrics. It was about learning how to work with people, how to listen, and how to stay curious no matter how complex the challenge became.</p>
 
-<p><small><em>September 2022 – March 2023 · Telkom Indonesia, Jakarta</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A reflective story about my journey as a Data Scientist at Telkom Indonesia, learning teamwork, problem solving, and the art of turning data into meaningful insight.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-datascientist-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-datascientist-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Student Exchange: Kaunas University of Technology (KTU), Lithuania</title><link href="http://localhost:4000/career/ktu-exchange/" rel="alternate" type="text/html" title="Student Exchange: Kaunas University of Technology (KTU), Lithuania" /><published>2022-07-01T00:00:00+10:00</published><updated>2025-10-07T15:07:44+11:00</updated><id>http://localhost:4000/career/ktu-exchange</id><content type="html" xml:base="http://localhost:4000/career/ktu-exchange/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>September 2022 – March 2023 · Telkom Indonesia, Jakarta</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A reflective story about my journey as a Data Scientist at Telkom Indonesia, learning teamwork, problem solving, and the art of turning data into meaningful insight.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-datascientist-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-datascientist-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Student Exchange: Kaunas University of Technology (KTU), Lithuania</title><link href="http://localhost:4000/career/ktu-exchange/" rel="alternate" type="text/html" title="Student Exchange: Kaunas University of Technology (KTU), Lithuania" /><published>2022-07-01T00:00:00+10:00</published><updated>2025-10-07T19:29:23+11:00</updated><id>http://localhost:4000/career/ktu-exchange</id><content type="html" xml:base="http://localhost:4000/career/ktu-exchange/"><![CDATA[<section class="lead" style="text-align: justify;">
 From February to June 2022, I joined the <strong>Kaunas University of Technology (KTU)</strong> in Lithuania as an exchange student under the Faculty of Informatics.  
 It was one of the most enriching experiences of my academic journey, combining creativity, technical challenges, and cultural growth in equal measure.
 </section>
@@ -515,29 +594,74 @@ The lessons from this course helped refine my design thinking and improved how I
 
 <h3 id="-certificate-of-enrollment">📄 Certificate of Enrollment</h3>
 
-<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
-  👁 Show Certificate of Enrollment
-</button></p>
+<!-- <div class="pdf-toggle" data-id="ktutor">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Certificate of Enrollment
+  </button>
 
-<div id="pdf-container" style="display: none">
-  <embed src="/assets/files/certificate/ktu.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div
+    id="pdf-container-ktutor"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="/Portofolio/assets/files/certificate/ktu.pdf"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
-    btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide Certificate of Enrollment (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show Certificate of Enrollment (PDF)";
-      }
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
+<p>–&gt;</p>
+
+<div class="pdf-toggle" data-id="ktu">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Certificate of Enrollment
+  </button>
+
+  <div id="pdf-container-ktu" class="pdf-container" style="display: none">
+    <embed src="/assets/files/certificate/ktu.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
+</div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
+    });
+  });
+</script> -->
 
 <hr />
 
@@ -547,7 +671,7 @@ The lessons from this course helped refine my design thinking and improved how I
 I learned how to collaborate across cultures, communicate ideas in different contexts, and work through new academic challenges.<br />
 Every project — from the Unity game to the database-driven website — reinforced that technology is a universal language for creativity and problem-solving.</p>
 
-<p><small><em>February – June 2022 · Faculty of Informatics, Kaunas University of Technology, Lithuania</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on my 2022 student exchange at Kaunas University of Technology, where I studied Informatics and developed projects in game development, artificial intelligence, databases, and user interface design.]]></summary></entry><entry><title type="html">Google Exploreml</title><link href="http://localhost:4000/career/2022-03-01-google-exploreml/" rel="alternate" type="text/html" title="Google Exploreml" /><published>2022-03-01T00:00:00+11:00</published><updated>2025-10-07T14:25:26+11:00</updated><id>http://localhost:4000/career/google-exploreml</id><content type="html" xml:base="http://localhost:4000/career/2022-03-01-google-exploreml/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Best Research Paper Award: ICCSCI 2021</title><link href="http://localhost:4000/career/iccscipaper-award/" rel="alternate" type="text/html" title="Best Research Paper Award: ICCSCI 2021" /><published>2021-11-01T00:00:00+11:00</published><updated>2025-10-07T14:55:01+11:00</updated><id>http://localhost:4000/career/iccscipaper-award</id><content type="html" xml:base="http://localhost:4000/career/iccscipaper-award/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>February – June 2022 · Faculty of Informatics, Kaunas University of Technology, Lithuania</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on my 2022 student exchange at Kaunas University of Technology, where I studied Informatics and developed projects in game development, artificial intelligence, databases, and user interface design.]]></summary></entry><entry><title type="html">Google Exploreml</title><link href="http://localhost:4000/career/2022-03-01-google-exploreml/" rel="alternate" type="text/html" title="Google Exploreml" /><published>2022-03-01T00:00:00+11:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/google-exploreml</id><content type="html" xml:base="http://localhost:4000/career/2022-03-01-google-exploreml/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Best Research Paper Award: ICCSCI 2021</title><link href="http://localhost:4000/career/iccscipaper-award/" rel="alternate" type="text/html" title="Best Research Paper Award: ICCSCI 2021" /><published>2021-11-01T00:00:00+11:00</published><updated>2025-10-07T19:29:23+11:00</updated><id>http://localhost:4000/career/iccscipaper-award</id><content type="html" xml:base="http://localhost:4000/career/iccscipaper-award/"><![CDATA[<section class="lead" style="text-align: justify;">
 In November 2021, I received the Best Research Paper Award at the International Conference on Computer Science and Computational Intelligence (ICCSCI).  
 The study was titled <em>“Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode”</em> and examined how different pre-processing methods influence the accuracy of Optical Character Recognition in translating printed text into Braille Unicode.  
 The paper was presented orally and later published in <em>Procedia Computer Science</em> (Elsevier) in 2023 after a delay caused by the COVID-19 pandemic.
@@ -582,29 +706,34 @@ You can read it here:</p>
 <p>I received the Oral Presentation Certificate for this work since the physical award ceremony was canceled during the pandemic.<br />
 It remains one of the most meaningful recognitions in my academic journey.</p>
 
-<p><button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
-  👁 Show Oral Presentation Certificate
-</button></p>
+<div class="pdf-toggle" data-id="iccsci">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show Oral Presentation Certificate
+  </button>
 
-<div id="pdf-container" style="display: none">
-  <embed src="/assets/files/certificate/iccsci.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div id="pdf-container-iccsci" class="pdf-container" style="display: none">
+    <embed src="/assets/files/certificate/iccsci.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
-    btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide Oral Presentation Certificate (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show Oral Presentation Certificate (PDF)";
-      }
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
 
 <hr />
 
@@ -614,7 +743,7 @@ It remains one of the most meaningful recognitions in my academic journey.</p>
 Working on assistive technology showed me how computation can empower inclusion and accessibility.<br />
 It shaped my perspective on data science and engineering as tools not only for progress but also for empathy.</p>
 
-<p><small><em>Presented 2021 · Published 2023 · ICCSCI Conference, Jakarta — Procedia Computer Science (Elsevier)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on my Best Research Paper Award at ICCSCI 2021 for the study 'Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode', published in Procedia Computer Science (Elsevier) in 2023.]]></summary></entry><entry><title type="html">Librarian — Citra Kasih Grade School</title><link href="http://localhost:4000/career/librarian/" rel="alternate" type="text/html" title="Librarian — Citra Kasih Grade School" /><published>2019-04-01T00:00:00+11:00</published><updated>2025-10-07T14:19:31+11:00</updated><id>http://localhost:4000/career/librarian</id><content type="html" xml:base="http://localhost:4000/career/librarian/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>Presented 2021 · Published 2023 · ICCSCI Conference, Jakarta — Procedia Computer Science (Elsevier)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on my Best Research Paper Award at ICCSCI 2021 for the study 'Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode', published in Procedia Computer Science (Elsevier) in 2023.]]></summary></entry><entry><title type="html">Librarian — Citra Kasih Grade School</title><link href="http://localhost:4000/career/librarian/" rel="alternate" type="text/html" title="Librarian — Citra Kasih Grade School" /><published>2019-04-01T00:00:00+11:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/librarian</id><content type="html" xml:base="http://localhost:4000/career/librarian/"><![CDATA[<section class="lead" style="text-align: justify;">
 Returning to <strong>Citra Kasih Grade School</strong> felt like walking through a memory. The same hallways, the same smell of paper and sunlight through the windows greeted me. This time I was not the student rushing to borrow books. I was the librarian who kept them organized and waiting for curious hands.
 </section>
 

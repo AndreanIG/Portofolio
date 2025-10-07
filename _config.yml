@@ -9,7 +9,8 @@ url:                   https://andreanig.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               '/Portofolio'
+# baseurl:               '/Portofolio' #github
+baseurl:               '' #locale
 
 
 # General settings
@@ -177,7 +178,6 @@ kramdown:
   math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
-
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------

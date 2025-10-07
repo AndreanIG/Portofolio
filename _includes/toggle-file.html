@@ -1,32 +1,38 @@
-<button
-  id="toggle-pdf-{{ include.id }}"
-  class="btn btn--primary"
-  style="margin-bottom: 1rem"
->
-  👁 Show {{ include.label }}
-</button>
+<div class="pdf-toggle" data-id="{{ include.id | default: 'main' }}">
+  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
+    👁 Show {{ include.label }}
+  </button>
 
-<div id="pdf-container-{{ include.id }}" style="display: none">
-  <embed
-    src="{{ include.file | relative_url }}"
-    type="application/pdf"
-    width="100%"
-    height="850px"
-    style="border: 1px solid #ddd; border-radius: 8px"
-  />
+  <div
+    id="pdf-container-{{ include.id | default: 'main' }}"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="{{ include.file | relative_url }}"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
+  </div>
 </div>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf-{{ include.id }}");
-    const container = document.getElementById("pdf-container-{{ include.id }}");
-    if (!btn || !container) return;
-    btn.addEventListener("click", function () {
-      const isHidden = container.style.display === "none";
-      container.style.display = isHidden ? "block" : "none";
-      btn.textContent = isHidden
-        ? "🙈 Hide {{ include.label }} (PDF)"
-        : "👁 Show {{ include.label }} (PDF)";
+    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
+      const id = wrapper.dataset.id;
+      const btn = wrapper.querySelector(".toggle-btn");
+      const container = document.getElementById("pdf-container-" + id);
+
+      btn.addEventListener("click", function () {
+        const isHidden = container.style.display === "none";
+        container.style.display = isHidden ? "block" : "none";
+        btn.textContent = isHidden
+          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
+          : "👁 Show " +
+            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
+      });
     });
   });
-</script>
+</script> -->
