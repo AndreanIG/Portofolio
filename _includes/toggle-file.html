@@ -1,12 +1,12 @@
 <button
-  id="toggle-pdf-{{ id }}"
+  id="toggle-pdf-{{ include.id }}"
   class="btn btn--primary"
   style="margin-bottom: 1rem"
 >
   👁 Show {{ include.label }}
 </button>
 
-<div id="pdf-container-{{ id }}" style="display: none">
+<div id="pdf-container-{{ include.id }}" style="display: none">
   <embed
     src="{{ include.file | relative_url }}"
     type="application/pdf"
@@ -16,19 +16,19 @@
   />
 </div>
 
+{% raw %}
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf-{{ id }}");
-    const container = document.getElementById("pdf-container-{{ id }}");
+    const btn = document.getElementById("toggle-pdf-{{ include.id }}");
+    const container = document.getElementById("pdf-container-{{ include.id }}");
     if (!btn || !container) return;
     btn.addEventListener("click", function () {
-      if (container.style.display === "none") {
-        container.style.display = "block";
-        btn.textContent = "🙈 Hide {{ include.label }} (PDF)";
-      } else {
-        container.style.display = "none";
-        btn.textContent = "👁 Show {{ include.label }} (PDF)";
-      }
+      const isHidden = container.style.display === "none";
+      container.style.display = isHidden ? "block" : "none";
+      btn.textContent = isHidden
+        ? "🙈 Hide {{ include.label }} (PDF)"
+        : "👁 Show {{ include.label }} (PDF)";
     });
   });
 </script>
+{% endraw %}
