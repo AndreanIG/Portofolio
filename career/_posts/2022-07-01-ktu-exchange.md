@@ -55,7 +55,7 @@ The lessons from this course helped refine my design thinking and improved how I
 
 <!-- {% include toggle-file.html label="Certificate of Enrollment" file="Portofolio/assets/files/certificate/ktu.pdf" id="ktutor" %} -->
 
-{% include toggle-file.html label="Certificate of Enrollment" file="/assets/files/certificate/ktu.pdf" %}
+{% include toggle-file.html label="Certificate of Enrollment" file="/assets/files/certificate/ktu.pdf" id="ktu"%}
 ---
 
 ### 💭 Reflection
