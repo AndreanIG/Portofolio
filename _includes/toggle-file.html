@@ -1,8 +1,14 @@
-<button id="toggle-pdf" class="btn btn--primary" style="margin-bottom: 1rem">
+{% assign id = include.label | downcase | replace: ' ', '-' %}
+
+<button
+  id="toggle-pdf-{{ id }}"
+  class="btn btn--primary"
+  style="margin-bottom: 1rem"
+>
   👁 Show {{ include.label }}
 </button>
 
-<div id="pdf-container" style="display: none">
+<div id="pdf-container-{{ id }}" style="display: none">
   <embed
     src="{{ include.file | relative_url }}"
     type="application/pdf"
@@ -14,8 +20,9 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("toggle-pdf");
-    const container = document.getElementById("pdf-container");
+    const btn = document.getElementById("toggle-pdf-{{ id }}");
+    const container = document.getElementById("pdf-container-{{ id }}");
+    if (!btn || !container) return;
     btn.addEventListener("click", function () {
       if (container.style.display === "none") {
         container.style.display = "block";
