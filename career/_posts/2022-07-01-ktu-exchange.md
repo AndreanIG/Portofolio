@@ -2,7 +2,7 @@
 layout: page
 title: "Student Exchange: Kaunas University of Technology (KTU), Lithuania"
 subtitle: "Exploring game development, AI, and web design in an international environment."
-permalink: /career/ktu-exchange/
+permalink: /career/ktu/
 description: "Reflection on my 2022 student exchange at Kaunas University of Technology, where I studied Informatics and developed projects in game development, artificial intelligence, databases, and user interface design."
 ---
 
@@ -53,9 +53,8 @@ The lessons from this course helped refine my design thinking and improved how I
 
 ### 📄 Certificate of Enrollment
 
-<!-- {% include toggle-file.html label="Certificate of Enrollment" file="Portofolio/assets/files/certificate/ktu.pdf" id="ktutor" %} -->
-
 {% include toggle-file.html label="Certificate of Enrollment" file="/assets/files/certificate/ktu.pdf" id="ktu" %}
+
 ---
 
 ### 💭 Reflection

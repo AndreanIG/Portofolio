@@ -55,7 +55,7 @@ menu:
   - title:             Resume
     url:               /resume/
   - title:             Projects
-    url:               /project/
+    url:               /projects/
   - title:             Career
     url:               /career/
 
@@ -297,9 +297,13 @@ collections:
     permalink:         /tag-:name/
     output:            true
 
+  # projects:
+  #   permalink:         /projects/:path/
+  #   output:            true
+  
   projects:
-    permalink:         /projects/:path/
-    output:            true
+    title: Projects
+    description: My portfolio of AI, data, and design work.
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
