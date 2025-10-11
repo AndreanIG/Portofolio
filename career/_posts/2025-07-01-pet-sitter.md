@@ -4,10 +4,6 @@ title: "Pet Sitter — Camp Paws"
 subtitle: "Caring for pets, building trust, and finding joy in quiet companionship."
 permalink: /career/pet-sitter/
 description: "A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species."
-image: /assets/img/career-petsitter-main.jpg
-accent_image:
-  background: /assets/img/career-petsitter-main.jpg
-  overlay: true
 accent_color: rgb(79,177,186)
 date: 2025-07-01
 ---

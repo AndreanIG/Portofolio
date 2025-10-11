@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-09T14:52:07+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-11T19:04:46+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
 </subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-07T20:02:18+11:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
@@ -243,16 +243,282 @@ When I started working as a <strong>Pet Sitter at Camp Paws</strong> in Melbourn
 
 <p>It reminded me that kindness is not something grand. Sometimes, it looks like filling a bowl of water, going for one more walk in the rain, or sitting beside a restless dog until it falls asleep.</p>
 
-<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/career-petsitter-main.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Real Waste Classification</title><link href="http://localhost:4000/projects/2024-10-25-real-waste-classification/" rel="alternate" type="text/html" title="Real Waste Classification" /><published>2024-10-25T00:00:00+11:00</published><updated>2025-10-09T14:50:04+11:00</updated><id>http://localhost:4000/projects/real-waste-classification</id><content type="html" xml:base="http://localhost:4000/projects/2024-10-25-real-waste-classification/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Overview</title><link href="http://localhost:4000/projects/2024-10-05-data-science-project-telkom/" rel="alternate" type="text/html" title="Overview" /><published>2024-10-05T00:00:00+10:00</published><updated>2025-10-09T14:48:15+11:00</updated><id>http://localhost:4000/projects/data-science-project-telkom</id><content type="html" xml:base="http://localhost:4000/projects/2024-10-05-data-science-project-telkom/"><![CDATA[<p>This project demonstrates a CI/CD pipeline for a Vue + Laravel application
-using Jenkins, Docker, and SonarCloud integration.</p>
+<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species.]]></summary></entry><entry><title type="html">CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</title><link href="http://localhost:4000/projects/cser-emotion-recognition/" rel="alternate" type="text/html" title="CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features" /><published>2025-01-01T00:00:00+11:00</published><updated>2025-10-11T16:01:50+11:00</updated><id>http://localhost:4000/projects/vit-and-llms</id><content type="html" xml:base="http://localhost:4000/projects/cser-emotion-recognition/"><![CDATA[<section class="lead" style="text-align: justify;">
+This project was one of the hardest and most technically demanding research works I have ever completed.  
+The paper, <strong>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</strong>, introduces a multimodal system that integrates <strong>Vision Transformers (ViT)</strong> and <strong>Vision-Language Models (VLMs)</strong> — specifically LLaVA and BLIP — to improve emotion recognition in complex, real-world settings.  
+It was written in collaboration with <strong>Dr. Thuseethan Selvarajah</strong>, <strong>Prof. Sutharshan Rajasegarar</strong>, and <strong>Prof. John Yearwood</strong> from Deakin University, and submitted to <em>IEEE Transactions on Multimedia</em>.
+</section>
 
-<h3 id="features">Features</h3>
+<hr />
+
+<h3 id="-motivation">💡 Motivation</h3>
+
+<p>Most emotion recognition models focus on a single modality such as facial expressions or voice.<br />
+In contrast, human emotion is shaped by context — the surrounding scene, body posture, and situation.<br />
+The goal of CSER was to make emotion recognition <strong>context-aware</strong>, bridging the gap between how AI systems interpret emotions and how humans perceive them.</p>
+
+<hr />
+
+<h3 id="️-technical-summary">⚙️ Technical Summary</h3>
+
+<p>CSER combines three ViT-based visual learners for the <strong>face</strong>, <strong>body</strong>, and <strong>scene</strong> with textual embeddings generated by <strong>LLaVA</strong> and <strong>BLIP</strong>.<br />
+All modalities are projected into a shared latent space and fused using <strong>multi-head</strong> and <strong>self-attention</strong> mechanisms.</p>
+
+<p><strong>Results:</strong></p>
 <ul>
-  <li>Frontend: Vue + Tailwind</li>
-  <li>Backend: Laravel API</li>
-  <li>Automated builds using Jenkins</li>
-  <li>Code analysis with SonarCloud</li>
-</ul>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><category term="Vue" /><category term="Laravel" /><category term="Data Visualization" /><summary type="html"><![CDATA[A full-stack web app built using the VILT stack with Docker-based CI/CD pipeline and Jenkins automation.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/projects/project1-cover.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/projects/project1-cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Room Reconstruction Kinectfusion</title><link href="http://localhost:4000/projects/2024-09-05-room-reconstruction-kinectfusion/" rel="alternate" type="text/html" title="Room Reconstruction Kinectfusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-09T14:49:57+11:00</updated><id>http://localhost:4000/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/projects/2024-09-05-room-reconstruction-kinectfusion/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Car Msrp Classification</title><link href="http://localhost:4000/projects/2024-07-22-car-msrp-classification/" rel="alternate" type="text/html" title="Car Msrp Classification" /><published>2024-07-22T00:00:00+10:00</published><updated>2025-10-09T14:49:51+11:00</updated><id>http://localhost:4000/projects/car-msrp-classification</id><content type="html" xml:base="http://localhost:4000/projects/2024-07-22-car-msrp-classification/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Nahflex</title><link href="http://localhost:4000/projects/2024-06-01-nahflex/" rel="alternate" type="text/html" title="Nahflex" /><published>2024-06-01T00:00:00+10:00</published><updated>2025-10-09T14:49:43+11:00</updated><id>http://localhost:4000/projects/nahflex</id><content type="html" xml:base="http://localhost:4000/projects/2024-06-01-nahflex/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-07T20:02:18+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
+  <li>Achieved <strong>mAP = 40.49%</strong> on EMOTIC</li>
+  <li>Achieved <strong>mAP = 54.28%</strong> on HECO</li>
+  <li>Outperformed existing state-of-the-art methods on both datasets</li>
+  <li>Showed major gains in subtle emotions such as <em>sadness</em>, <em>fear</em>, and <em>embarrassment</em></li>
+</ul>
+
+<hr />
+
+<h3 id="-the-hard-part">🧠 The Hard Part</h3>
+
+<p>This project required months of experimentation, dataset preparation, and repeated failures.</p>
+
+<p><strong>Dataset scarcity:</strong><br />
+Finding <strong>group or context-sensitive emotion datasets</strong> was nearly impossible. EMOTIC and HECO were the only usable ones, but both had fragmented labels and inconsistent annotations that needed manual remapping.</p>
+
+<p><strong>Data quality issues:</strong><br />
+Many images contained occluded faces, low light, or incomplete subjects.<br />
+To maintain uniform input shapes, I had to implement fallback logic that replaced missing faces with zero matrices — a tedious but necessary step to keep the training pipeline stable.</p>
+
+<p><strong>Hardware constraints:</strong><br />
+All experiments initially ran on a <strong>GTX 1660 Ti</strong>, forcing constant trade-offs between batch size, learning rate, and runtime stability.<br />
+Training large vision-language models pushed the limits of available memory, often causing crashes mid-run.<br />
+To overcome this, I used <strong>external GPU resources provided by Deakin University’s research infrastructure and Hugging Face’s compute credits</strong>.<br />
+Setting up the remote GPU environments took significant effort — configuring CUDA, aligning PyTorch versions, and establishing secure connections — but it was essential to complete the experiments at full scale.</p>
+
+<p><strong>VLM integration:</strong><br />
+LLaVA and BLIP produced embeddings with incompatible dimensions and token structures.<br />
+Aligning and projecting them into a shared feature space was one of the most complex implementation challenges.</p>
+
+<p><strong>Paper formatting:</strong><br />
+Preparing the IEEE manuscript involved condensing large figures, tuning Grad-CAM++ visualizations, and formatting 17 pages of results under strict LaTeX templates.</p>
+
+<p>Every part — from data cleaning to writing — tested both patience and problem-solving endurance.</p>
+
+<hr />
+
+<h3 id="-reflection">💭 Reflection</h3>
+
+<p>Despite the obstacles, completing CSER taught me what true research persistence feels like.<br />
+It was a lesson in problem-solving under constraint — working with incomplete datasets, limited hardware, and long iteration cycles — yet still producing a model that achieved measurable progress.</p>
+
+<p>Being the youngest member in the author list, I handled most of the experimental setup, ablation design, and manuscript drafting.<br />
+This experience taught me to think beyond implementation — to question design decisions, justify model behavior, and communicate results in a research-standard way.</p>
+
+<p>It reminded me that scientific progress is not just about accuracy; it’s about the discipline to keep iterating when nothing seems to work.</p>
+
+<hr />
+
+<h3 id="-citation">📑 Citation</h3>
+
+<p>Ignasius, A., Selvarajah, T., Rajasegarar, S., &amp; Yearwood, J. (2025).<br />
+<em>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features.</em><br />
+IEEE Transactions on Multimedia (Under Review).</p>
+
+<hr />
+
+<h3 id="-keywords">🏷 Keywords</h3>
+
+<p>Emotion Recognition · Multimodal Learning · Vision Transformer · Vision-Language Models · Affective Computing</p>
+
+<hr />
+
+<p><small><em>Submitted October 2025 · IEEE Transactions on Multimedia (Under Review)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation.]]></summary></entry><entry><title type="html">Smart Recycling — Waste Classification</title><link href="http://localhost:4000/projects/waste-classifier/" rel="alternate" type="text/html" title="Smart Recycling — Waste Classification" /><published>2024-10-25T00:00:00+11:00</published><updated>2025-10-11T18:31:01+11:00</updated><id>http://localhost:4000/projects/waste-classifier</id><content type="html" xml:base="http://localhost:4000/projects/waste-classifier/"><![CDATA[<p>I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme — <strong>Red (general)</strong>, <strong>Green (organics)</strong>, <strong>Yellow (recyclables)</strong> — using the <strong>RealWaste</strong> dataset.</p>
+
+<hr />
+
+<h3 id="problem--dataset">Problem &amp; Dataset</h3>
+<ul>
+  <li><strong>Task:</strong> Image → {Red, Green, Yellow} bin label to help reduce recycling contamination.</li>
+  <li><strong>Dataset:</strong> <a href="https://www.kaggle.com/datasets/joebeachcapital/realwaste">RealWaste (Kaggle)</a> (materials like Cardboard, Glass, Metal, Plastic, Food Organics, etc.), remapped to 3 bins.</li>
+  <li><strong>Split:</strong> ~80/10/10 train/val/test after regrouping images into bin folders.</li>
+</ul>
+
+<hr />
+
+<h3 id="approach">Approach</h3>
+<ul>
+  <li><strong>Baseline model:</strong> Small CNN (“WasteNet”), CrossEntropy, Adam, 50 epochs; track Accuracy, F1, Recall, Precision.</li>
+  <li><strong>Data augmentation:</strong> resize + random flip/rotation + color jitter; normalisation with ImageNet stats; applied to train only.</li>
+  <li><strong>Profiling:</strong> Compared plain vs augmented input pipelines; identified loader/CPU transforms as bottleneck; sped up with <code class="language-plaintext highlighter-rouge">num_workers=4</code>.</li>
+  <li><strong>Equal-time study:</strong> Trained “plain” vs “augmented” under the same one-hour budget to compare generalisation.</li>
+  <li><strong>Generalisation (D-task):</strong> Collected a new test set from different sources (phone/web) and built an improved CNN with BN/Dropout/Pooling.</li>
+</ul>
+
+<hr />
+
+<h3 id="results-highlights">Results (highlights)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Setup</th>
+      <th style="text-align: right">Test Acc</th>
+      <th style="text-align: right">F1</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Baseline (no augmentation)</td>
+      <td style="text-align: right">69.5%</td>
+      <td style="text-align: right">0.44</td>
+      <td style="text-align: left">—</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">With augmentation (equal time)</td>
+      <td style="text-align: right">70.6%</td>
+      <td style="text-align: right">0.47</td>
+      <td style="text-align: left">Better recall/F1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Improved (BN/Dropout/Pooling)</td>
+      <td style="text-align: right">82.98%</td>
+      <td style="text-align: right">0.71</td>
+      <td style="text-align: left">On original test set</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New domain test — old model</td>
+      <td style="text-align: right">~55%</td>
+      <td style="text-align: right">—</td>
+      <td style="text-align: left">Phone/web images</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New domain test — improved model</td>
+      <td style="text-align: right">~70%</td>
+      <td style="text-align: right">—</td>
+      <td style="text-align: left">Higher F1/recall, robust</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="figcaption">Approximate values marked with “~”.</p>
+
+<hr />
+
+<h3 id="what-i-learned">What I learned</h3>
+<ul>
+  <li>Balanced <strong>recall/F1</strong> matters more than raw accuracy for waste sorting (missing positives is costly).</li>
+  <li><strong>Augmentation</strong> helps generalisation but must be profiled/tuned; parallel data loading reduced pipeline time ~5×–6×.</li>
+  <li>Architectural tweaks (<strong>BN, Dropout, Pooling</strong>) significantly improved robustness across domains.</li>
+</ul>
+
+<hr />
+
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+  <li><strong>PyTorch</strong>, <strong>TorchVision</strong>, <strong>TensorBoard</strong>, <strong>PyTorch Profiler</strong>, <strong>scikit-learn</strong> metrics; trained on GPU where available.</li>
+</ul>
+
+<hr />
+
+<p><small><em>Andrean Ignasius</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/projects/kinectfusion-3d-reconstruction/"><![CDATA[<section class="lead" style="text-align: justify;">
+This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.  
+The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.  
+The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.
+</section>
+
+<hr />
+
+<h3 id="-objective">🎯 Objective</h3>
+
+<p>The goal was to:</p>
+<ol>
+  <li>Implement and execute the KinectFusion algorithm on local hardware.</li>
+  <li>Reconstruct 3D scenes from multiple TUM RGB-D sequences.</li>
+  <li>Record performance metrics — processing time, FPS, and RMSE.</li>
+  <li>Analyze how scene complexity affects reconstruction accuracy.</li>
+</ol>
+
+<hr />
+
+<h3 id="️-implementation">⚙️ Implementation</h3>
+
+<p>The Python-based KinectFusion repository was used from<br />
+<a href="https://github.com/JingwenWang95/KinectFusion">https://github.com/JingwenWang95/KinectFusion</a></p>
+
+<p>All dependencies were installed in an isolated environment to prevent package conflicts.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pip <span class="nb">install </span>imageio
+pip <span class="nb">install </span>scikit-image
+pip <span class="nb">install </span>trimesh
+pip <span class="nb">install </span>open3d
+pip <span class="nb">install </span>utils
+pip <span class="nb">install </span>yaml</code></pre></figure>
+
+<p>Configuration files were manually updated for each TUM dataset sequence under the <code class="language-plaintext highlighter-rouge">configs/</code> directory.<br />
+Example command for reconstruction:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">python kindu.py <span class="nt">--config</span> configs/fr1_desk.yaml <span class="nt">--save_dir</span> reconstruct/fr1_desk</code></pre></figure>
+
+<p>Resulting <code class="language-plaintext highlighter-rouge">.ply</code> meshes were visualized using the <a href="https://www.open3d.org/">Open3D viewer</a> or via<br />
+<a href="https://imagetostl.com/view-ply-online">ImageToSTL 3D viewer</a>.</p>
+
+<hr />
+
+<h3 id="-hardware-setup">🧩 Hardware Setup</h3>
+
+<ul>
+  <li><strong>CPU:</strong> Intel® Core™ i7-10750H (2.60 GHz)</li>
+  <li><strong>GPU:</strong> NVIDIA® GeForce GTX 1660 Ti</li>
+  <li><strong>Memory:</strong> 32 GB RAM</li>
+</ul>
+
+<p>This configuration was capable of handling dense depth fusion but did not reach real-time frame rates.<br />
+Each sequence required several minutes of processing depending on scene complexity and voxel resolution.</p>
+
+<hr />
+
+<h3 id="-experimental-results">📈 Experimental Results</h3>
+
+<h4 id="dataset-fr1_rpy">Dataset: FR1_RPY</h4>
+<ul>
+  <li><strong>Average processing time:</strong> 0.132 s / frame</li>
+  <li><strong>Frame rate:</strong> 7.55 FPS</li>
+  <li><strong>RMSE:</strong> 0.064 m</li>
+  <li><strong>Observation:</strong> Reconstruction accuracy was high; only minor missing polygons in localized regions.</li>
+</ul>
+
+<h4 id="dataset-fr1_room">Dataset: FR1_Room</h4>
+<ul>
+  <li><strong>Average processing time:</strong> 0.158 s / frame</li>
+  <li><strong>Frame rate:</strong> 6.35 FPS</li>
+  <li><strong>RMSE:</strong> 0.267 m</li>
+  <li><strong>Observation:</strong> Reconstruction degraded in complex indoor environments; polygon loss and surface noise were visible.</li>
+</ul>
+
+<hr />
+
+<h3 id="-analysis">🧠 Analysis</h3>
+
+<p>Scene complexity had a measurable impact on performance.<br />
+Simpler geometries (FR1_RPY) produced stable meshes with low RMSE, whereas cluttered indoor scenes (FR1_Room) reduced both accuracy and speed.<br />
+Even with discrete GPU acceleration, real-time operation was not achieved.<br />
+The bottleneck occurred during <strong>voxel integration</strong> and <strong>surface fusion</strong>, confirming the trade-off between reconstruction precision and computational speed in volumetric mapping.</p>
+
+<hr />
+
+<h3 id="-reflection">🧭 Reflection</h3>
+
+<p>This task provided hands-on understanding of dense SLAM and the computational limits of real-time 3D vision.<br />
+Reconstructing multiple datasets reinforced concepts in:</p>
+<ul>
+  <li>RGB-D frame alignment and TSDF fusion</li>
+  <li>Hardware–software performance trade-offs</li>
+  <li>Evaluation metrics (FPS / RMSE)</li>
+  <li>Visual inspection of mesh completeness</li>
+</ul>
+
+<p>While the results achieved high fidelity for smaller environments, scaling to larger or dynamic scenes remains an open research challenge without dedicated GPU hardware or algorithmic optimization.</p>
+
+<hr />
+
+<p><small><em>Completed May 2024 · SIT789: Robotics, Computer Vision &amp; Speech Processing · Deakin University</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes.]]></summary></entry><entry><title type="html">Car Msrp Classification</title><link href="http://localhost:4000/projects/2024-07-22-car-msrp-classification/" rel="alternate" type="text/html" title="Car Msrp Classification" /><published>2024-07-22T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/projects/car-msrp-classification</id><content type="html" xml:base="http://localhost:4000/projects/2024-07-22-car-msrp-classification/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
 In May 2024, I earned the Microsoft Certified Azure AI Engineer Associate credential.  
 The program deepened my understanding of how to design, implement, and manage AI applications that run in production environments on Azure.  
 It connected theoretical knowledge of machine learning with real implementation practices using cloud infrastructure.
@@ -309,7 +575,7 @@ I began to see the importance of reliability, monitoring, and transparency when 
 <p>Completing the AI 102 certification gave me confidence in my ability to bridge development and data science in the cloud.<br />
 It reminded me that artificial intelligence is not only about algorithms but also about building solutions that can be maintained, trusted, and used responsibly.</p>
 
-<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Engineer Associate</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Fundamentals (AI 900)</title><link href="http://localhost:4000/career/azure-ai900/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Fundamentals (AI 900)" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/career/azure-ai900/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Engineer Associate</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Fundamentals (AI 900)</title><link href="http://localhost:4000/career/azure-ai900/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Fundamentals (AI 900)" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/career/azure-ai900/"><![CDATA[<section class="lead" style="text-align: justify;">
 In May 2024, I earned the Microsoft Certified Azure AI Fundamentals credential.  
 This certification introduced me to the core ideas behind artificial intelligence, covering both the theory and practical capabilities available through Azure’s AI services.
 </section>
@@ -363,4 +629,231 @@ It provided a clear understanding of how cloud-based AI services like <strong>Az
 <p>Completing the AI-900 certification strengthened my understanding of the AI landscape and helped me see how accessible intelligent solutions can be with the right tools.<br />
 It reminded me that every advanced system starts with mastering the basics — and that curiosity is the best driver for continuous learning.</p>
 
-<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Fundamentals</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.]]></summary></entry><entry><title type="html">Vit And Llms</title><link href="http://localhost:4000/projects/2024-03-10-vit-and-llms/" rel="alternate" type="text/html" title="Vit And Llms" /><published>2024-03-10T00:00:00+11:00</published><updated>2025-10-09T14:49:36+11:00</updated><id>http://localhost:4000/projects/vit-and-llms</id><content type="html" xml:base="http://localhost:4000/projects/2024-03-10-vit-and-llms/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Fundamentals</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.]]></summary></entry><entry><title type="html">Bachelor of Computer Science (Global Class)</title><link href="http://localhost:4000/career/binus/" rel="alternate" type="text/html" title="Bachelor of Computer Science (Global Class)" /><published>2023-11-01T00:00:00+11:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/binus</id><content type="html" xml:base="http://localhost:4000/career/binus/"><![CDATA[<section class="lead" style="text-align: justify;">
+I completed my **Bachelor of Computer Science (Global Class)** at **Bina Nusantara University**, Indonesia, with a GPA of **3.85 / 4.00**.  
+This program shaped my foundation in computer science, blending strong technical skills with creativity, teamwork, and a global perspective.
+</section>
+
+<hr />
+
+<h3 id="-academic-highlights">🎓 Academic Highlights</h3>
+
+<p>During my studies, I learned to approach technology as both a science and a creative process.<br />
+Some key subjects that shaped my journey included:</p>
+
+<ul>
+  <li><strong>Artificial Intelligence</strong></li>
+  <li><strong>Object-Oriented Analysis &amp; Design</strong></li>
+  <li><strong>Software Engineering &amp; Agile Development</strong></li>
+  <li><strong>Machine Learning &amp; Big Data Processing</strong></li>
+  <li><strong>Human and Computer Interaction</strong></li>
+  <li><strong>Industrial Informatics Experience at Telkom Indonesia</strong></li>
+  <li><strong>Thesis Project — VILT Stack Application for Boarding House Management</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="-key-projects">🧩 Key Projects</h3>
+
+<p><strong>🏡 Thesis — Web-Based Boarding House Marketplace (VILT Stack)</strong><br />
+Developed a full-stack application using <strong>Vue</strong>, <strong>Inertia</strong>, <strong>Laravel</strong>, and <strong>Tailwind</strong> to streamline room booking and management.<br />
+This project strengthened my understanding of modern web architecture and user-centered system design.</p>
+
+<p><strong>🤖 Artificial Intelligence Coursework</strong><br />
+Built models for <strong>image classification</strong> and <strong>basic computer vision</strong>, which later inspired my research and professional interests in AI.</p>
+
+<p><strong>💻 Software Engineering Labs</strong><br />
+Applied agile methods, conducted code reviews, and delivered small-scale projects simulating real product environments.</p>
+
+<hr />
+
+<h3 id="-global-experience">🌍 Global Experience</h3>
+
+<p><strong>Student Exchange — Kaunas University of Technology (KTU), Lithuania (2022)</strong><br />
+Represented BINUS in an international semester program, exploring European approaches to software engineering and research collaboration.</p>
+
+<hr />
+
+<h3 id="-achievements">🏅 Achievements</h3>
+
+<ul>
+  <li><strong>Graduated with GPA 3.85 / 4.00 (High Distinction)</strong></li>
+  <li><strong>Best Research Paper Award — ICCSCI 2021</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="-reflection">💭 Reflection</h3>
+
+<p>Studying at BINUS taught me how to balance technical precision with creativity — from building algorithms to designing intuitive systems.<br />
+It was the foundation that fueled my passion for data science, AI, and creating technology that makes an impact.</p>
+
+<p><small><em>Graduated September 2023 · Bina Nusantara University, School of Computer Science</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry><entry><title type="html">BHFMS — Boarding House Finder &amp;amp; Management System (VILT)</title><link href="http://localhost:4000/projects/bhfms/" rel="alternate" type="text/html" title="BHFMS — Boarding House Finder &amp;amp; Management System (VILT)" /><published>2023-09-15T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/projects/bhfms</id><content type="html" xml:base="http://localhost:4000/projects/bhfms/"><![CDATA[<p><img src="/assets/img/projects/bhfms.gif" alt="BHFMS Logo" /></p>
+<h3 id="demo">Project Demo</h3>
+<p>
+  <a class="btn" href="https://youtu.be/u0tEqIIhDS0" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.2em;margin-right:.4em;">
+      <path fill="currentColor" d="M23.5 6.2a4 4 0 0 0-2.8-2.8C18.8 3 12 3 12 3s-6.8 0-8.7.4A4 4 0 0 0 .5 6.2 41 41 0 0 0 0 12a41 41 0 0 0 .5 5.8 4 4 0 0 0 2.8 2.8C5.2 21 12 21 12 21s6.8 0 8.7-.4a4 4 0 0 0 2.8-2.8A41 41 0 0 0 24 12a41 41 0 0 0-.5-5.8zM9.7 15.5V8.5l6 3.5-6 3.5z" />
+    </svg>
+    Watch on YouTube
+  </a>
+</p>
+
+<hr />
+<p><strong>BHFMS (Boarding House Finder &amp; Management System)</strong> is a full-featured web application created as my Bachelor’s thesis at <strong>Bina Nusantara University</strong>, developed together with <strong>Aditya Winata</strong> and <strong>Gardion Philipus Saltana</strong>, and supervised by <strong>Pualam Dipa Nusantara, S.Kom., M.Kom.</strong><br />
+The system serves both as a modern marketplace for Indonesian boarding houses (kos-kosan) and as an operational dashboard for owners, tenants, and admins.</p>
+
+<hr />
+
+<h3 id="background--problem">Background &amp; Problem</h3>
+
+<p>Jakarta’s growing urbanization and the high cost of housing make boarding houses essential for students and workers. Existing platforms only focus on listing properties, but still lack features for operations (payment management, complaints, inventory), verified information, and seamless communication between tenants and landlords.</p>
+
+<p>BHFMS fills this gap by unifying search, management, and communications in a single VILT-stack web platform.</p>
+
+<hr />
+
+<h3 id="project-overview">Project Overview</h3>
+
+<p>BHFMS enables:</p>
+<ul>
+  <li><strong>Centralized discovery:</strong> Search and filter kos-kosan by location, price, facilities, and more.</li>
+  <li><strong>Verified operations:</strong> Owners and managers can manage tenants, payments, complaints, and property inventories.</li>
+  <li><strong>Effortless communication:</strong> Tenants chat directly with owners/managers, upload payment proofs, and raise complaints; admins ensure trust and moderation.</li>
+</ul>
+
+<p>Role-based access ensures each user group (tenant, owner/manager, admin) has the right tools for their needs.</p>
+
+<hr />
+
+<h3 id="features-by-role">Features by Role</h3>
+
+<ul>
+  <li><strong>Tenant:</strong> Search, distance filter, rich listings, wishlist, reviews, chat, complaints, upload payment proofs.</li>
+  <li><strong>Owner/Manager:</strong> Dashboards for properties, tenants, payments, inventory, complaints, and chat.</li>
+  <li><strong>Admin:</strong> Listing verification, transaction oversight, moderation, pre-publish approvals.</li>
+</ul>
+
+<hr />
+
+<h3 id="tech-stack">Tech Stack</h3>
+
+<ul>
+  <li><strong>Vue.js</strong> + <strong>Tailwind CSS</strong> (frontend)</li>
+  <li><strong>Inertia.js</strong> (SPA routing)</li>
+  <li><strong>Laravel</strong> (backend)</li>
+  <li><strong>Pusher/Laravel Echo</strong> (real-time messaging)</li>
+  <li><strong>SQL</strong> (structured roles, payments, chats, reviews, complaints)</li>
+  <li><strong>AWS Lightsail + NGINX Unit</strong> (deployment)</li>
+  <li><strong>Advanced search/ranking with Haversine</strong></li>
+  <li><strong>Robust, fair review ranking with Bayesian average</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="smart-search-haversine-formula">Smart Search: Haversine Formula</h3>
+
+<p>BHFMS uses the Haversine formula for accurate, location-based search—ranking boarding houses by true real-world distance (great-circle) to the user’s target location.</p>
+
+<h4 id="mathematical-formula">Mathematical Formula</h4>
+
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>ϕ</mi><mo>=</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ϕ</mi><mn>1</mn></msub><mo separator="true">,</mo><mspace width="2em"/><mi mathvariant="normal">Δ</mi><mi>λ</mi><mo>=</mo><msub><mi>λ</mi><mn>2</mn></msub><mo>−</mo><msub><mi>λ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\Delta\phi = \phi_2 - \phi_1,\qquad \Delta\lambda = \lambda_2 - \lambda_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">ϕ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">Δ</span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>
+
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><msup><mrow><mi>sin</mi><mo>⁡</mo></mrow><mn>2</mn></msup><mrow><mo fence="true">(</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>ϕ</mi></mrow><mn>2</mn></mfrac><mo fence="true">)</mo></mrow><mo>+</mo><mi>cos</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy="false">)</mo><mi>cos</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy="false">)</mo><msup><mrow><mi>sin</mi><mo>⁡</mo></mrow><mn>2</mn></msup><mrow><mo fence="true">(</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>λ</mi></mrow><mn>2</mn></mfrac><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">a = \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta\lambda}{2}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mop"><span class="mop">sin</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8719em;"><span style="top:-3.1208em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">ϕ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mop">cos</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">cos</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop"><span class="mop">sin</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8719em;"><span style="top:-3.1208em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">λ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span></span></span></span></span>
+
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>c</mi><mo>=</mo><mn>2</mn><mi>arcsin</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><msqrt><mi>a</mi></msqrt><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">c = 2\arcsin\left(\sqrt{a}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">arcsin</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">(</span></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8492em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathnormal">a</span></span></span><span style="top:-2.8092em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1908em;"><span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">)</span></span></span></span></span></span></span>
+
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>d</mi><mo>=</mo><mi>R</mi><mo>⋅</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">d = R \cdot c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span></span>
+
+<p>Where:</p>
+<ul>
+  <li>Using <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>≈</mo><mn>6371</mn><mtext> </mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">m</mi></mrow></mrow><annotation encoding="application/x-tex">R \approx 6371\,\mathrm{km}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">6371</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">km</span></span></span></span></span></li>
+  <li>All angles must be in radians.</li>
+</ul>
+
+<p>Convert degrees to radians before applying the formula. For performance, results may be pre-filtered by a bounding box.</p>
+
+<hr />
+
+<h4 id="laravelsql-implementation-example-of-harvesian">Laravel/SQL Implementation Example of Harvesian</h4>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: "snippets/mysql_haversine.php"</span>
+<span class="nv">$lat</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="nf">request</span><span class="p">(</span><span class="s1">'lat'</span><span class="p">);</span>
+<span class="nv">$lon</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="nf">request</span><span class="p">(</span><span class="s1">'lon'</span><span class="p">);</span>
+<span class="nv">$R</span>   <span class="o">=</span> <span class="mi">6371</span><span class="p">;</span> <span class="c1">// km</span>
+
+<span class="nv">$haversine</span> <span class="o">=</span> <span class="s2">"(
+    </span><span class="nv">$R</span><span class="s2"> * 2 * ASIN(
+        SQRT(
+            POW(SIN(RADIANS(properties.latitude  - ?) / 2), 2) +
+            COS(RADIANS(?)) * COS(RADIANS(properties.latitude)) *
+            POW(SIN(RADIANS(properties.longitude - ?) / 2), 2)
+        )
+    )
+)"</span><span class="p">;</span>
+
+<span class="nv">$properties</span> <span class="o">=</span> <span class="nc">Property</span><span class="o">::</span><span class="nf">query</span><span class="p">()</span>
+    <span class="o">-&gt;</span><span class="nf">select</span><span class="p">(</span><span class="s1">'properties.*'</span><span class="p">)</span>
+    <span class="o">-&gt;</span><span class="nf">selectRaw</span><span class="p">(</span><span class="s2">"</span><span class="nv">$haversine</span><span class="s2"> AS distance_km"</span><span class="p">,</span> <span class="p">[</span><span class="nv">$lat</span><span class="p">,</span> <span class="nv">$lat</span><span class="p">,</span> <span class="nv">$lon</span><span class="p">])</span>
+    <span class="o">-&gt;</span><span class="nf">orderBy</span><span class="p">(</span><span class="s1">'distance_km'</span><span class="p">)</span>
+    <span class="o">-&gt;</span><span class="nf">paginate</span><span class="p">(</span><span class="mi">20</span><span class="p">);</span>
+<span class="nc">MySQL</span><span class="o">/</span><span class="nc">MariaDB</span> <span class="err">—</span> <span class="n">raw</span> <span class="nc">Haversine</span> <span class="n">with</span> <span class="nf">bindings</span> <span class="p">(</span><span class="sb">`properties.latitude - ?`</span><span class="p">,</span> <span class="sb">`properties.longitude - ?`</span><span class="p">;</span> <span class="n">middle</span> <span class="sb">`?`</span> <span class="n">reused</span> <span class="k">for</span> <span class="sb">`COS(lat1)`</span><span class="p">)</span><span class="mf">.</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="bayesian-rating-fair-property-rankings">Bayesian Rating: Fair Property Rankings</h3>
+
+<p>To avoid ranking properties unfairly (for example, where a single 5-star review boosts a new listing to the top), BHFMS uses a <strong>Bayesian average</strong> for property ratings.</p>
+
+<h4 id="bayesian-rating-formula">Bayesian Rating Formula</h4>
+
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>Bayesian_rating</mtext><mo>=</mo><mfrac><mi>v</mi><mrow><mi>v</mi><mo>+</mo><mi>m</mi></mrow></mfrac><mo>⋅</mo><mi>R</mi><mo>+</mo><mfrac><mi>m</mi><mrow><mi>v</mi><mo>+</mo><mi>m</mi></mrow></mfrac><mo>⋅</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">\text{Bayesian\_rating} = \frac{v}{v+m} \cdot R + \frac{m}{v+m} \cdot C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9933em;vertical-align:-0.31em;"></span><span class="mord text"><span class="mord">Bayesian_rating</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.8769em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">m</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.8769em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">m</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span></span>
+
+<p>Where:</p>
+
+<ul>
+  <li>Average rating for the property: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span></li>
+  <li>Number of reviews for the property: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span></li>
+  <li>Minimum reviews required for confidence (e.g., 5 or 10): <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span></span></span></span></li>
+  <li>Mean rating across all properties: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span></li>
+</ul>
+
+<p>How it works:</p>
+
+<p>Properties with few ratings are pulled closer to the global mean <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>.<br />
+As reviews grow, the score reflects the property’s real reputation <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span>.<br />
+Prevents new or manipulated listings from unfairly topping search results.</p>
+
+<hr />
+
+<h4 id="laravelsql-implementation-example-of-harvesian-1">Laravel/SQL Implementation Example of Harvesian</h4>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: "snippets/mysql_bayesian.php"</span>
+<span class="nv">$m</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="nv">$C</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="p">(</span><span class="nc">Review</span><span class="o">::</span><span class="nf">avg</span><span class="p">(</span><span class="s1">'rating'</span><span class="p">)</span> <span class="o">??</span> <span class="mf">0.0</span><span class="p">);</span>
+
+<span class="nv">$properties</span> <span class="o">=</span> <span class="nc">Property</span><span class="o">::</span><span class="nf">query</span><span class="p">()</span>
+<span class="o">-&gt;</span><span class="nf">withCount</span><span class="p">(</span><span class="s1">'reviews'</span><span class="p">)</span> <span class="c1">// -&gt;reviews_count</span>
+<span class="o">-&gt;</span><span class="nf">withAvg</span><span class="p">(</span><span class="s1">'reviews'</span><span class="p">,</span> <span class="s1">'rating'</span><span class="p">)</span> <span class="c1">// -&gt;reviews_avg_rating</span>
+<span class="o">-&gt;</span><span class="nf">get</span><span class="p">()</span>
+<span class="o">-&gt;</span><span class="nf">map</span><span class="p">(</span><span class="k">function</span> <span class="p">(</span><span class="nv">$p</span><span class="p">)</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$m</span><span class="p">,</span> <span class="nv">$C</span><span class="p">)</span> <span class="p">{</span>
+<span class="nv">$v</span> <span class="o">=</span> <span class="p">(</span><span class="n">int</span><span class="p">)</span> <span class="p">(</span><span class="nv">$p</span><span class="o">-&gt;</span><span class="n">reviews_count</span> <span class="o">??</span> <span class="mi">0</span><span class="p">);</span>
+<span class="nv">$R</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="p">(</span><span class="nv">$p</span><span class="o">-&gt;</span><span class="n">reviews_avg_rating</span> <span class="o">??</span> <span class="mf">0.0</span><span class="p">);</span>
+<span class="nv">$p</span><span class="o">-&gt;</span><span class="n">bayesian_rating</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$v</span><span class="o">/</span><span class="p">(</span><span class="nv">$v</span><span class="o">+</span><span class="nv">$m</span><span class="p">))</span> <span class="o">*</span> <span class="nv">$R</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$m</span><span class="o">/</span><span class="p">(</span><span class="nv">$v</span><span class="o">+</span><span class="nv">$m</span><span class="p">))</span> <span class="o">*</span> <span class="nv">$C</span><span class="p">;</span>
+<span class="k">return</span> <span class="nv">$p</span><span class="p">;</span>
+<span class="p">})</span>
+<span class="o">-&gt;</span><span class="nf">sortByDesc</span><span class="p">(</span><span class="s1">'bayesian_rating'</span><span class="p">)</span>
+<span class="o">-&gt;</span><span class="nf">values</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p><small><em>Completed September 2022 · Bina Nusantara University · Thesis</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[VILT-stack marketplace and operations hub for Indonesian boarding houses—distance-aware search, payments, chat, reviews, inventory, and admin verification.]]></summary></entry></feed>
