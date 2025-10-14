@@ -17,6 +17,20 @@ Each project tells a small part of my journey in exploring how technology can so
 Scroll down to explore the list below
 
 ---
+## 🛠️ Project Timeline Overview
+
+| Year | Project | Notes |
+|:----:|:--------|:------|
+| **2025** | [CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features](/projects/cser/) | Research |
+| **2024** | [3D Reconstruction with KinectFusion](/projects/kinectfusion/) | Computer Vision |
+|  | [Smart Recycling — Waste Classification](/projects/waste-classification/) | Sustainability AI |
+| **2023** | [BHFMS — Boarding House Finder & Management System (VILT)](/projects/bhfms/) | Bachelor Thesis |
+|  | [Grape Disease Classification — VGG-16 + XGBoost](/projects/grape-disease/) | Agriculture AI |
+|  | [Tableau & Power BI: NYC Flight Weather Dashboard](/projects/nyc-dashboard/) | Data Visualization |
+|  | [Fingerprint Detection — Telkom AI Platform](/projects/fingerprint-detection/) | Internship |
+| **2022** | [DIT — IndiHome Installation Image Classification](/projects/dit-image-classification/) | Internship |
+|  | [Face Mapping API — Telkom Indonesia Internship](/projects/face-mapping/) | Internship |
+|  | [Endless Runner: Temple Runner Game](/projects/temple-runner/) | GameDev |
 
 ---
 
