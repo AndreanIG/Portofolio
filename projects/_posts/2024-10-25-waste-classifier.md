@@ -4,8 +4,6 @@ title: "Smart Recycling — Waste Classification"
 subtitle: "Deep learning pipeline to reduce recycling contamination using RealWaste images"
 permalink: /projects/waste-classifier/
 description: "Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs."
-accent_color: rgb(104,176,74)
-date: 2024-04-01
 ---
 
 I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme:  

@@ -21,12 +21,12 @@ Scroll down to explore the list below
 
 | Year | Project | Notes |
 |:----:|:--------|:------|
-| **2025** | [CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features](cser/) | Research |
-| **2024** | [3D Reconstruction with KinectFusion](kinectfusion/) | Computer Vision |
-|  | [Smart Recycling — Waste Classification](waste-classification/) | Sustainability AI |
+| **2025** | [CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features](cser-emotion-recognition/) | Research |
+| **2024** | [3D Reconstruction with KinectFusion](kinectfusion-3d-reconstruction/) | Computer Vision |
+|  | [Smart Recycling — Waste Classification](waste-classifier/) | Sustainability AI |
 | **2023** | [BHFMS — Boarding House Finder & Management System (VILT)](bhfms/) | Bachelor Thesis |
 |  | [Grape Disease Classification — VGG-16 + XGBoost](grape-disease/) | Agriculture AI |
-|  | [Tableau & Power BI: NYC Flight Weather Dashboard](nyc-dashboard/) | Data Visualization |
+|  | [Tableau & Power BI: NYC Flight Weather Dashboard](tableau-powerbi-dashboard/) | Data Visualization |
 |  | [Fingerprint Detection — Telkom AI Platform](fingerprint-detection/) | Internship |
 | **2022** | [DIT — IndiHome Installation Image Classification](dit-image-classification/) | Internship |
 |  | [Face Mapping API — Telkom Indonesia Internship](face-mapping/) | Internship |
