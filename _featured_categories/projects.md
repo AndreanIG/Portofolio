@@ -5,7 +5,7 @@ description: >
   A showcase of my selected works in data science, AI, software engineering, and creative technology.  
   Each project reflects a part of my learning journey — from small experiments to full-scale systems.
 show_posts: true
-permalink: /projects/
+permalink: /projects
 ---
 
 # Projects Overview
@@ -21,16 +21,16 @@ Scroll down to explore the list below
 
 | Year | Project | Notes |
 |:----:|:--------|:------|
-| **2025** | [CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features](projects/cser/) | Research |
-| **2024** | [3D Reconstruction with KinectFusion](projects/kinectfusion/) | Computer Vision |
-|  | [Smart Recycling — Waste Classification](projects/waste-classification/) | Sustainability AI |
-| **2023** | [BHFMS — Boarding House Finder & Management System (VILT)](projects/bhfms/) | Bachelor Thesis |
-|  | [Grape Disease Classification — VGG-16 + XGBoost](projects/grape-disease/) | Agriculture AI |
-|  | [Tableau & Power BI: NYC Flight Weather Dashboard](projects/nyc-dashboard/) | Data Visualization |
-|  | [Fingerprint Detection — Telkom AI Platform](projects/fingerprint-detection/) | Internship |
-| **2022** | [DIT — IndiHome Installation Image Classification](projects/dit-image-classification/) | Internship |
-|  | [Face Mapping API — Telkom Indonesia Internship](projects/face-mapping/) | Internship |
-|  | [Endless Runner: Temple Runner Game](projects/temple-runner/) | GameDev |
+| **2025** | [CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features](cser/) | Research |
+| **2024** | [3D Reconstruction with KinectFusion](kinectfusion/) | Computer Vision |
+|  | [Smart Recycling — Waste Classification](waste-classification/) | Sustainability AI |
+| **2023** | [BHFMS — Boarding House Finder & Management System (VILT)](bhfms/) | Bachelor Thesis |
+|  | [Grape Disease Classification — VGG-16 + XGBoost](grape-disease/) | Agriculture AI |
+|  | [Tableau & Power BI: NYC Flight Weather Dashboard](nyc-dashboard/) | Data Visualization |
+|  | [Fingerprint Detection — Telkom AI Platform](fingerprint-detection/) | Internship |
+| **2022** | [DIT — IndiHome Installation Image Classification](dit-image-classification/) | Internship |
+|  | [Face Mapping API — Telkom Indonesia Internship](face-mapping/) | Internship |
+|  | [Endless Runner: Temple Runner Game](temple-runner/) | GameDev |
 
 ---
 
