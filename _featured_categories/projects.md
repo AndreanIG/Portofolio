@@ -5,7 +5,7 @@ description: >
   A showcase of my selected works in data science, AI, software engineering, and creative technology.  
   Each project reflects a part of my learning journey — from small experiments to full-scale systems.
 show_posts: true
-permalink: /projects
+permalink: /projects/
 ---
 
 # Projects Overview
