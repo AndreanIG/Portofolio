@@ -1,4 +1,4 @@
-<div class="pdf-toggle" data-id="{{ include.id | default: 'main' }}">
+<!-- <div class="pdf-toggle" data-id="{{ include.id | default: 'main' }}">
   <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
     👁 Show {{ include.label }}
   </button>
@@ -35,4 +35,23 @@
       });
     });
   });
-</script>
+</script> -->
+
+<div class="pdf-toggle" data-id="{{ include.id | default: 'main' }}">
+  <a
+    class="btn btn--primary"
+    href="{{ include.file | relative_url }}"
+    target="_blank"
+    style="margin-right: 0.5rem; margin-bottom: 1rem"
+  >
+    👁 View {{ include.label }} (PDF)
+  </a>
+  <a
+    class="btn btn--secondary"
+    href="{{ include.file | relative_url }}"
+    download
+    style="margin-bottom: 1rem"
+  >
+    ⬇ Download
+  </a>
+</div>
