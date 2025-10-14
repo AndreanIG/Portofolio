@@ -6,11 +6,9 @@ permalink: /projects/cser-emotion-recognition/
 description: "Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation."
 ---
 
-<section class="lead" style="text-align: justify;">
 This project was one of the hardest and most technically demanding research works I have ever completed.  
 The paper, <strong>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</strong>, introduces a multimodal system that integrates <strong>Vision Transformers (ViT)</strong> and <strong>Vision-Language Models (VLMs)</strong> — specifically LLaVA and BLIP — to improve emotion recognition in complex, real-world settings.  
 It was written in collaboration with <strong>Dr. Thuseethan Selvarajah</strong>, <strong>Prof. Sutharshan Rajasegarar</strong>, and <strong>Prof. John Yearwood</strong> from Deakin University, and submitted to <em>IEEE Transactions on Multimedia</em>.
-</section>
 
 ---
 

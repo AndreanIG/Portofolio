@@ -13,7 +13,7 @@ It was my first real encounter with the theory and practice behind machine learn
 
 ---
 
-### Learning the Fundamentals
+### 🌱 Learning the Fundamentals
 
 The Explore ML program covered the **core concepts of machine learning**, including supervised and unsupervised learning, model training, and data preprocessing.  
 We learned how algorithms identify patterns, make predictions, and improve over time.  
@@ -24,7 +24,7 @@ That simple success made me realize how much I enjoyed experimenting with data a
 
 ---
 
-### Collaboration and Mentorship
+### 🤝 Collaboration and Mentorship
 
 The sessions were guided by mentors from the **Google Developer Student Clubs (GDSC)** community.  
 Working alongside peers from diverse backgrounds made the learning process even more engaging.  
@@ -34,7 +34,7 @@ It wasn’t just about technical skills; it was about learning how to think like
 
 ---
 
-### Reflection
+### 💭 Reflection
 
 Looking back, the Explore ML program gave me more than just an introduction to AI.  
 It taught me that curiosity is the key ingredient to learning anything new.  
