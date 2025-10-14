@@ -6,11 +6,11 @@ permalink: /projects/kinectfusion-3d-reconstruction/
 description: "Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes."
 ---
 
-<section class="lead" style="text-align: justify;">
+
 This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.  
 The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.  
 The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.
-</section>
+
 
 ---
 

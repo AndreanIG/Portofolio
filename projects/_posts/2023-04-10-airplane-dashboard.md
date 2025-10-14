@@ -6,11 +6,10 @@ permalink: /projects/tableau-powerbi-dashboard/
 description: "Developed dual dashboards in Tableau and Power BI for analyzing the 2013 NYC flight weather dataset, focusing on wind speed and precipitation patterns at LGA, JFK, and EWR airports."
 ---
 
-<section class="lead" style="text-align: justify;">
-This project was completed as part of the postgraduate coursework for <strong>SIT731: Data Wrangling</strong> at Deakin University.  
-The task involved creating interactive dashboards using <strong>Tableau Public</strong> and <strong>Power BI</strong> to visualize meteorological data from three New York airports (LGA, JFK, and EWR) during 2013.  
+
+The project involved creating interactive dashboards using <strong>Tableau Public</strong> and <strong>Power BI</strong> to visualize meteorological data from three New York airports (LGA, JFK, and EWR) during 2013.  
 The objective was to compute and visualize the daily and monthly mean wind speeds, identify the windiest days, and compare analytical results across both visualization platforms.
-</section>
+
 
 ---
 

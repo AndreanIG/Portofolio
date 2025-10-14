@@ -4,6 +4,8 @@ title: "Endless Runner: Temple Runner Game"
 subtitle: "Building a 3D lane-switcher with shaders, baked lighting, particles, and UI in Unity."
 permalink: /projects/temple-runner/
 description: "A 3D endless runner for PC featuring randomly generated terrain, collectible coins, power-ups, baked lighting, particle effects, and a responsive UI. Built as part of KTU’s Development of Computer Games and Interactive Applications."
+accent_color: rgb(255, 153, 51)
+date: 2022-03-01
 ---
 
 <section class="lead" style="text-align: justify;">
@@ -37,6 +39,8 @@ Our team created a <strong>3D endless runner</strong> with lane switching, coin 
 
 ### ⚙️ Implementation Highlights
 
+![Development process in Unity Editor showing obstacle setup](/assets/img/game-dev.png){: .img-fluid .rounded .shadow }
+
 #### 1) Shaders & X-ray
 - Custom shader work to add a **blinking light** on cones (red/orange hue) for readability and feedback.  
 - **X-ray effect** used for stylistic visibility cues through occluding geometry.
@@ -49,6 +53,8 @@ Our team created a <strong>3D endless runner</strong> with lane switching, coin 
 - Built with **Unity Canvas** + Text/Buttons.  
 - Interaction handled via a menu controller script attached to an empty GameObject under the UI hierarchy.  
 - Buttons: **Start** (loads gameplay) and **Exit** (quits application).
+
+![Main menu of the Temple Runner game showing Start and Exit buttons](/assets/img/game-menu.png){: .img-fluid .rounded .shadow }
 
 #### 4) Coin Prefab & Animation
 - Created an **80×16** sprite strip split into **16×16** frames.  
@@ -69,6 +75,9 @@ Our team created a <strong>3D endless runner</strong> with lane switching, coin 
 ### 🧩 Architecture & Systems
 
 - **Procedural Track/Obstacle Spawning:** Segments and hazards generated ahead of the player; difficulty escalates over distance.  
+
+![Procedural infinite terrain generation in Temple Runner gameplay](/assets/img/game-terrain.png){: .img-fluid .rounded .shadow }
+
 - **Scoring:** Distance-based score with coin multipliers; UI updates in real time.  
 - **Game State:** Start → Running → Game Over; menu and HUD toggle based on state.  
 - **Performance:** Baked lighting + lightweight shaders keep frame times stable; particle systems pooled to avoid spikes.

@@ -6,11 +6,8 @@ permalink: /projects/face-mapping/
 description: "Internship project at Telkom Indonesia: Developed a face mapping API for employee attendance, overcoming real-world dataset and deployment challenges with DLIB, OpenCV, and data cleaning."
 ---
 
-![Face Mapping Example](/assets/img/projects/face-sample.png)
 
-<section class="lead" style="text-align: justify;">
 <strong>Face Mapping API</strong> was developed as part of my Data Scientist internship at <strong>Telkom Indonesia</strong> (October–November 2022), supervised by Tryan Aditya Putra. The main goal was to automate the recognition of employee faces in attendance photos (flag ceremony) using deep learning, making the attendance process more efficient and reliable.
-</section>
 
 ## Problem
 
@@ -34,11 +31,17 @@ Telkom needed a system to automate the mapping and recognition of employee faces
 - **Fallback logic:** For problematic Zoom images, extracted the first detected face in a red background.
 
 ### Results
+![Training Example](/assets/img/face-train.png)
+{:.figcaption}
+*Example of Zoom screenshot used for training (blurred for privacy).*
+
+![Face Mapping Result](/assets/img/face-api.jpg)
+{:.figcaption}
+*Example of automated face detection and mapping on group attendance photos (blurred for privacy).*
 
 - **Automated Face Mapping API** ready for internal use, enabling more accurate, automated attendance tracking.
 - Increased face recognition accuracy on Telkom’s real-world dataset despite messy labels and inconsistent input.
 - Built practical skills in troubleshooting, iterative solution design, and data cleaning for computer vision projects.
-
 ## Key Learnings
 
 - **Requirement Analysis:** Interpreted project specs directly from supervisor direction and user needs, adapting rapidly as requirements evolved.
@@ -47,7 +50,7 @@ Telkom needed a system to automate the mapping and recognition of employee faces
 
 ## Reflection
 
-Working on Face Mapping at Telkom challenged me to go beyond textbook ML — I learned that real-world AI projects are less about perfect algorithms and more about adapting to messy data and business needs. Rapid feedback and iterative problem-solving were crucial, and overcoming technical bottlenecks (like memory limits and poor labeling) made this project one of my most hands-on computer vision experiences.
+Working on Face Mapping at Telkom challenged me to go beyond textbook Machine Learning, I learned that real-world AI projects are less about perfect algorithms and more about adapting to messy data and business needs. Rapid feedback and iterative problem-solving were crucial, and overcoming technical bottlenecks (like memory limits and poor labeling) made this project one of my most hands-on computer vision experiences.
 
 ---
 

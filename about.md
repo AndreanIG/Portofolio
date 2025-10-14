@@ -30,18 +30,18 @@ Hi! I’m **Andrean Ignasius**, a **Data Scientist and Software Engineer** based
 ---
 
 ### 🌱 Outside of Work
-I love **games**, **design**, and **exploring emerging tech** — from generative AI tools to new **vision-language models**.  
+I love **games**, **design**, and **exploring emerging tech** starting from generative AI tools to new **vision-language models**.  
 I also enjoy **pet-sitting** and staying active, balancing technical focus with creativity and care.
 
 ---
 
 ## 🧾 A Printable Resume
-Get a resume that’s consistent across the board — whether it’s on the web, mobile, print, or PDF.  
+Get my resume that’s consistent across the board, whether it’s on the web, mobile, print, or PDF.  
 Explore the full sections below:
 
-- 🧠 [Resume Page](/resume/) — structured, detailed CV  
-- 💼 [Career Highlights](/career/) — professional journey and experiences  
-- 🧩 [Projects](/projects/) — selected portfolio and case studies  
+- 🧠 [Resume Page](/resume/) — structured, detailed resume  
+- 💼 [Career Highlights](/career/) — my journey and experiences  
+- 🧩 [Projects](/projects/) — portfolio that I'm proud of
 
 You can also download a printable PDF directly from the **Resume** page.
 

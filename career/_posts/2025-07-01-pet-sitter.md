@@ -1,63 +1,48 @@
 ---
 layout: page
 title: "Pet Sitter — Camp Paws"
-subtitle: "Caring for pets, building trust, and finding joy in quiet companionship."
+subtitle: "Learning empathy and trust through caring for dogs in their own homes."
 permalink: /career/pet-sitter/
-description: "A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species."
+description: "My experience as a freelance pet sitter with Camp Paws in Melbourne, visiting clients’ homes to care for their dogs, facing early rejections, and learning patience and empathy through every visit."
 accent_color: rgb(79,177,186)
 date: 2025-07-01
 ---
 
 <section class="lead" style="text-align: justify;">
-When I started working as a <strong>Pet Sitter at Camp Paws</strong> in Melbourne, I thought it would be simple. Feed them, walk them, keep them company. But it turned out to be so much more. Each animal had its own personality, routine, and little quirks that made every day feel different from the one before.
+I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care and companionship. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in unfamiliar environments.
 </section>
 
 ---
 
-### 🐾 Getting to Know the Pack
+### 🐾 Starting Out
 
-The first few days were a blur of wagging tails, curious eyes, and a lot of barking. Some dogs were shy, others greeted me like an old friend. Cats, of course, acted like they owned the place. It took time for them to trust me. I learned to speak their language, not through words, but through patience, rhythm, and consistency.
+Camp Paws did not have a physical office. Everything was managed through <strong>WhatsApp</strong> and a specialized application. I applied for several assignments when I first joined, but many were rejected. Some clients preferred sitters with more experience or longer availability. At first, it was disappointing, but I learned to approach each rejection as a chance to improve. I refined how I introduced myself, how I communicated reliability, and how I described my previous experience with animals.
 
-![Golden retriever looking out a window](/assets/img/career-petsitter-dogwindow.jpg){: .img-fluid .rounded .shadow }
-
-One dog named Milo always refused to eat unless I sat next to him. Another, Daisy, only calmed down when I hummed softly during walks. Every pet had a story, and I slowly became part of those stories, one walk and one meal at a time.
+Eventually, I began to receive more trust from clients. The first few visits were careful and quiet. I entered other people’s homes, followed instructions precisely, and took time to understand each dog’s habits. I learned to be patient and consistent, especially with animals that took time to warm up to new people.
 
 ---
 
-### 🌞 Mornings at Camp Paws
+### 🐶 The Dogs I Remember Most
 
-Mornings began early. The city was quiet, and the air carried the smell of wet grass and coffee from the nearby café. I would start by feeding the dogs, checking their water bowls, and making sure each one got a bit of attention before their walks. There was a peaceful rhythm to it — the kind that makes you forget about time for a while.
+Among the many dogs I cared for, three stand out in my memory: <strong>Ivy</strong>, <strong>Ziggy</strong>, and <strong>Kreuzer</strong>.  
+Ivy was gentle and alert, always watching before coming close. Ziggy liked to follow routines and noticed every small change. Kreuzer was strong and playful, but needed calm handling when walking outdoors. They each taught me something different about care and observation.
 
-![Dog on morning walk in park](/assets/img/career-petsitter-walk.jpg){: .img-fluid .rounded .shadow }
-
-Walking through the park with four dogs at once was always an adventure. Some wanted to chase birds, others wanted to roll in the grass. It was both chaos and calm at the same time, and I learned how to find balance in the middle of it.
-
----
-
-### 🐶 Little Lessons from Quiet Companions
-
-What surprised me most was how much the animals taught me. They reminded me that care is not about control but about understanding. You cannot rush trust; you have to earn it with consistency and calm energy. The more time I spent with them, the more I realized that the same principles apply to people.
-
-![Dog resting on blanket at home](/assets/img/career-petsitter-blanket.jpg){: .img-fluid .rounded .shadow }
-
-Some days were exhausting, especially when owners called last minute or a pet got sick. But seeing the joy in their eyes when they recognized me made it all worth it. There is something grounding about being trusted by a creature that speaks no words yet understands everything through your tone and patience.
+Through them, I learned that trust is not something that can be rushed. It is built through quiet repetition, small gestures, and consistent presence. These lessons stayed with me long after each visit ended.
 
 ---
 
-### ❤️ Saying Goodbye
+### ✨ Lessons Learned
 
-The hardest part was always the goodbyes. Pets would rush to the door, tails wagging, as their owners returned from trips. The house would suddenly feel a little quieter. It was bittersweet — a small reminder that I had done my job well.
+Working as a pet sitter was not only about caring for animals. It was about developing patience and empathy in practical ways. I learned that communication is more than what is spoken. Dogs respond to tone, energy, and rhythm. The way I moved or reacted could change how they behaved. This awareness also improved how I interacted with clients, helping me communicate clearly and respectfully.
 
-![Owner hugging their dog at pickup](/assets/img/career-petsitter-goodbye.jpg){: .img-fluid .rounded .shadow }
-
-Each visit was a small connection, a reminder of how simple and pure trust can be when it is built with care. I left every home with a little fur on my clothes and a full heart.
+The rejections I faced at the beginning reminded me to be humble and persistent. Over time, I learned that responsibility grows not just from experience but from reliability and genuine care.
 
 ---
 
-### 💭 What I Learned
+### 💭 Reflection
 
-Being a pet sitter taught me the quiet power of empathy. Animals notice your energy more than your words. They teach you to slow down, to listen, and to stay present. Caring for them is not only about responsibility but also about respect.
+This experience reminded me of my own pets, the routines I used to have with them, and how much those small moments meant to me. Being around Ivy, Ziggy, and Kreuzer gave me a sense of home in a different city. It also helped me appreciate the simple value of care such as showing up on time, keeping promises, and being patient when things do not go as planned.
 
-It reminded me that kindness is not something grand. Sometimes, it looks like filling a bowl of water, going for one more walk in the rain, or sitting beside a restless dog until it falls asleep.
+Every visit taught me something about trust and consistency, both in animals and in people. It was quiet work, but it left a lasting impression on how I understand empathy and communication.
 
-<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>
+<p><small><em>March 2024 – July 2025 · Freelance Pet Sitter via Camp Paws · Melbourne, Australia</em></small></p>

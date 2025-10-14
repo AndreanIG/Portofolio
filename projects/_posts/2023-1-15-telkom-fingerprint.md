@@ -6,7 +6,9 @@ permalink: /projects/fingerprint-detection/
 description: "Developed multi-stage fingerprint classification and segmentation models as part of an AI platform for Telkom Indonesia, uisng SWIN and Vision Transformers for parent/subclass detection and ridge counting."
 ---
 
-![Sample Fingerprint Image](/assets/projects/fingerprint/sample.jpg)
+![Fingerprint Ridge Patterns](/assets/img/fingerprint-sample.png)
+{:.figcaption}
+*Public domain example of fingerprint ridge patterns (arches, loops, whorls). Shown here for illustrative purposes only; Telkom dataset images remain private.*
 
 <section class="lead" style="text-align: justify;">
 <strong>Fingerprint Detection</strong> was a complex AI project at <strong>Telkom Indonesia</strong> focused on automating the identification and classification of fingerprint patterns, a crucial part of their AI platform for workforce management and security.
@@ -38,8 +40,7 @@ Manual fingerprint validation was inefficient and error-prone, especially at Tel
 
 - Delivered a working prototype for fingerprint detection and classification, meeting supervisor’s requirements for minimum accuracy and segmentation quality.
 - Automated multi-stage processing pipeline, enabling future scalability for workforce management and security systems.
-- Developed troubleshooting skills for complex, real-world AI problems, including imbalanced datasets and model instability (e.g., NaN losses).
-
+- Developed troubleshooting skills for complex, real-world AI problems, including imbalanced datasets and model instability
 ## Key Learnings
 
 - **Cutting-Edge Model Application:** Acquired practical experience with state-of-the-art vision architectures (SWIN, ViT) and their deployment in production-like environments.

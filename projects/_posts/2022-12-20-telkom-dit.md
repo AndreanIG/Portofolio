@@ -6,7 +6,9 @@ permalink: /projects/dit-image-classification/
 description: "Developed and iteratively improved a computer vision model to classify and validate IndiHome installation photos according to Telkom’s business procedures. Integrated SWIN Transformers and advanced data cleaning for multi-label, multi-class classification."
 ---
 
-![Sample IndiHome Installation Image](/assets/projects/dit/sample.jpg)
+![Sample IndiHome Installation Image](/assets/img/clamp.jpeg)
+{:.figcaption}
+*Example of IndiHome clamp installation photo used in the dataset (client personal information omitted for privacy).*
 
 <section class="lead" style="text-align: justify;">
 <strong>DIT (IndiHome Installation Tracker)</strong> was an AI project assigned during my Data Scientist internship at <strong>Telkom Indonesia</strong>. The project aimed to automate validation of IndiHome installation photos—ensuring all technical requirements were met—using a deep learning approach tailored to Telkom’s strict quality criteria.

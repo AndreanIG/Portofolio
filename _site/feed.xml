@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-11T19:04:46+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-14T16:54:51+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
 </subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-07T20:02:18+11:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
@@ -191,59 +191,104 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
   </tbody>
 </table>
 
-<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-07T17:43:42+11:00</updated><id>http://localhost:4000/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
-When I started working as a <strong>Pet Sitter at Camp Paws</strong> in Melbourne, I thought it would be simple. Feed them, walk them, keep them company. But it turned out to be so much more. Each animal had its own personality, routine, and little quirks that made every day feel different from the one before.
+<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-14T16:12:59+11:00</updated><id>http://localhost:4000/career/deakin</id><content type="html" xml:base="http://localhost:4000/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
+This postgraduate program deepened my understanding of data science, machine learning, and AI systems, focusing on both technical proficiency and ethical application.</p>
+
+<hr />
+
+<h3 id="-academic-focus">📘 Academic Focus</h3>
+
+<p>The Master of Data Science (Professional) at Deakin combines mathematics, programming, and applied AI research.<br />
+Across two years, I worked on projects involving model interpretability, automation, and real-world deployment, while strengthening my analytical and communication skills.</p>
+
+<p>Core subjects completed include:</p>
+
+<ul>
+  <li><strong>SIT720 Machine Learning</strong></li>
+  <li><strong>SIT743 Bayesian Learning and Graphical Models</strong></li>
+  <li><strong>SIT741 Statistical Data Analysis</strong></li>
+  <li><strong>SIT742 Modern Data Science</strong></li>
+  <li><strong>SIT744 Deep Learning</strong></li>
+  <li><strong>SIT796 Reinforcement Learning</strong></li>
+  <li><strong>SIT787 Mathematics for Artificial Intelligence</strong></li>
+  <li><strong>SIT788 Engineering AI Solutions</strong></li>
+  <li><strong>SIT789 Robotics, Computer Vision and Speech Processing</strong></li>
+  <li><strong>SIT799 Human Aligned Artificial Intelligence</strong></li>
+  <li><strong>SIT723 Research Techniques and Applications</strong></li>
+  <li><strong>SIT753 Professional Practice in Information Technology</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="-key-achievements">🏅 Key Achievements</h3>
+
+<ul>
+  <li>Graduated <strong>18 September 2025</strong> with the award <em>Master of Data Science (Professional)</em></li>
+  <li>Earned all <strong>High Distinction (HD)</strong> and <strong>Distinction (D)</strong> grades, including a <strong>High Distinction (95%) in Engineering AI Solutions</strong></li>
+  <li>Completed research coursework focusing on responsible AI and model reliability</li>
+</ul>
+
+<hr />
+
+<h3 id="-research-and-coursework-highlights">🔬 Research and Coursework Highlights</h3>
+
+<p><strong>Research Techniques and Applications (HD 93)</strong><br />
+Conducted applied research on model evaluation and interpretability using real-world data.</p>
+
+<p><strong>Engineering AI Solutions (HD 95)</strong><br />
+Designed and deployed an end-to-end deep learning solution involving multimodal input and model optimisation, integrating Python-based frameworks with modern MLOps workflows.</p>
+
+<p><strong>Professional Practice in IT (HD 90)</strong><br />
+Completed an industry-aligned project evaluating software pipelines and AI reliability metrics, strengthening communication and documentation practices for technical teams.</p>
+
+<hr />
+
+<h3 id="-reflection">💭 Reflection</h3>
+
+<p>My time at Deakin taught me to approach AI as both a science and a social responsibility.<br />
+The program encouraged me to think critically about bias, interpretability, and fairness in data-driven systems.<br />
+It also helped me develop confidence in presenting technical work to non-technical audiences and collaborating across disciplines.</p>
+
+<p>This degree built on my undergraduate foundation and prepared me for work at the intersection of <strong>machine learning, research, and applied AI design</strong>.</p>
+
+<p><small><em>Graduated September 2025 · Deakin University, School of Information Technology · CRICOS Provider 00113B</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My postgraduate journey at Deakin University, where I specialised in AI and Computer Vision, explored deep learning and reinforcement learning, and developed research in real-world analytics and ethical AI.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-11T19:18:57+11:00</updated><id>http://localhost:4000/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
+I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care and companionship. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in unfamiliar environments.
 </section>
 
 <hr />
 
-<h3 id="-getting-to-know-the-pack">🐾 Getting to Know the Pack</h3>
+<h3 id="-starting-out">🐾 Starting Out</h3>
 
-<p>The first few days were a blur of wagging tails, curious eyes, and a lot of barking. Some dogs were shy, others greeted me like an old friend. Cats, of course, acted like they owned the place. It took time for them to trust me. I learned to speak their language, not through words, but through patience, rhythm, and consistency.</p>
+<p>Camp Paws did not have a physical office. Everything was managed through <strong>WhatsApp</strong> and a specialized application. I applied for several assignments when I first joined, but many were rejected. Some clients preferred sitters with more experience or longer availability. At first, it was disappointing, but I learned to approach each rejection as a chance to improve. I refined how I introduced myself, how I communicated reliability, and how I described my previous experience with animals.</p>
 
-<p><img src="/assets/img/career-petsitter-dogwindow.jpg" alt="Golden retriever looking out a window" class="img-fluid rounded shadow" /></p>
-
-<p>One dog named Milo always refused to eat unless I sat next to him. Another, Daisy, only calmed down when I hummed softly during walks. Every pet had a story, and I slowly became part of those stories, one walk and one meal at a time.</p>
+<p>Eventually, I began to receive more trust from clients. The first few visits were careful and quiet. I entered other people’s homes, followed instructions precisely, and took time to understand each dog’s habits. I learned to be patient and consistent, especially with animals that took time to warm up to new people.</p>
 
 <hr />
 
-<h3 id="-mornings-at-camp-paws">🌞 Mornings at Camp Paws</h3>
+<h3 id="-the-dogs-i-remember-most">🐶 The Dogs I Remember Most</h3>
 
-<p>Mornings began early. The city was quiet, and the air carried the smell of wet grass and coffee from the nearby café. I would start by feeding the dogs, checking their water bowls, and making sure each one got a bit of attention before their walks. There was a peaceful rhythm to it — the kind that makes you forget about time for a while.</p>
+<p>Among the many dogs I cared for, three stand out in my memory: <strong>Ivy</strong>, <strong>Ziggy</strong>, and <strong>Kreuzer</strong>.<br />
+Ivy was gentle and alert, always watching before coming close. Ziggy liked to follow routines and noticed every small change. Kreuzer was strong and playful, but needed calm handling when walking outdoors. They each taught me something different about care and observation.</p>
 
-<p><img src="/assets/img/career-petsitter-walk.jpg" alt="Dog on morning walk in park" class="img-fluid rounded shadow" /></p>
-
-<p>Walking through the park with four dogs at once was always an adventure. Some wanted to chase birds, others wanted to roll in the grass. It was both chaos and calm at the same time, and I learned how to find balance in the middle of it.</p>
-
-<hr />
-
-<h3 id="-little-lessons-from-quiet-companions">🐶 Little Lessons from Quiet Companions</h3>
-
-<p>What surprised me most was how much the animals taught me. They reminded me that care is not about control but about understanding. You cannot rush trust; you have to earn it with consistency and calm energy. The more time I spent with them, the more I realized that the same principles apply to people.</p>
-
-<p><img src="/assets/img/career-petsitter-blanket.jpg" alt="Dog resting on blanket at home" class="img-fluid rounded shadow" /></p>
-
-<p>Some days were exhausting, especially when owners called last minute or a pet got sick. But seeing the joy in their eyes when they recognized me made it all worth it. There is something grounding about being trusted by a creature that speaks no words yet understands everything through your tone and patience.</p>
+<p>Through them, I learned that trust is not something that can be rushed. It is built through quiet repetition, small gestures, and consistent presence. These lessons stayed with me long after each visit ended.</p>
 
 <hr />
 
-<h3 id="️-saying-goodbye">❤️ Saying Goodbye</h3>
+<h3 id="-lessons-learned">✨ Lessons Learned</h3>
 
-<p>The hardest part was always the goodbyes. Pets would rush to the door, tails wagging, as their owners returned from trips. The house would suddenly feel a little quieter. It was bittersweet — a small reminder that I had done my job well.</p>
+<p>Working as a pet sitter was not only about caring for animals. It was about developing patience and empathy in practical ways. I learned that communication is more than what is spoken. Dogs respond to tone, energy, and rhythm. The way I moved or reacted could change how they behaved. This awareness also improved how I interacted with clients, helping me communicate clearly and respectfully.</p>
 
-<p><img src="/assets/img/career-petsitter-goodbye.jpg" alt="Owner hugging their dog at pickup" class="img-fluid rounded shadow" /></p>
-
-<p>Each visit was a small connection, a reminder of how simple and pure trust can be when it is built with care. I left every home with a little fur on my clothes and a full heart.</p>
+<p>The rejections I faced at the beginning reminded me to be humble and persistent. Over time, I learned that responsibility grows not just from experience but from reliability and genuine care.</p>
 
 <hr />
 
-<h3 id="-what-i-learned">💭 What I Learned</h3>
+<h3 id="-reflection">💭 Reflection</h3>
 
-<p>Being a pet sitter taught me the quiet power of empathy. Animals notice your energy more than your words. They teach you to slow down, to listen, and to stay present. Caring for them is not only about responsibility but also about respect.</p>
+<p>This experience reminded me of my own pets, the routines I used to have with them, and how much those small moments meant to me. Being around Ivy, Ziggy, and Kreuzer gave me a sense of home in a different city. It also helped me appreciate the simple value of care such as showing up on time, keeping promises, and being patient when things do not go as planned.</p>
 
-<p>It reminded me that kindness is not something grand. Sometimes, it looks like filling a bowl of water, going for one more walk in the rain, or sitting beside a restless dog until it falls asleep.</p>
+<p>Every visit taught me something about trust and consistency, both in animals and in people. It was quiet work, but it left a lasting impression on how I understand empathy and communication.</p>
 
-<p><small><em>March 2024 – July 2025 · Camp Paws, Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[A story about my experience as a pet sitter at Camp Paws in Melbourne, caring for animals, learning patience, and discovering how empathy can cross species.]]></summary></entry><entry><title type="html">CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</title><link href="http://localhost:4000/projects/cser-emotion-recognition/" rel="alternate" type="text/html" title="CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features" /><published>2025-01-01T00:00:00+11:00</published><updated>2025-10-11T16:01:50+11:00</updated><id>http://localhost:4000/projects/vit-and-llms</id><content type="html" xml:base="http://localhost:4000/projects/cser-emotion-recognition/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>March 2024 – July 2025 · Freelance Pet Sitter via Camp Paws · Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience as a freelance pet sitter with Camp Paws in Melbourne, visiting clients’ homes to care for their dogs, facing early rejections, and learning patience and empathy through every visit.]]></summary></entry><entry><title type="html">CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</title><link href="http://localhost:4000/projects/cser-emotion-recognition/" rel="alternate" type="text/html" title="CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features" /><published>2025-01-01T00:00:00+11:00</published><updated>2025-10-11T19:18:57+11:00</updated><id>http://localhost:4000/projects/vit-and-llms</id><content type="html" xml:base="http://localhost:4000/projects/cser-emotion-recognition/"><![CDATA[<section class="lead" style="text-align: justify;">
 This project was one of the hardest and most technically demanding research works I have ever completed.  
 The paper, <strong>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</strong>, introduces a multimodal system that integrates <strong>Vision Transformers (ViT)</strong> and <strong>Vision-Language Models (VLMs)</strong> — specifically LLaVA and BLIP — to improve emotion recognition in complex, real-world settings.  
 It was written in collaboration with <strong>Dr. Thuseethan Selvarajah</strong>, <strong>Prof. Sutharshan Rajasegarar</strong>, and <strong>Prof. John Yearwood</strong> from Deakin University, and submitted to <em>IEEE Transactions on Multimedia</em>.
@@ -328,100 +373,9 @@ IEEE Transactions on Multimedia (Under Review).</p>
 
 <hr />
 
-<p><small><em>Submitted October 2025 · IEEE Transactions on Multimedia (Under Review)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation.]]></summary></entry><entry><title type="html">Smart Recycling — Waste Classification</title><link href="http://localhost:4000/projects/waste-classifier/" rel="alternate" type="text/html" title="Smart Recycling — Waste Classification" /><published>2024-10-25T00:00:00+11:00</published><updated>2025-10-11T18:31:01+11:00</updated><id>http://localhost:4000/projects/waste-classifier</id><content type="html" xml:base="http://localhost:4000/projects/waste-classifier/"><![CDATA[<p>I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme — <strong>Red (general)</strong>, <strong>Green (organics)</strong>, <strong>Yellow (recyclables)</strong> — using the <strong>RealWaste</strong> dataset.</p>
-
-<hr />
-
-<h3 id="problem--dataset">Problem &amp; Dataset</h3>
-<ul>
-  <li><strong>Task:</strong> Image → {Red, Green, Yellow} bin label to help reduce recycling contamination.</li>
-  <li><strong>Dataset:</strong> <a href="https://www.kaggle.com/datasets/joebeachcapital/realwaste">RealWaste (Kaggle)</a> (materials like Cardboard, Glass, Metal, Plastic, Food Organics, etc.), remapped to 3 bins.</li>
-  <li><strong>Split:</strong> ~80/10/10 train/val/test after regrouping images into bin folders.</li>
-</ul>
-
-<hr />
-
-<h3 id="approach">Approach</h3>
-<ul>
-  <li><strong>Baseline model:</strong> Small CNN (“WasteNet”), CrossEntropy, Adam, 50 epochs; track Accuracy, F1, Recall, Precision.</li>
-  <li><strong>Data augmentation:</strong> resize + random flip/rotation + color jitter; normalisation with ImageNet stats; applied to train only.</li>
-  <li><strong>Profiling:</strong> Compared plain vs augmented input pipelines; identified loader/CPU transforms as bottleneck; sped up with <code class="language-plaintext highlighter-rouge">num_workers=4</code>.</li>
-  <li><strong>Equal-time study:</strong> Trained “plain” vs “augmented” under the same one-hour budget to compare generalisation.</li>
-  <li><strong>Generalisation (D-task):</strong> Collected a new test set from different sources (phone/web) and built an improved CNN with BN/Dropout/Pooling.</li>
-</ul>
-
-<hr />
-
-<h3 id="results-highlights">Results (highlights)</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Setup</th>
-      <th style="text-align: right">Test Acc</th>
-      <th style="text-align: right">F1</th>
-      <th style="text-align: left">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Baseline (no augmentation)</td>
-      <td style="text-align: right">69.5%</td>
-      <td style="text-align: right">0.44</td>
-      <td style="text-align: left">—</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">With augmentation (equal time)</td>
-      <td style="text-align: right">70.6%</td>
-      <td style="text-align: right">0.47</td>
-      <td style="text-align: left">Better recall/F1</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Improved (BN/Dropout/Pooling)</td>
-      <td style="text-align: right">82.98%</td>
-      <td style="text-align: right">0.71</td>
-      <td style="text-align: left">On original test set</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">New domain test — old model</td>
-      <td style="text-align: right">~55%</td>
-      <td style="text-align: right">—</td>
-      <td style="text-align: left">Phone/web images</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">New domain test — improved model</td>
-      <td style="text-align: right">~70%</td>
-      <td style="text-align: right">—</td>
-      <td style="text-align: left">Higher F1/recall, robust</td>
-    </tr>
-  </tbody>
-</table>
-
-<p class="figcaption">Approximate values marked with “~”.</p>
-
-<hr />
-
-<h3 id="what-i-learned">What I learned</h3>
-<ul>
-  <li>Balanced <strong>recall/F1</strong> matters more than raw accuracy for waste sorting (missing positives is costly).</li>
-  <li><strong>Augmentation</strong> helps generalisation but must be profiled/tuned; parallel data loading reduced pipeline time ~5×–6×.</li>
-  <li>Architectural tweaks (<strong>BN, Dropout, Pooling</strong>) significantly improved robustness across domains.</li>
-</ul>
-
-<hr />
-
-<h3 id="tech-stack">Tech Stack</h3>
-<ul>
-  <li><strong>PyTorch</strong>, <strong>TorchVision</strong>, <strong>TensorBoard</strong>, <strong>PyTorch Profiler</strong>, <strong>scikit-learn</strong> metrics; trained on GPU where available.</li>
-</ul>
-
-<hr />
-
-<p><small><em>Andrean Ignasius</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/projects/kinectfusion-3d-reconstruction/"><![CDATA[<section class="lead" style="text-align: justify;">
-This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.  
-The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.  
-The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.
-</section>
+<p><small><em>Submitted October 2025 · IEEE Transactions on Multimedia (Under Review)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-11T19:18:57+11:00</updated><id>http://localhost:4000/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
+The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.<br />
+The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.</p>
 
 <hr />
 
@@ -518,7 +472,7 @@ Reconstructing multiple datasets reinforced concepts in:</p>
 
 <hr />
 
-<p><small><em>Completed May 2024 · SIT789: Robotics, Computer Vision &amp; Speech Processing · Deakin University</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes.]]></summary></entry><entry><title type="html">Car Msrp Classification</title><link href="http://localhost:4000/projects/2024-07-22-car-msrp-classification/" rel="alternate" type="text/html" title="Car Msrp Classification" /><published>2024-07-22T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/projects/car-msrp-classification</id><content type="html" xml:base="http://localhost:4000/projects/2024-07-22-car-msrp-classification/"><![CDATA[]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>Completed May 2024 · SIT789: Robotics, Computer Vision &amp; Speech Processing · Deakin University</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
 In May 2024, I earned the Microsoft Certified Azure AI Engineer Associate credential.  
 The program deepened my understanding of how to design, implement, and manage AI applications that run in production environments on Azure.  
 It connected theoretical knowledge of machine learning with real implementation practices using cloud infrastructure.
@@ -629,7 +583,107 @@ It provided a clear understanding of how cloud-based AI services like <strong>Az
 <p>Completing the AI-900 certification strengthened my understanding of the AI landscape and helped me see how accessible intelligent solutions can be with the right tools.<br />
 It reminded me that every advanced system starts with mastering the basics — and that curiosity is the best driver for continuous learning.</p>
 
-<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Fundamentals</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.]]></summary></entry><entry><title type="html">Bachelor of Computer Science (Global Class)</title><link href="http://localhost:4000/career/binus/" rel="alternate" type="text/html" title="Bachelor of Computer Science (Global Class)" /><published>2023-11-01T00:00:00+11:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/binus</id><content type="html" xml:base="http://localhost:4000/career/binus/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Fundamentals</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.]]></summary></entry><entry><title type="html">Smart Recycling — Waste Classification</title><link href="http://localhost:4000/projects/waste-classifier/" rel="alternate" type="text/html" title="Smart Recycling — Waste Classification" /><published>2024-04-01T00:00:00+11:00</published><updated>2025-10-11T19:18:57+11:00</updated><id>http://localhost:4000/projects/waste-classifier</id><content type="html" xml:base="http://localhost:4000/projects/waste-classifier/"><![CDATA[<p>I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme:<br />
+<strong>Red (general)</strong>, <strong>Green (organics)</strong>, and <strong>Yellow (recyclables)</strong> — using the <strong>RealWaste</strong> dataset.</p>
+
+<hr />
+
+<h3 id="-problem--dataset">🧩 Problem &amp; Dataset</h3>
+<ul>
+  <li><strong>Task:</strong> Image → {Red, Green, Yellow} bin label to help reduce recycling contamination.</li>
+  <li><strong>Dataset:</strong> <a href="https://www.kaggle.com/datasets/joebeachcapital/realwaste">RealWaste (Kaggle)</a> (materials like Cardboard, Glass, Metal, Plastic, Food Organics, etc.), remapped to 3 bins.</li>
+  <li><strong>Split:</strong> ~80/10/10 train/val/test after regrouping images into bin folders.</li>
+</ul>
+
+<p><img src="/assets/img/project-waste-train.png" alt="Training dataset distribution and samples" class="img-fluid rounded shadow" /><br />
+<small><em>Sample images and distribution from the training dataset.</em></small></p>
+
+<hr />
+
+<h3 id="️-approach">⚙️ Approach</h3>
+<ul>
+  <li><strong>Baseline model:</strong> Small CNN (“WasteNet”), CrossEntropy, Adam, 50 epochs; track Accuracy, F1, Recall, Precision.</li>
+  <li><strong>Data augmentation:</strong> resize + random flip/rotation + color jitter; normalisation with ImageNet stats; applied to train only.</li>
+  <li><strong>Profiling:</strong> Compared plain vs augmented input pipelines; identified loader/CPU transforms as bottleneck; sped up with <code class="language-plaintext highlighter-rouge">num_workers=4</code>.</li>
+  <li><strong>Equal-time study:</strong> Trained “plain” vs “augmented” under the same one-hour budget to compare generalisation.</li>
+  <li><strong>Generalisation (D-task):</strong> Collected a new test set from different sources (phone/web) and built an improved CNN with BN/Dropout/Pooling.</li>
+</ul>
+
+<p><img src="/assets/img/project-waste-plain.png" alt="Training result of plain baseline model" class="img-fluid rounded shadow" /><br />
+<small><em>Result on baseline (plain) model — accuracy and F1 on validation set.</em></small></p>
+
+<hr />
+
+<h3 id="-results-highlights">📊 Results (highlights)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Setup</th>
+      <th style="text-align: right">Test Acc</th>
+      <th style="text-align: right">F1</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Baseline (no augmentation)</td>
+      <td style="text-align: right">69.5%</td>
+      <td style="text-align: right">0.44</td>
+      <td style="text-align: left">—</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">With augmentation (equal time)</td>
+      <td style="text-align: right">70.6%</td>
+      <td style="text-align: right">0.47</td>
+      <td style="text-align: left">Better recall/F1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Improved (BN/Dropout/Pooling)</td>
+      <td style="text-align: right">82.98%</td>
+      <td style="text-align: right">0.71</td>
+      <td style="text-align: left">On original test set</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New domain test — old model</td>
+      <td style="text-align: right">~55%</td>
+      <td style="text-align: right">—</td>
+      <td style="text-align: left">Phone/web images</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New domain test — improved model</td>
+      <td style="text-align: right">~70%</td>
+      <td style="text-align: right">—</td>
+      <td style="text-align: left">Higher F1/recall, robust</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="figcaption">Approximate values marked with “~”.</p>
+
+<p><img src="/assets/img/project-waste-improved.png" alt="Comparison of improved model results on new domain data" class="img-fluid rounded shadow" /><br />
+<small><em>Improved model showing higher F1 and better domain robustness.</em></small></p>
+
+<hr />
+
+<h3 id="-what-i-learned">🧠 What I Learned</h3>
+<ul>
+  <li>Balanced <strong>recall/F1</strong> matters more than raw accuracy for waste sorting (missing positives is costly).</li>
+  <li><strong>Augmentation</strong> helps generalisation but must be profiled/tuned; parallel data loading reduced pipeline time ~5×–6×.</li>
+  <li>Architectural tweaks (<strong>BN, Dropout, Pooling</strong>) significantly improved robustness across domains.</li>
+</ul>
+
+<hr />
+
+<h3 id="-tech-stack">🧰 Tech Stack</h3>
+<ul>
+  <li><strong>PyTorch</strong>, <strong>TorchVision</strong>, <strong>TensorBoard</strong>, <strong>PyTorch Profiler</strong>, <strong>scikit-learn</strong> metrics.</li>
+  <li>Trained on GPU where available.</li>
+</ul>
+
+<hr />
+
+<p><small><em>Andrean Ignasius</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">Bachelor of Computer Science (Global Class)</title><link href="http://localhost:4000/career/binus/" rel="alternate" type="text/html" title="Bachelor of Computer Science (Global Class)" /><published>2023-11-01T00:00:00+11:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/binus</id><content type="html" xml:base="http://localhost:4000/career/binus/"><![CDATA[<section class="lead" style="text-align: justify;">
 I completed my **Bachelor of Computer Science (Global Class)** at **Bina Nusantara University**, Indonesia, with a GPA of **3.85 / 4.00**.  
 This program shaped my foundation in computer science, blending strong technical skills with creativity, teamwork, and a global perspective.
 </section>
@@ -653,16 +707,16 @@ Some key subjects that shaped my journey included:</p>
 
 <hr />
 
-<h3 id="-key-projects">🧩 Key Projects</h3>
+<h3 id="-key-projects">💻 Key Projects</h3>
 
-<p><strong>🏡 Thesis — Web-Based Boarding House Marketplace (VILT Stack)</strong><br />
+<p><strong>Thesis — Web-Based Boarding House Marketplace (VILT Stack)</strong><br />
 Developed a full-stack application using <strong>Vue</strong>, <strong>Inertia</strong>, <strong>Laravel</strong>, and <strong>Tailwind</strong> to streamline room booking and management.<br />
 This project strengthened my understanding of modern web architecture and user-centered system design.</p>
 
-<p><strong>🤖 Artificial Intelligence Coursework</strong><br />
+<p><strong>Artificial Intelligence Coursework</strong><br />
 Built models for <strong>image classification</strong> and <strong>basic computer vision</strong>, which later inspired my research and professional interests in AI.</p>
 
-<p><strong>💻 Software Engineering Labs</strong><br />
+<p><strong>Software Engineering Labs</strong><br />
 Applied agile methods, conducted code reviews, and delivered small-scale projects simulating real product environments.</p>
 
 <hr />
@@ -685,10 +739,10 @@ Represented BINUS in an international semester program, exploring European appro
 
 <h3 id="-reflection">💭 Reflection</h3>
 
-<p>Studying at BINUS taught me how to balance technical precision with creativity — from building algorithms to designing intuitive systems.<br />
+<p>Studying at BINUS taught me how to balance technical and intrapersonal skills from building algorithms to designing intuitive systems.<br />
 It was the foundation that fueled my passion for data science, AI, and creating technology that makes an impact.</p>
 
-<p><small><em>Graduated September 2023 · Bina Nusantara University, School of Computer Science</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry><entry><title type="html">BHFMS — Boarding House Finder &amp;amp; Management System (VILT)</title><link href="http://localhost:4000/projects/bhfms/" rel="alternate" type="text/html" title="BHFMS — Boarding House Finder &amp;amp; Management System (VILT)" /><published>2023-09-15T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/projects/bhfms</id><content type="html" xml:base="http://localhost:4000/projects/bhfms/"><![CDATA[<p><img src="/assets/img/projects/bhfms.gif" alt="BHFMS Logo" /></p>
+<p><small><em>Graduated September 2023 · Bina Nusantara University, School of Computer Science</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry><entry><title type="html">BHFMS — Boarding House Finder &amp;amp; Management System (VILT)</title><link href="http://localhost:4000/projects/bhfms/" rel="alternate" type="text/html" title="BHFMS — Boarding House Finder &amp;amp; Management System (VILT)" /><published>2023-09-15T00:00:00+10:00</published><updated>2025-10-11T19:18:57+11:00</updated><id>http://localhost:4000/projects/bhfms</id><content type="html" xml:base="http://localhost:4000/projects/bhfms/"><![CDATA[<p><img src="/assets/img/projects/bhfms.gif" alt="BHFMS Logo" /></p>
 <h3 id="demo">Project Demo</h3>
 <p>
   <a class="btn" href="https://youtu.be/u0tEqIIhDS0" target="_blank" rel="noopener">

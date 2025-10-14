@@ -19,7 +19,8 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 
 | Year | Milestone | Organization |
 |:----:|:-----------|:-------------|
-| **2025** | [Pet Sitter](/career/pet-sitter/) | Camp Paws |
+| **2025** | [Graduated M.DataSci (Professional) — AI & Computer Vision](/career/deakin/) | Deakin University |
+|  | [Pet Sitter](/career/pet-sitter/) | Camp Paws |
 |  | [Microsoft Certified: Azure AI Engineer Associate (AI-102)](/career/azure-ai102/) | Microsoft |
 |  | [Microsoft Certified: Azure AI Fundamentals (AI-900)](/career/azure-ai900/) | Microsoft |
 | **2023** | [Graduated B.CompSci (Global Class)](/career/binus/) | Bina Nusantara University |
@@ -33,3 +34,5 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 
 
 ---
+
+# All Posts
