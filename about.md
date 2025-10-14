@@ -39,9 +39,10 @@ I also enjoy **pet-sitting** and staying active, balancing technical focus with 
 Get my resume that’s consistent across the board, whether it’s on the web, mobile, print, or PDF.  
 Explore the full sections below:
 
-- 🧠 [Resume Page](Portofolio/resume/) — structured, detailed resume  
-- 💼 [Career Highlights](Portofolio/career/) — my journey and experiences  
-- 🧩 [Projects](Portofolio/projects/) — portfolio that I'm proud of
+- 🧠 [Resume Page]({{ '/Portofolio/resume/' | relative_url }}) — structured, detailed resume  
+- 💼 [Career Highlights]({{ '/Portofolio/career/' | relative_url }}) — my journey and experiences  
+- 🧩 [Projects]({{ '/Portofolio/projects/' | relative_url }}) — portfolio that I'm proud of
+
 
 You can also download a printable PDF directly from the **Resume** page.
 
