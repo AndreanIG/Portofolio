@@ -9,7 +9,7 @@ date: 2025-07-01
 ---
 
 <section class="lead" style="text-align: justify;">
-I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care and companionship. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in unfamiliar environments.
+I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in new environments.
 </section>
 
 ---
