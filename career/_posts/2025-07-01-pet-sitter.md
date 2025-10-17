@@ -41,8 +41,6 @@ The rejections I faced at the beginning reminded me to be humble and persistent.
 
 ### 💭 Reflection
 
-This experience reminded me of my own pets, the routines I used to have with them, and how much those small moments meant to me. Being around Ivy, Ziggy, and Kreuzer gave me a sense of home in a different city. It also helped me appreciate the simple value of care such as showing up on time, keeping promises, and being patient when things do not go as planned.
+This experience reminded me of my dogs back home, all those moment I used to have with them, and how much those memories meant to me. Being around Ivy, Ziggy, and Kreuzer gave me a sense of home in a different country. It helped me appreciate the simple value of care such as showing up on time, keeping promises, and being patient when things do not go as planned.
 
-Every visit taught me something about trust and consistency, both in animals and in people. It was quiet work, but it left a lasting impression on how I understand empathy and communication.
-
-<p><small><em>March 2024 – July 2025 · Freelance Pet Sitter via Camp Paws · Melbourne, Australia</em></small></p>
+<p><small><em>“Pet sitting taught me that trust—like care—grows slowly through quiet presence and genuine consistency.”</em></small></p>

@@ -48,4 +48,4 @@ My time at KTU was more than just an exchange; it was a test of independence and
 I learned how to collaborate across cultures, communicate ideas in different contexts, and work through new academic challenges.  
 Every project from Unity game to database-driven website further my skills in creativity and problem-solving.
 
-<p><small><em>February – June 2022 · Faculty of Informatics, Kaunas University of Technology, Lithuania</em></small></p>
+<p><small><em>“My exchange at KTU taught me that technology becomes truly powerful when creativity, curiosity, and culture come together.”</em></small></p>

@@ -27,7 +27,6 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 | **2022** | [Data Scientist Internship](telkom/) | Telkom Indonesia |
 |  | [Student Exchange Program](ktu/) | Kaunas University of Technology |
 |  | [Google Explore ML](exploreml/) | Google |
-| **2021** | [Best Research Paper Award](iccscipaper-award/) | ICCSCI 2021 |
 | **2019** | [Librarian](librarian/) | Citra Kasih Grade School |
 | **2018** | [Finalist — Mobile App Programming Competition](sgu-finalist/) | Swiss German University |
 |  | [Teaching Volunteer](teaching-volunteer/) | Bojong Koneng Village |
@@ -35,4 +34,4 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 
 ---
 
-# All Posts
+# All Posts for Careers

@@ -16,7 +16,7 @@ For several weeks, I worked with **Grade 6 students** to help them prepare for I
 
 ---
 
-### Teaching and Learning
+### 📖 Teaching and Learning
 
 The students I worked with came from humble backgrounds, yet their enthusiasm to learn was inspiring.  
 Every morning began with lessons in mathematics, Indonesian, and general science, followed by review sessions for exam preparation.  
@@ -29,7 +29,7 @@ Seeing their smiles when they solved a question on their own was one of the most
 
 ---
 
-### Beyond the Classroom
+### 🌳 Beyond the Classroom
 
 In the afternoons, I helped organize **calisthenics exercises** and outdoor activities.  
 These sessions were more than just sports; they built teamwork, energy, and friendship among the students.  
@@ -42,7 +42,7 @@ It reminded me that volunteering is not only about teaching but also about being
 
 ---
 
-### Reflection
+### 💭 Reflection
 
 My time in Bojong Koneng was a humble yet powerful experience.  
 It showed me how education can empower and uplift communities, even when resources are limited.  
@@ -53,4 +53,4 @@ Although I was there to teach, I ended up learning just as much from the student
 That experience continues to remind me why empathy matters, both in life and in technology.  
 Whether I am coding, designing, or analyzing data, I try to carry the same spirit of patience, curiosity, and care that I learned in that small classroom in Bojong Koneng.
 
-<p><small><em>Bojong Koneng Village · Teaching Volunteer · July 2018</em></small></p>
+<p><small><em>“In the quiet classrooms of Bojong Koneng, I learned that teaching is less about knowledge and more about kindness.”</em></small></p>

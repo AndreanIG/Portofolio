@@ -2,7 +2,7 @@
 layout: page
 title: "Best Research Paper Award: ICCSCI 2021"
 subtitle: "Exploring how image pre-processing affects OCR accuracy in Braille conversion."
-permalink: /career/iccscipaper-award/
+permalink: /projects/iccscipaper-award/
 description: "Reflection on my Best Research Paper Award at ICCSCI 2021 for the study 'Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode', published in Procedia Computer Science (Elsevier) in 2023."
 ---
 
@@ -32,7 +32,10 @@ It also reminded me that meaningful innovation often comes from improving the de
 The paper was published in <em>Procedia Computer Science</em> by Elsevier and is available online through ScienceDirect.  
 You can read it here:
 
-🔗 [**Image Pre-Processing Effect on OCR's Performance for Image Conversion to Braille Unicode — ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S1877050923017660){: target="_blank" }
+🔗 [Read on ScienceDirect →](https://www.sciencedirect.com/science/article/pii/S1877050923017660){: target="_blank"}  
+
+🔗 [Read on ResearchGate →](https://www.researchgate.net/publication/375921327_Image_Pre-Processing_Effect_on_OCR's_Performance_for_Image_Conversion_to_Braille_Unicode){: target="_blank"}
+
 
 ---
 
@@ -44,7 +47,6 @@ It remains one of the most meaningful recognitions in my academic journey.
 {% include toggle-file.html label="Oral Presentation Certificate" file="/assets/files/certificate/iccsci.pdf" id="iccsci" %}
 
 
-
 ---
 
 ### 💭 Reflection
@@ -53,4 +55,10 @@ This experience taught me that research is most valuable when it has purpose bey
 Working on assistive technology showed me how computation can empower inclusion and accessibility.  
 It shaped my perspective on data science and engineering as tools not only for progress but also for empathy.
 
-<p><small><em>Presented 2021 · Published 2023 · ICCSCI Conference, Jakarta — Procedia Computer Science (Elsevier)</em></small></p>
+### 🏷 Keywords
+
+Optical Character Recognition (OCR) · Image Pre-Processing · Binarization · Denoising · Skew Correction · Braille Unicode · Accessibility · Assistive Technology · Tesseract OCR · Computer Vision  
+
+
+
+<p><small><em>“This research taught me that the smallest improvements in code can open the biggest doors to accessibility.”</em></small></p>

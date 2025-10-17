@@ -71,4 +71,5 @@ All scores computed on the project’s test split.
 
 ---
 
-<p><small><em>Completed September 2023 · Group Project · Deakin University</em></small></p>
+<p><small><em>“Powerful AI doesn’t always need complexity, just the right balance of features, logic, and clarity.”</em></small></p>
+

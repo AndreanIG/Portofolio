@@ -55,4 +55,4 @@ That experience made me realize how much I enjoy solving problems and designing 
 Looking back, the SGU competition marked a meaningful starting point in my journey as a developer.  
 *Student Help Hub* reminded me that even small projects can have purpose and impact when built with curiosity and heart.
 
-<p><small><em>Swiss German University · Mobile Application Programming Competition Finalist · August 2018</em></small></p>
+<p><small><em>“In building *Student Help Hub*, I discovered that even small ideas can make a big difference when coded with curiosity and heart.”</em></small></p>

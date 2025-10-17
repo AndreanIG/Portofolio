@@ -100,4 +100,5 @@ Future improvements include: richer enemy behaviors, power-up variety, mobile bu
 
 ---
 
-<p><small><em>Completed March 2022 · KTU · T120B166 Development of Computer Games and Interactive Applications</em></small></p>
+<p><small><em>“Building Temple Runner taught me that game development is a balance between logic and imagination, where every mechanic becomes a story in motion.”</em></small></p>
+

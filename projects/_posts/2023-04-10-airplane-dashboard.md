@@ -97,3 +97,5 @@ The process clarified the conceptual difference between procedural (Python-based
 | Dashboard Integration | Tableau / Power BI | Published to web dashboards |
 
 ---
+
+<p><small><em>“Effective visualization isn’t just about data, it’s about clarity and telling a story  across different tools.”</em></small></p>

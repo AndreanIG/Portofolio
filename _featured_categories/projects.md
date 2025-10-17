@@ -31,7 +31,7 @@ Scroll down to explore the list below
 | **2022** | [DIT — IndiHome Installation Image Classification](dit-image-classification/) | Internship |
 |  | [Face Mapping API — Telkom Indonesia Internship](face-mapping/) | Internship |
 |  | [Endless Runner: Temple Runner Game](temple-runner/) | GameDev |
-
+| **2021** | [Best Research Paper Award](iccscipaper-award/) | ICCSCI 2021 |
 ---
 
-# All Posts
+# All Posts for Projects

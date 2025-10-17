@@ -14,7 +14,7 @@ description: "Developed multi-stage fingerprint classification and segmentation 
 <strong>Fingerprint Detection</strong> was a complex AI project at <strong>Telkom Indonesia</strong> focused on automating the identification and classification of fingerprint patterns, a crucial part of their AI platform for workforce management and security.
 </section>
 
-## Problem
+## ⚙️ Problem
 
 Manual fingerprint validation was inefficient and error-prone, especially at Telkom’s scale. The project aimed to:
 
@@ -22,7 +22,7 @@ Manual fingerprint validation was inefficient and error-prone, especially at Tel
 - **Detect swirl direction** (left/right) for more granular detail classification.
 - **Segment key features** (delta & core) and count fingerprint ridges using automated instance segmentation.
 
-## My Contribution
+## 💻 My Contribution
 
 - **Requirement Analysis:** Proactively clarified objectives and evolving criteria with the supervisor and previous project contributors, ensuring solution relevance.
 - **Model Development:**  
@@ -36,12 +36,13 @@ Manual fingerprint validation was inefficient and error-prone, especially at Tel
   - Deepened knowledge of Vision Transformers (ViT, SWIN) and modern computer vision libraries (PyTorch, Detectron2).
   - Iteratively refined hyperparameters and model structures to tackle overfitting and validation accuracy issues.
 
-## Results
+## 📊 Results
 
 - Delivered a working prototype for fingerprint detection and classification, meeting supervisor’s requirements for minimum accuracy and segmentation quality.
 - Automated multi-stage processing pipeline, enabling future scalability for workforce management and security systems.
 - Developed troubleshooting skills for complex, real-world AI problems, including imbalanced datasets and model instability
-## Key Learnings
+
+## 🧠 Key Learnings
 
 - **Cutting-Edge Model Application:** Acquired practical experience with state-of-the-art vision architectures (SWIN, ViT) and their deployment in production-like environments.
 - **Iterative Problem Solving:** Learned to persist through technical setbacks, repeatedly revising model designs and seeking alternative solutions.
@@ -54,3 +55,5 @@ The Fingerprint Detection project exemplified the challenges and rewards of real
 ---
 
 *Keywords: fingerprint classification, instance segmentation, SWIN Transformer, Detectron2, PyTorch, ridge counting, computer vision, Telkom Indonesia, internship*
+
+<p><small><em>“Every pattern, human or data reveals something unique when you learn to look closely.”</em></small></p>

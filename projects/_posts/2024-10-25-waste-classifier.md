@@ -64,4 +64,4 @@ Approximate values marked with “~”.
 
 ---
 
-<p><small><em>Andrean Ignasius</em></small></p>
+<p><small><em>“It shows how data and design can work together to make sustainability practical, one correctly sorted bin at a time.”</em></small></p>

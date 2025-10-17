@@ -16,7 +16,7 @@ It felt familiar yet different, and it gave me a quiet sense of responsibility t
 
 ---
 
-### Organizing the Library
+### 📚 Organizing the Library
 
 Most of my work involved sorting and categorizing books. Some older collections had never been properly grouped, so I helped identify new categories and assign books to them. I learned how to use a simple cataloguing system to record titles, authors, and topics so that students and teachers could find materials more easily.
 
@@ -24,16 +24,14 @@ It was repetitive work at times, but it required focus and consistency.  I began
 
 ---
 
-### A Familiar Place
+### 🏫 A Familiar Place
 
 Walking through the same hallways I used to know as a student felt both nostalgic and comforting.  Many teachers still remembered me and were supportive of the work I was doing.  During breaks, I sometimes talked with students who came in to borrow storybooks or ask for help finding reading material.  It reminded me of when I was their age, spending quiet afternoons reading in the same corner of the room.
 
 ---
 
-### Reflection
+### 💭 Reflection
 
 This short experience taught me about the value of structure and organization. Even small tasks like updating categories or checking book labels helped me understand how systems keep things running smoothly. It also reminded me how much I enjoyed being around books and learning materials.  
 
-Returning to Citra Kasih was more than just helping in a library. It was a way of giving back to a place that had once inspired my curiosity and love for learning.
-
-<p><small><em>April – May 2019 · Citra Kasih Grade School, Jakarta</em></small></p>
+<p><small><em>“Returning to Citra Kasih was more than just helping in a library. It was a way of giving back to a place that had once inspired my curiosity and love for learning..”</em></small></p>

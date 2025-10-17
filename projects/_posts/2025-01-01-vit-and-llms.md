@@ -84,4 +84,4 @@ Emotion Recognition · Multimodal Learning · Vision Transformer · Vision-Langu
 
 ---
 
-<p><small><em>Submitted October 2025 · IEEE Transactions on Multimedia (Under Review)</em></small></p>
+<p><small><em>“CSER reminded me that innovation often begins where comfort ends, when you keep refining ideas long after the models stop cooperating.”</em></small></p>

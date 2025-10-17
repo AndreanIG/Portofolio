@@ -40,4 +40,4 @@ Looking back, the Explore ML program gave me more than just an introduction to A
 It taught me that curiosity is the key ingredient to learning anything new.  
 This experience gave me the foundation I needed to confidently pursue more advanced AI certifications and research later on — including my journey with Azure AI and my internship at Telkom Indonesia.
 
-<p><small><em>Google Explore ML · Completed March 2022</em></small></p>
+<p><small><em>“Explore ML showed me that every great AI journey begins not with data or code, but with curiosity.”</em></small></p>

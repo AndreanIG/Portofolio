@@ -62,6 +62,24 @@ This configuration was capable of handling dense depth fusion but did not reach 
 Each sequence required several minutes of processing depending on scene complexity and voxel resolution.
 
 ---
+### 🖼️ Reconstruction Samples
+
+Below are the visual reconstructions generated from the TUM RGB-D sequences.
+
+#### FR1_RPY — Simple Scene
+<div class="img-row">
+  <img src="/assets/img/fr1_rpy_1.png" alt="FR1_RPY reconstruction angle 1" class="img-fluid rounded shadow" width="48%">
+  <img src="/assets/img/fr1_rpy_2.png" alt="FR1_RPY reconstruction angle 2" class="img-fluid rounded shadow" width="48%">
+</div>
+<p class="figcaption"><small>*Reconstruction of FR1_RPY from two viewing angles showing stable mesh and consistent alignment.*</small></p>
+
+#### FR1_Room — Complex Scene
+<div class="img-row">
+  <img src="/assets/img/fr1_room_1.png" alt="FR1_Room reconstruction angle 1" class="img-fluid rounded shadow" width="48%">
+  <img src="/assets/img/fr1_room_2.png" alt="FR1_Room reconstruction angle 2" class="img-fluid rounded shadow" width="48%">
+</div>
+<p class="figcaption"><small>*Reconstruction of FR1_Room showing surface noise and polygon loss due to scene clutter and lighting variation.*</small></p>
+
 
 ### 📈 Experimental Results
 
@@ -101,4 +119,4 @@ While the results achieved high fidelity for smaller environments, scaling to la
 
 ---
 
-<p><small><em>Completed May 2024 · SIT789: Robotics, Computer Vision & Speech Processing · Deakin University</em></small></p>
+<p><small><em>“Precision and Performance constantly trade places when turning motion into mapped reality.”</em></small></p>
