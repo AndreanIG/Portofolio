@@ -30,8 +30,7 @@ Scroll down to explore the list below
 |  | [Fingerprint Detection — Telkom AI Platform](fingerprint-detection/) | Internship |
 | **2022** | [DIT — IndiHome Installation Image Classification](dit-image-classification/) | Internship |
 |  | [Face Mapping API — Telkom Indonesia Internship](face-mapping/) | Internship |
-|  | [Endless Runner: Temple Runner Game](temple-runner/) | GameDev |
-| **2021** | [Best Research Paper Award](iccscipaper-award/) | ICCSCI 2021 |
----
+|  | [Endless Runner: Temple Runner Game](temple-runner/) | Game Development |
+| **2021** | [Image Pre-Processing Effect on OCR’s Performance for Image Conversion to Braille Unicode](iccscipaper-award/) | ICCSCI 2021 — Best Paper |
 
 # All Posts for Projects
