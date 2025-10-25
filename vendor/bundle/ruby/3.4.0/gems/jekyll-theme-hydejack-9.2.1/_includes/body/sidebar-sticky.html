@@ -12,35 +12,44 @@
       />
     </a>
     {% endif %}
-    <a class="sidebar-title" href="{{ '/' | relative_url }}"
-      ><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a
-    >
+
+    <a class="sidebar-title" href="{{ '/' | relative_url }}">
+      <h2 class="h1">{{ site.short_title | default:site.title }}</h2>
+    </a>
+
     {% assign text = site.tagline | default:site.description %} {% if text %} {%
     assign n = text | size %}
+    <p class="{% if text.size > 100 %}fine{% endif %}">
+      <span class="typewriter-sidebar">{{ text | strip | escape }}</span>
+    </p>
+
+    <!-- Inline CSS that always loads (pure CSS, GitHub Pages-safe) -->
     <style>
-      /* Inline, guaranteed to load with the sidebar */
-      .typewriter-sidebar{
-        display:inline-block;
-        white-space:nowrap;
-        overflow:hidden;
-        border-right:2px solid currentColor; /* caret */
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        animation: sidebarTypingLen-{{ n }} 8s steps({{ n }}) infinite,
+      /* === Sidebar Typing Animation (Pure CSS, .io Safe) === */
+      .typewriter-sidebar {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid currentColor;
+        animation: sidebarTyping 8s steps({{ n }}) infinite,
                    sidebarCaret .7s steps(1) infinite;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
-      @keyframes sidebarTypingLen-{{ n }}{
+
+      /* Typing animation (loop forever) */
+      @keyframes sidebarTyping {
         0%   { width: 0ch; }
         40%  { width: {{ n }}ch; }   /* fully typed */
         50%  { width: {{ n }}ch; }   /* hold typed */
         90%  { width: 0ch; }         /* deleting */
-        100% { width: 0ch; }         /* hold empty */
+        100% { width: 0ch; }         /* pause empty */
       }
-      @keyframes sidebarCaret { 50% { border-color: transparent; } }
-    </style>
 
-    <p class="{% if text.size > 100 %}fine{% endif %}">
-      <span class="typewriter-sidebar">{{ text | strip | escape }}</span>
-    </p>
+      /* Blinking caret */
+      @keyframes sidebarCaret {
+        50% { border-color: transparent; }
+      }
+    </style>
     {% endif %}
   </div>
 
