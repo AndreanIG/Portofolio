@@ -1,16 +1,46 @@
 <div class="sidebar-sticky">
   <div class="sidebar-about">
     {% if site.logo %}
-      <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
-        <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="120" height="120" loading="lazy" />
-      </a>
+    <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
+      <img
+        src="{% include_cached smart-url url=site.logo %}"
+        class="avatar"
+        alt="{{ site.short_title | default:site.title }}"
+        width="120"
+        height="120"
+        loading="lazy"
+      />
+    </a>
     {% endif %}
-    <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a>
-    {% assign text = site.tagline | default:site.description %}
-    {% if text %}
-      <p class="{% if text.size > 100 %}fine{% endif %}">
-        {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
-      </p>
+    <a class="sidebar-title" href="{{ '/' | relative_url }}"
+      ><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a
+    >
+    {% assign text = site.tagline | default:site.description %} {% if text %} {%
+    assign n = text | size %}
+    <style>
+      /* Inline, guaranteed to load with the sidebar */
+      .typewriter-sidebar{
+        display:inline-block;
+        white-space:nowrap;
+        overflow:hidden;
+        border-right:2px solid currentColor; /* caret */
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        animation: sidebarTypingLen-{{ n }} 8s steps({{ n }}) infinite,
+                   sidebarCaret .7s steps(1) infinite;
+      }
+      @keyframes sidebarTypingLen-{{ n }}{
+        0%   { width: 0ch; }
+        40%  { width: {{ n }}ch; }   /* fully typed */
+        50%  { width: {{ n }}ch; }   /* hold typed */
+        90%  { width: 0ch; }         /* deleting */
+        100% { width: 0ch; }         /* hold empty */
+      }
+      @keyframes sidebarCaret { 50% { border-color: transparent; } }
+    </style>
+
+    <p class="{% if text.size > 100 %}fine{% endif %}">
+      <span class="typewriter-sidebar">{{ text | strip | escape }}</span>
+    </p>
     {% endif %}
   </div>
 

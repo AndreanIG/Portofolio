@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-14T17:22:56+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
-</subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-07T20:02:18+11:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-25T15:03:45+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+</subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-17T05:57:29+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
    
@@ -8,35 +8,6 @@
   <a href="/Portofolio/assets/files/resume.json" class="btn btn--primary" target="_blank">🧠 JSON</a>
   
 </p>
-
-<div class="pdf-toggle" data-id="Resume">
-  <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
-    👁 Show Resume
-  </button>
-
-  <div id="pdf-container-Resume" class="pdf-container" style="display: none">
-    <embed src="/assets/files/resume-andrean.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
-  </div>
-</div>
-
-<!-- <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
-      const id = wrapper.dataset.id;
-      const btn = wrapper.querySelector(".toggle-btn");
-      const container = document.getElementById("pdf-container-" + id);
-
-      btn.addEventListener("click", function () {
-        const isHidden = container.style.display === "none";
-        container.style.display = isHidden ? "block" : "none";
-        btn.textContent = isHidden
-          ? "🙈 Hide " + btn.textContent.replace("👁 Show ", "") + " (PDF)"
-          : "👁 Show " +
-            btn.textContent.replace("🙈 Hide ", "").replace(" (PDF)", "");
-      });
-    });
-  });
-</script> -->
 
 <section class="lead">
 Master’s in Data Science (High Distinction, Deakin University) with a bachelor's in Computer Science from Bina Nusantara.  
@@ -191,7 +162,7 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
   </tbody>
 </table>
 
-<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-14T16:55:37+11:00</updated><id>http://localhost:4000/career/deakin</id><content type="html" xml:base="http://localhost:4000/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
+<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
 This postgraduate program deepened my understanding of data science, machine learning, and AI systems, focusing on both technical proficiency and ethical application.</p>
 
 <hr />
@@ -251,8 +222,8 @@ It also helped me develop confidence in presenting technical work to non-technic
 
 <p>This degree built on my undergraduate foundation and prepared me for work at the intersection of <strong>machine learning, research, and applied AI design</strong>.</p>
 
-<p><small><em>Graduated September 2025 · Deakin University, School of Information Technology · CRICOS Provider 00113B</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My postgraduate journey at Deakin University, where I specialised in AI and Computer Vision, explored deep learning and reinforcement learning, and developed research in real-world analytics and ethical AI.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-14T16:55:37+11:00</updated><id>http://localhost:4000/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
-I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care and companionship. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in unfamiliar environments.
+<p><small><em>“Deakin taught me that data science is not just about numbers, it’s about connecting insights to people and discovering meaning within complexity.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My postgraduate journey at Deakin University, where I specialised in AI and Computer Vision, explored deep learning and reinforcement learning, and developed research in real-world analytics and ethical AI.]]></summary></entry><entry><title type="html">Pet Sitter — Camp Paws</title><link href="http://localhost:4000/Portofolio/career/pet-sitter/" rel="alternate" type="text/html" title="Pet Sitter — Camp Paws" /><published>2025-07-01T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/pet-sitter</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/pet-sitter/"><![CDATA[<section class="lead" style="text-align: justify;">
+I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in new environments.
 </section>
 
 <hr />
@@ -284,27 +255,25 @@ Ivy was gentle and alert, always watching before coming close. Ziggy liked to fo
 
 <h3 id="-reflection">💭 Reflection</h3>
 
-<p>This experience reminded me of my own pets, the routines I used to have with them, and how much those small moments meant to me. Being around Ivy, Ziggy, and Kreuzer gave me a sense of home in a different city. It also helped me appreciate the simple value of care such as showing up on time, keeping promises, and being patient when things do not go as planned.</p>
+<p>This experience reminded me of my dogs back home, all those moment I used to have with them, and how much those memories meant to me. Being around Ivy, Ziggy, and Kreuzer gave me a sense of home in a different country. It helped me appreciate the simple value of care such as showing up on time, keeping promises, and being patient when things do not go as planned.</p>
 
-<p>Every visit taught me something about trust and consistency, both in animals and in people. It was quiet work, but it left a lasting impression on how I understand empathy and communication.</p>
-
-<p><small><em>March 2024 – July 2025 · Freelance Pet Sitter via Camp Paws · Melbourne, Australia</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience as a freelance pet sitter with Camp Paws in Melbourne, visiting clients’ homes to care for their dogs, facing early rejections, and learning patience and empathy through every visit.]]></summary></entry><entry><title type="html">CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</title><link href="http://localhost:4000/projects/cser-emotion-recognition/" rel="alternate" type="text/html" title="CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features" /><published>2025-01-01T00:00:00+11:00</published><updated>2025-10-14T17:08:10+11:00</updated><id>http://localhost:4000/projects/vit-and-llms</id><content type="html" xml:base="http://localhost:4000/projects/cser-emotion-recognition/"><![CDATA[<p>This project was one of the hardest and most technically demanding research works I have ever completed.<br />
-The paper, <strong>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</strong>, introduces a multimodal system that integrates <strong>Vision Transformers (ViT)</strong> and <strong>Vision-Language Models (VLMs)</strong> — specifically LLaVA and BLIP — to improve emotion recognition in complex, real-world settings.<br />
-It was written in collaboration with <strong>Dr. Thuseethan Selvarajah</strong>, <strong>Prof. Sutharshan Rajasegarar</strong>, and <strong>Prof. John Yearwood</strong> from Deakin University, and submitted to <em>IEEE Transactions on Multimedia</em>.</p>
+<p><small><em>“Pet sitting taught me that trust—like care—grows slowly through quiet presence and genuine consistency.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience as a freelance pet sitter with Camp Paws in Melbourne, visiting clients’ homes to care for their dogs, facing early rejections, and learning patience and empathy through every visit.]]></summary></entry><entry><title type="html">CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</title><link href="http://localhost:4000/Portofolio/projects/cser-emotion-recognition/" rel="alternate" type="text/html" title="CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features" /><published>2025-01-01T00:00:00+11:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/vit-and-llms</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/cser-emotion-recognition/"><![CDATA[<p>This project was one of the hardest and most technically demanding research works I have ever completed.<br />
+The paper, <strong>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</strong>, introduces a multimodal system that include both <strong>Vision Transformers (ViT)</strong> and <strong>Vision-Language Models (VLMs)</strong> , specifically LLaVA and BLIP to improve emotion recognition in complex, real-world settings.<br />
+This research was written in collaboration with <strong>Dr. Thuseethan Selvarajah</strong>, <strong>Prof. Sutharshan Rajasegarar</strong>, and <strong>Prof. John Yearwood</strong> all from various different institute, and submitted to <em>IEEE Transactions on Multimedia</em>.</p>
 
 <hr />
 
 <h3 id="-motivation">💡 Motivation</h3>
 
 <p>Most emotion recognition models focus on a single modality such as facial expressions or voice.<br />
-In contrast, human emotion is shaped by context — the surrounding scene, body posture, and situation.<br />
-The goal of CSER was to make emotion recognition <strong>context-aware</strong>, bridging the gap between how AI systems interpret emotions and how humans perceive them.</p>
+In contrast, human emotion is shaped by context which can be summarised from the surrounding scene, body posture, and situation.<br />
+The goal of CSER was to make emotion recognition <strong>context-aware</strong>, closing in the gap between how AI systems interpret emotions and how humans perceive them.</p>
 
 <hr />
 
 <h3 id="️-technical-summary">⚙️ Technical Summary</h3>
 
-<p>CSER combines three ViT-based visual learners for the <strong>face</strong>, <strong>body</strong>, and <strong>scene</strong> with textual embeddings generated by <strong>LLaVA</strong> and <strong>BLIP</strong>.<br />
+<p>CSER combines three ViT-based visual learners for <strong>face</strong>, <strong>body</strong>, and <strong>scene</strong> with textual embeddings generated by <strong>LLaVA</strong> and <strong>BLIP</strong>.<br />
 All modalities are projected into a shared latent space and fused using <strong>multi-head</strong> and <strong>self-attention</strong> mechanisms.</p>
 
 <p><strong>Results:</strong></p>
@@ -319,41 +288,38 @@ All modalities are projected into a shared latent space and fused using <strong>
 
 <h3 id="-the-hard-part">🧠 The Hard Part</h3>
 
-<p>This project required months of experimentation, dataset preparation, and repeated failures.</p>
+<p>This project required months of experimentation, dataset preparation, and a lot of set backs.</p>
 
 <p><strong>Dataset scarcity:</strong><br />
-Finding <strong>group or context-sensitive emotion datasets</strong> was nearly impossible. EMOTIC and HECO were the only usable ones, but both had fragmented labels and inconsistent annotations that needed manual remapping.</p>
+Finding <strong>group or context-sensitive emotion datasets</strong> was nearly impossible. EMOTIC and HECO were the only usable ones as they are available and their authors can be contacted, but both had fragmented labels and inconsistent annotations that needed remapping.</p>
 
 <p><strong>Data quality issues:</strong><br />
 Many images contained occluded faces, low light, or incomplete subjects.<br />
-To maintain uniform input shapes, I had to implement fallback logic that replaced missing faces with zero matrices — a tedious but necessary step to keep the training pipeline stable.</p>
+To maintain uniform input shapes, I had to implement fallback logic that replaced missing faces with zero matrices which is a bit tedious but necessary step to keep the training pipeline stable.</p>
 
 <p><strong>Hardware constraints:</strong><br />
 All experiments initially ran on a <strong>GTX 1660 Ti</strong>, forcing constant trade-offs between batch size, learning rate, and runtime stability.<br />
 Training large vision-language models pushed the limits of available memory, often causing crashes mid-run.<br />
 To overcome this, I used <strong>external GPU resources provided by Deakin University’s research infrastructure and Hugging Face’s compute credits</strong>.<br />
-Setting up the remote GPU environments took significant effort — configuring CUDA, aligning PyTorch versions, and establishing secure connections — but it was essential to complete the experiments at full scale.</p>
+Setting up the remote GPU environments took significant effort such as configuring CUDA, aligning PyTorch versions, and establishing secure connections, however it was essential to complete the experiments at full scale.</p>
 
 <p><strong>VLM integration:</strong><br />
 LLaVA and BLIP produced embeddings with incompatible dimensions and token structures.<br />
 Aligning and projecting them into a shared feature space was one of the most complex implementation challenges.</p>
 
-<p><strong>Paper formatting:</strong><br />
-Preparing the IEEE manuscript involved condensing large figures, tuning Grad-CAM++ visualizations, and formatting 17 pages of results under strict LaTeX templates.</p>
-
-<p>Every part — from data cleaning to writing — tested both patience and problem-solving endurance.</p>
+<p>Every part from data cleaning to writing tested both patience and my problem-solving skill.</p>
 
 <hr />
 
 <h3 id="-reflection">💭 Reflection</h3>
 
 <p>Despite the obstacles, completing CSER taught me what true research persistence feels like.<br />
-It was a lesson in problem-solving under constraint — working with incomplete datasets, limited hardware, and long iteration cycles — yet still producing a model that achieved measurable progress.</p>
+It was a lesson in problem-solving under constraint, working with incomplete datasets, limited hardware, and long iteration cycles, yet still producing a model that achieved measurable progress.</p>
 
 <p>Being the youngest member in the author list, I handled most of the experimental setup, ablation design, and manuscript drafting.<br />
-This experience taught me to think beyond implementation — to question design decisions, justify model behavior, and communicate results in a research-standard way.</p>
+This experience taught me to think beyond implementation, also to question design decisions, justify model behavior, and communicate results in a professional manner.</p>
 
-<p>It reminded me that scientific progress is not just about accuracy; it’s about the discipline to keep iterating when nothing seems to work.</p>
+<p>It reminded me that scientific progress is not just about accuracy, it’s about the discipline to keep iterating when nothing seems to work.</p>
 
 <hr />
 
@@ -371,7 +337,107 @@ IEEE Transactions on Multimedia (Under Review).</p>
 
 <hr />
 
-<p><small><em>Submitted October 2025 · IEEE Transactions on Multimedia (Under Review)</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-14T16:55:37+11:00</updated><id>http://localhost:4000/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
+<p><small><em>“CSER reminded me that innovation often begins where comfort ends, when you keep refining ideas long after the models stop cooperating.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation.]]></summary></entry><entry><title type="html">Smart Recycling — Waste Classification</title><link href="http://localhost:4000/Portofolio/projects/waste-classifier/" rel="alternate" type="text/html" title="Smart Recycling — Waste Classification" /><published>2024-10-25T00:00:00+11:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/waste-classifier</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/waste-classifier/"><![CDATA[<p>I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme:<br />
+<strong>Red (general)</strong>, <strong>Green (organics)</strong>, and <strong>Yellow (recyclables)</strong> — using the <strong>RealWaste</strong> dataset.</p>
+
+<hr />
+
+<h3 id="-problem--dataset">🧩 Problem &amp; Dataset</h3>
+<ul>
+  <li><strong>Task:</strong> Image → {Red, Green, Yellow} bin label to help reduce recycling contamination.</li>
+  <li><strong>Dataset:</strong> <a href="https://www.kaggle.com/datasets/joebeachcapital/realwaste">RealWaste (Kaggle)</a> (materials like Cardboard, Glass, Metal, Plastic, Food Organics, etc.), remapped to 3 bins.</li>
+  <li><strong>Split:</strong> ~80/10/10 train/val/test after regrouping images into bin folders.</li>
+</ul>
+
+<p><img src="/Portofolio/assets/img/project-waste-train.png" alt="Training dataset distribution and samples" class="img-fluid rounded shadow" /><br />
+<small><em>Sample images and distribution from the training dataset.</em></small></p>
+
+<hr />
+
+<h3 id="️-approach">⚙️ Approach</h3>
+<ul>
+  <li><strong>Baseline model:</strong> Small CNN (“WasteNet”), CrossEntropy, Adam, 50 epochs; track Accuracy, F1, Recall, Precision.</li>
+  <li><strong>Data augmentation:</strong> resize + random flip/rotation + color jitter; normalisation with ImageNet stats; applied to train only.</li>
+  <li><strong>Profiling:</strong> Compared plain vs augmented input pipelines; identified loader/CPU transforms as bottleneck; sped up with <code class="language-plaintext highlighter-rouge">num_workers=4</code>.</li>
+  <li><strong>Equal-time study:</strong> Trained “plain” vs “augmented” under the same one-hour budget to compare generalisation.</li>
+  <li><strong>Generalisation (D-task):</strong> Collected a new test set from different sources (phone/web) and built an improved CNN with BN/Dropout/Pooling.</li>
+</ul>
+
+<p><img src="/Portofolio/assets/img/project-waste-plain.png" alt="Training result of plain baseline model" class="img-fluid rounded shadow" /><br />
+<small><em>Result on baseline (plain) model — accuracy and F1 on validation set.</em></small></p>
+
+<hr />
+
+<h3 id="-results-highlights">📊 Results (highlights)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Setup</th>
+      <th style="text-align: right">Test Acc</th>
+      <th style="text-align: right">F1</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Baseline (no augmentation)</td>
+      <td style="text-align: right">69.5%</td>
+      <td style="text-align: right">0.44</td>
+      <td style="text-align: left">—</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">With augmentation (equal time)</td>
+      <td style="text-align: right">70.6%</td>
+      <td style="text-align: right">0.47</td>
+      <td style="text-align: left">Better recall/F1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Improved (BN/Dropout/Pooling)</td>
+      <td style="text-align: right">82.98%</td>
+      <td style="text-align: right">0.71</td>
+      <td style="text-align: left">On original test set</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New domain test — old model</td>
+      <td style="text-align: right">~55%</td>
+      <td style="text-align: right">—</td>
+      <td style="text-align: left">Phone/web images</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">New domain test — improved model</td>
+      <td style="text-align: right">~70%</td>
+      <td style="text-align: right">—</td>
+      <td style="text-align: left">Higher F1/recall, robust</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="figcaption">Approximate values marked with “~”.</p>
+
+<p><img src="/Portofolio/assets/img/project-waste-improved.png" alt="Comparison of improved model results on new domain data" class="img-fluid rounded shadow" /><br />
+<small><em>Improved model showing higher F1 and better domain robustness.</em></small></p>
+
+<hr />
+
+<h3 id="-what-i-learned">🧠 What I Learned</h3>
+<ul>
+  <li>Balanced <strong>recall/F1</strong> matters more than raw accuracy for waste sorting (missing positives is costly).</li>
+  <li><strong>Augmentation</strong> helps generalisation but must be profiled/tuned; parallel data loading reduced pipeline time ~5×–6×.</li>
+  <li>Architectural tweaks (<strong>BN, Dropout, Pooling</strong>) significantly improved robustness across domains.</li>
+</ul>
+
+<hr />
+
+<h3 id="-tech-stack">🧰 Tech Stack</h3>
+<ul>
+  <li><strong>PyTorch</strong>, <strong>TorchVision</strong>, <strong>TensorBoard</strong>, <strong>PyTorch Profiler</strong>, <strong>scikit-learn</strong> metrics.</li>
+  <li>Trained on GPU where available.</li>
+</ul>
+
+<hr />
+
+<p><small><em>“It shows how data and design can work together to make sustainability practical, one correctly sorted bin at a time.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
 The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.<br />
 The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.</p>
 
@@ -425,6 +491,23 @@ Example command for reconstruction:</p>
 Each sequence required several minutes of processing depending on scene complexity and voxel resolution.</p>
 
 <hr />
+<h3 id="️-reconstruction-samples">🖼️ Reconstruction Samples</h3>
+
+<p>Below are the visual reconstructions generated from the TUM RGB-D sequences.</p>
+
+<h4 id="fr1_rpy--simple-scene">FR1_RPY — Simple Scene</h4>
+<div class="img-row">
+  <img src="/assets/img/fr1_rpy_1.png" alt="FR1_RPY reconstruction angle 1" class="img-fluid rounded shadow" width="48%" />
+  <img src="/assets/img/fr1_rpy_2.png" alt="FR1_RPY reconstruction angle 2" class="img-fluid rounded shadow" width="48%" />
+</div>
+<p class="figcaption"><small>*Reconstruction of FR1_RPY from two viewing angles showing stable mesh and consistent alignment.*</small></p>
+
+<h4 id="fr1_room--complex-scene">FR1_Room — Complex Scene</h4>
+<div class="img-row">
+  <img src="/assets/img/fr1_room_1.png" alt="FR1_Room reconstruction angle 1" class="img-fluid rounded shadow" width="48%" />
+  <img src="/assets/img/fr1_room_2.png" alt="FR1_Room reconstruction angle 2" class="img-fluid rounded shadow" width="48%" />
+</div>
+<p class="figcaption"><small>*Reconstruction of FR1_Room showing surface noise and polygon loss due to scene clutter and lighting variation.*</small></p>
 
 <h3 id="-experimental-results">📈 Experimental Results</h3>
 
@@ -470,7 +553,7 @@ Reconstructing multiple datasets reinforced concepts in:</p>
 
 <hr />
 
-<p><small><em>Completed May 2024 · SIT789: Robotics, Computer Vision &amp; Speech Processing · Deakin University</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>“Precision and Performance constantly trade places when turning motion into mapped reality.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Engineer Associate (AI 102)</title><link href="http://localhost:4000/Portofolio/career/azure-ai102/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Engineer Associate (AI 102)" /><published>2024-05-30T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/azure-ai102</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/azure-ai102/"><![CDATA[<section class="lead" style="text-align: justify;">
 In May 2024, I earned the Microsoft Certified Azure AI Engineer Associate credential.  
 The program deepened my understanding of how to design, implement, and manage AI applications that run in production environments on Azure.  
 It connected theoretical knowledge of machine learning with real implementation practices using cloud infrastructure.
@@ -491,17 +574,27 @@ I began to see the importance of reliability, monitoring, and transparency when 
 
 <h3 id="-certificate">📄 Certificate</h3>
 
-<div class="pdf-toggle" data-id="azure102">
+<!-- <div class="pdf-toggle" data-id="azure102">
   <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
     👁 Show AI 102 Certificate
   </button>
 
-  <div id="pdf-container-azure102" class="pdf-container" style="display: none">
-    <embed src="/assets/files/certificate/azure102.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div
+    id="pdf-container-azure102"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="/Portofolio/assets/files/certificate/azure102.pdf"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
   </div>
 </div>
 
-<!-- <script>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
       const id = wrapper.dataset.id;
@@ -520,6 +613,15 @@ I began to see the importance of reliability, monitoring, and transparency when 
   });
 </script> -->
 
+<div class="pdf-toggle" data-id="azure102">
+  <a class="btn btn--primary" href="/Portofolio/assets/files/certificate/azure102.pdf" target="_blank" style="margin-right: 0.5rem; margin-bottom: 1rem">
+    👁 View AI 102 Certificate (PDF)
+  </a>
+  <a class="btn btn--secondary" href="/Portofolio/assets/files/certificate/azure102.pdf" download="" style="margin-bottom: 1rem">
+    ⬇ Download
+  </a>
+</div>
+
 <hr />
 
 <h3 id="-reflection">💭 Reflection</h3>
@@ -527,7 +629,7 @@ I began to see the importance of reliability, monitoring, and transparency when 
 <p>Completing the AI 102 certification gave me confidence in my ability to bridge development and data science in the cloud.<br />
 It reminded me that artificial intelligence is not only about algorithms but also about building solutions that can be maintained, trusted, and used responsibly.</p>
 
-<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Engineer Associate</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Fundamentals (AI 900)</title><link href="http://localhost:4000/career/azure-ai900/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Fundamentals (AI 900)" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-09T16:33:34+11:00</updated><id>http://localhost:4000/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/career/azure-ai900/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>“The Azure AI Engineer certification taught me that true AI engineering lies in balancing innovation with responsibility.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.]]></summary></entry><entry><title type="html">Microsoft Certified: Azure AI Fundamentals (AI 900)</title><link href="http://localhost:4000/Portofolio/career/azure-ai900/" rel="alternate" type="text/html" title="Microsoft Certified: Azure AI Fundamentals (AI 900)" /><published>2024-05-01T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/azure-ai900</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/azure-ai900/"><![CDATA[<section class="lead" style="text-align: justify;">
 In May 2024, I earned the Microsoft Certified Azure AI Fundamentals credential.  
 This certification introduced me to the core ideas behind artificial intelligence, covering both the theory and practical capabilities available through Azure’s AI services.
 </section>
@@ -545,17 +647,27 @@ It provided a clear understanding of how cloud-based AI services like <strong>Az
 
 <h3 id="-certificate">📄 Certificate</h3>
 
-<div class="pdf-toggle" data-id="azure900">
+<!-- <div class="pdf-toggle" data-id="azure900">
   <button class="btn btn--primary toggle-btn" style="margin-bottom: 1rem">
     👁 Show AI 900 Certificate
   </button>
 
-  <div id="pdf-container-azure900" class="pdf-container" style="display: none">
-    <embed src="/assets/files/certificate/azure900.pdf" type="application/pdf" width="100%" height="850px" style="border: 1px solid #ddd; border-radius: 8px" />
+  <div
+    id="pdf-container-azure900"
+    class="pdf-container"
+    style="display: none"
+  >
+    <embed
+      src="/Portofolio/assets/files/certificate/azure900.pdf"
+      type="application/pdf"
+      width="100%"
+      height="850px"
+      style="border: 1px solid #ddd; border-radius: 8px"
+    />
   </div>
 </div>
 
-<!-- <script>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".pdf-toggle").forEach(function (wrapper) {
       const id = wrapper.dataset.id;
@@ -574,6 +686,15 @@ It provided a clear understanding of how cloud-based AI services like <strong>Az
   });
 </script> -->
 
+<div class="pdf-toggle" data-id="azure900">
+  <a class="btn btn--primary" href="/Portofolio/assets/files/certificate/azure900.pdf" target="_blank" style="margin-right: 0.5rem; margin-bottom: 1rem">
+    👁 View AI 900 Certificate (PDF)
+  </a>
+  <a class="btn btn--secondary" href="/Portofolio/assets/files/certificate/azure900.pdf" download="" style="margin-bottom: 1rem">
+    ⬇ Download
+  </a>
+</div>
+
 <hr />
 
 <h3 id="-reflection">💭 Reflection</h3>
@@ -581,107 +702,7 @@ It provided a clear understanding of how cloud-based AI services like <strong>Az
 <p>Completing the AI-900 certification strengthened my understanding of the AI landscape and helped me see how accessible intelligent solutions can be with the right tools.<br />
 It reminded me that every advanced system starts with mastering the basics — and that curiosity is the best driver for continuous learning.</p>
 
-<p><small><em>Completed May 2024 · Microsoft Certified Azure AI Fundamentals</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.]]></summary></entry><entry><title type="html">Smart Recycling — Waste Classification</title><link href="http://localhost:4000/projects/waste-classifier/" rel="alternate" type="text/html" title="Smart Recycling — Waste Classification" /><published>2024-04-01T00:00:00+11:00</published><updated>2025-10-14T16:55:37+11:00</updated><id>http://localhost:4000/projects/waste-classifier</id><content type="html" xml:base="http://localhost:4000/projects/waste-classifier/"><![CDATA[<p>I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme:<br />
-<strong>Red (general)</strong>, <strong>Green (organics)</strong>, and <strong>Yellow (recyclables)</strong> — using the <strong>RealWaste</strong> dataset.</p>
-
-<hr />
-
-<h3 id="-problem--dataset">🧩 Problem &amp; Dataset</h3>
-<ul>
-  <li><strong>Task:</strong> Image → {Red, Green, Yellow} bin label to help reduce recycling contamination.</li>
-  <li><strong>Dataset:</strong> <a href="https://www.kaggle.com/datasets/joebeachcapital/realwaste">RealWaste (Kaggle)</a> (materials like Cardboard, Glass, Metal, Plastic, Food Organics, etc.), remapped to 3 bins.</li>
-  <li><strong>Split:</strong> ~80/10/10 train/val/test after regrouping images into bin folders.</li>
-</ul>
-
-<p><img src="/assets/img/project-waste-train.png" alt="Training dataset distribution and samples" class="img-fluid rounded shadow" /><br />
-<small><em>Sample images and distribution from the training dataset.</em></small></p>
-
-<hr />
-
-<h3 id="️-approach">⚙️ Approach</h3>
-<ul>
-  <li><strong>Baseline model:</strong> Small CNN (“WasteNet”), CrossEntropy, Adam, 50 epochs; track Accuracy, F1, Recall, Precision.</li>
-  <li><strong>Data augmentation:</strong> resize + random flip/rotation + color jitter; normalisation with ImageNet stats; applied to train only.</li>
-  <li><strong>Profiling:</strong> Compared plain vs augmented input pipelines; identified loader/CPU transforms as bottleneck; sped up with <code class="language-plaintext highlighter-rouge">num_workers=4</code>.</li>
-  <li><strong>Equal-time study:</strong> Trained “plain” vs “augmented” under the same one-hour budget to compare generalisation.</li>
-  <li><strong>Generalisation (D-task):</strong> Collected a new test set from different sources (phone/web) and built an improved CNN with BN/Dropout/Pooling.</li>
-</ul>
-
-<p><img src="/assets/img/project-waste-plain.png" alt="Training result of plain baseline model" class="img-fluid rounded shadow" /><br />
-<small><em>Result on baseline (plain) model — accuracy and F1 on validation set.</em></small></p>
-
-<hr />
-
-<h3 id="-results-highlights">📊 Results (highlights)</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Setup</th>
-      <th style="text-align: right">Test Acc</th>
-      <th style="text-align: right">F1</th>
-      <th style="text-align: left">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Baseline (no augmentation)</td>
-      <td style="text-align: right">69.5%</td>
-      <td style="text-align: right">0.44</td>
-      <td style="text-align: left">—</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">With augmentation (equal time)</td>
-      <td style="text-align: right">70.6%</td>
-      <td style="text-align: right">0.47</td>
-      <td style="text-align: left">Better recall/F1</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Improved (BN/Dropout/Pooling)</td>
-      <td style="text-align: right">82.98%</td>
-      <td style="text-align: right">0.71</td>
-      <td style="text-align: left">On original test set</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">New domain test — old model</td>
-      <td style="text-align: right">~55%</td>
-      <td style="text-align: right">—</td>
-      <td style="text-align: left">Phone/web images</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">New domain test — improved model</td>
-      <td style="text-align: right">~70%</td>
-      <td style="text-align: right">—</td>
-      <td style="text-align: left">Higher F1/recall, robust</td>
-    </tr>
-  </tbody>
-</table>
-
-<p class="figcaption">Approximate values marked with “~”.</p>
-
-<p><img src="/assets/img/project-waste-improved.png" alt="Comparison of improved model results on new domain data" class="img-fluid rounded shadow" /><br />
-<small><em>Improved model showing higher F1 and better domain robustness.</em></small></p>
-
-<hr />
-
-<h3 id="-what-i-learned">🧠 What I Learned</h3>
-<ul>
-  <li>Balanced <strong>recall/F1</strong> matters more than raw accuracy for waste sorting (missing positives is costly).</li>
-  <li><strong>Augmentation</strong> helps generalisation but must be profiled/tuned; parallel data loading reduced pipeline time ~5×–6×.</li>
-  <li>Architectural tweaks (<strong>BN, Dropout, Pooling</strong>) significantly improved robustness across domains.</li>
-</ul>
-
-<hr />
-
-<h3 id="-tech-stack">🧰 Tech Stack</h3>
-<ul>
-  <li><strong>PyTorch</strong>, <strong>TorchVision</strong>, <strong>TensorBoard</strong>, <strong>PyTorch Profiler</strong>, <strong>scikit-learn</strong> metrics.</li>
-  <li>Trained on GPU where available.</li>
-</ul>
-
-<hr />
-
-<p><small><em>Andrean Ignasius</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">Bachelor of Computer Science (Global Class)</title><link href="http://localhost:4000/career/binus/" rel="alternate" type="text/html" title="Bachelor of Computer Science (Global Class)" /><published>2023-11-01T00:00:00+11:00</published><updated>2025-10-14T16:55:37+11:00</updated><id>http://localhost:4000/career/binus</id><content type="html" xml:base="http://localhost:4000/career/binus/"><![CDATA[<section class="lead" style="text-align: justify;">
+<p><small><em>“Earning the Azure AI Fundamentals certification reminded me that every complex system begins with simple curiosity and solid foundations.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.]]></summary></entry><entry><title type="html">Bachelor of Computer Science (Global Class)</title><link href="http://localhost:4000/Portofolio/career/binus/" rel="alternate" type="text/html" title="Bachelor of Computer Science (Global Class)" /><published>2023-11-01T00:00:00+11:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/binus</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/binus/"><![CDATA[<section class="lead" style="text-align: justify;">
 I completed my **Bachelor of Computer Science (Global Class)** at **Bina Nusantara University**, Indonesia, with a GPA of **3.85 / 4.00**.  
 This program shaped my foundation in computer science, blending strong technical skills with creativity, teamwork, and a global perspective.
 </section>
@@ -740,7 +761,7 @@ Represented BINUS in an international semester program, exploring European appro
 <p>Studying at BINUS taught me how to balance technical and intrapersonal skills from building algorithms to designing intuitive systems.<br />
 It was the foundation that fueled my passion for data science, AI, and creating technology that makes an impact.</p>
 
-<p><small><em>Graduated September 2023 · Bina Nusantara University, School of Computer Science</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry><entry><title type="html">BHFMS — Boarding House Finder &amp;amp; Management System (VILT)</title><link href="http://localhost:4000/projects/bhfms/" rel="alternate" type="text/html" title="BHFMS — Boarding House Finder &amp;amp; Management System (VILT)" /><published>2023-09-15T00:00:00+10:00</published><updated>2025-10-11T19:18:57+11:00</updated><id>http://localhost:4000/projects/bhfms</id><content type="html" xml:base="http://localhost:4000/projects/bhfms/"><![CDATA[<p><img src="/assets/img/projects/bhfms.gif" alt="BHFMS Logo" /></p>
+<p><small><em>“My years at BINUS taught me that computer science is more than logic and code—it’s creativity, empathy, and the drive to make technology meaningful.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry><entry><title type="html">BHFMS — Boarding House Finder &amp;amp; Management System (VILT)</title><link href="http://localhost:4000/Portofolio/projects/bhfms/" rel="alternate" type="text/html" title="BHFMS — Boarding House Finder &amp;amp; Management System (VILT)" /><published>2023-09-15T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/bhfms</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/bhfms/"><![CDATA[<p><img src="/Portofolio/assets/img/projects/bhfms.png" alt="BHFMS Logo" class="img-fluid rounded shadow" /></p>
 <h3 id="demo">Project Demo</h3>
 <p>
   <a class="btn" href="https://youtu.be/u0tEqIIhDS0" target="_blank" rel="noopener">
@@ -908,4 +929,4 @@ Prevents new or manipulated listings from unfairly topping search results.</p>
 <span class="o">-&gt;</span><span class="nf">values</span><span class="p">();</span>
 </code></pre></div></div>
 
-<p><small><em>Completed September 2022 · Bina Nusantara University · Thesis</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[VILT-stack marketplace and operations hub for Indonesian boarding houses—distance-aware search, payments, chat, reviews, inventory, and admin verification.]]></summary></entry></feed>
+<p><small><em>“BHFMS proved that technology can bring structure and trust to everyday living by connecting people and places through critical design.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[VILT-stack marketplace and operations hub for Indonesian boarding houses—distance-aware search, payments, chat, reviews, inventory, and admin verification.]]></summary></entry></feed>

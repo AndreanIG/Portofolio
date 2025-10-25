@@ -55,5 +55,4 @@ You can also download a printable PDF directly from the **Resume** page.
 ---
 
 ### 💡 Powered By
-This personal site was **built with [Hydejack](https://hydejack.com)** —  
-a minimalistic Jekyll theme for personal portfolios and technical blogs.
+Built with the help of **[Hydejack](https://hydejack.com)**
