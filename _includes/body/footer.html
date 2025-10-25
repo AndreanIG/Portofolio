@@ -1,0 +1,34 @@
+{% if site.copyright.size > 0 or site.hydejack.advertise %}
+<footer
+  class="content"
+  role="contentinfo"
+  style="text-align: center; padding: 2rem 0; font-size: 0.9em; color: #555"
+>
+  <hr />
+
+  {% if site.copyright.size > 0 %}
+  <p>
+    <small class="copyright">
+      {{ site.copyright | markdownify | replace:'
+      <p>','' | replace:'</p>
+      ','' }}
+    </small>
+  </p>
+  {% endif %}
+
+  <!-- Personal Branding Section -->
+  <p><strong>Andrean Ignasius</strong> | Data Scientist</p>
+
+  <p>
+    <small
+      >Powered by
+      <a class="external" href="https://hydejack.com/">Hydejack</a> v<span
+        id="_version"
+        >9.2.1</span
+      ></small
+    >
+  </p>
+
+  <hr class="sr-only" />
+</footer>
+{% endif %}

@@ -67,17 +67,13 @@ Each sequence required several minutes of processing depending on scene complexi
 Below are the visual reconstructions generated from the TUM RGB-D sequences.
 
 #### FR1_RPY — Simple Scene
-<div class="img-row">
-  <img src="/assets/img/fr1_rpy_1.png" alt="FR1_RPY reconstruction angle 1" class="img-fluid rounded shadow" width="48%">
-  <img src="/assets/img/fr1_rpy_2.png" alt="FR1_RPY reconstruction angle 2" class="img-fluid rounded shadow" width="48%">
-</div>
+![FR1_RPY reconstruction angle 1](/assets/img/fr1_rpy_1.png){: .img-fluid .rounded .shadow width="49%" style="margin-right:2%;"}
+![FR1_RPY reconstruction angle 2](/assets/img/fr1_rpy_2.png){: .img-fluid .rounded .shadow width="49%"}
 <p class="figcaption"><small>*Reconstruction of FR1_RPY from two viewing angles showing stable mesh and consistent alignment.*</small></p>
 
 #### FR1_Room — Complex Scene
-<div class="img-row">
-  <img src="/assets/img/fr1_room_1.png" alt="FR1_Room reconstruction angle 1" class="img-fluid rounded shadow" width="48%">
-  <img src="/assets/img/fr1_room_2.png" alt="FR1_Room reconstruction angle 2" class="img-fluid rounded shadow" width="48%">
-</div>
+![FR1_Room reconstruction angle 1](/assets/img/fr1_room_1.png){: .img-fluid .rounded .shadow width="49%" style="margin-right:2%;"}
+![FR1_Room reconstruction angle 2](/assets/img/fr1_room_2.png){: .img-fluid .rounded .shadow width="49%"}
 <p class="figcaption"><small>*Reconstruction of FR1_Room showing surface noise and polygon loss due to scene clutter and lighting variation.*</small></p>
 
 
