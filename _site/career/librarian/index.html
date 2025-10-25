@@ -116,7 +116,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/Portofolio/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/Portofolio/',
-    INDEX_KEY: 'index--2025-10-25T15:03:45+11:00',
+    INDEX_KEY: 'index--2025-10-25T15:25:03+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -375,34 +375,43 @@ It felt familiar yet different, and it gave me a quiet sense of responsibility t
       />
     </a>
     
-    <a class="sidebar-title" href="/Portofolio/"
-      ><h2 class="h1">Andrean Ignasius</h2></a
-    >
+
+    <a class="sidebar-title" href="/Portofolio/">
+      <h2 class="h1">Andrean Ignasius</h2>
+    </a>
+
       
+    <p class="">
+      <span class="typewriter-sidebar">Data Scientist &amp; Software Engineer</span>
+    </p>
+
+    <!-- Inline CSS that always loads (pure CSS, GitHub Pages-safe) -->
     <style>
-      /* Inline, guaranteed to load with the sidebar */
-      .typewriter-sidebar{
-        display:inline-block;
-        white-space:nowrap;
-        overflow:hidden;
-        border-right:2px solid currentColor; /* caret */
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        animation: sidebarTypingLen-34 8s steps(34) infinite,
+      /* === Sidebar Typing Animation (Pure CSS, .io Safe) === */
+      .typewriter-sidebar {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid currentColor;
+        animation: sidebarTyping 8s steps(34) infinite,
                    sidebarCaret .7s steps(1) infinite;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
-      @keyframes sidebarTypingLen-34{
+
+      /* Typing animation (loop forever) */
+      @keyframes sidebarTyping {
         0%   { width: 0ch; }
         40%  { width: 34ch; }   /* fully typed */
         50%  { width: 34ch; }   /* hold typed */
         90%  { width: 0ch; }         /* deleting */
-        100% { width: 0ch; }         /* hold empty */
+        100% { width: 0ch; }         /* pause empty */
       }
-      @keyframes sidebarCaret { 50% { border-color: transparent; } }
-    </style>
 
-    <p class="">
-      <span class="typewriter-sidebar">Data Scientist &amp; Software Engineer</span>
-    </p>
+      /* Blinking caret */
+      @keyframes sidebarCaret {
+        50% { border-color: transparent; }
+      }
+    </style>
     
   </div>
 
