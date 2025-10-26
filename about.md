@@ -36,15 +36,9 @@ I also enjoy **pet-sitting** and staying active, balancing technical focus with 
 ---
 
 ## 🧾 A Printable Resume
-Get my resume that’s consistent across the board, whether it’s on the web, mobile, print, or PDF.  
-Explore the full sections below:
+You can get my Resume Right here:
 
-- 🧠 [Resume Page]({{ '/resume/' | relative_url }}) — structured, detailed resume  
-- 💼 [Career Highlights]({{ '/career/' | relative_url }}) — my journey and experiences  
-- 🧩 [Projects]({{ '/projects/' | relative_url }}) — portfolio that I'm proud of
-
-
-You can also download a printable PDF directly from the **Resume** page.
+{% include resume-button.html %}
 
 ---
 

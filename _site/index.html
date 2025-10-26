@@ -30,22 +30,21 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   
     
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Blog | Andrean Ignasius</title>
+<title>Andrean Ignasius | Data Scientist &amp; Software Engineer</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Blog" />
+<meta property="og:title" content="Andrean Ignasius" />
 <meta name="author" content="<Andrean> <Ignasius>" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll." />
-<meta property="og:description" content="The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll." />
+<meta name="description" content="My Portofolio" />
+<meta property="og:description" content="My Portofolio" />
 <link rel="canonical" href="http://localhost:4000/Portofolio/" />
 <meta property="og:url" content="http://localhost:4000/Portofolio/" />
 <meta property="og:site_name" content="Andrean Ignasius" />
 <meta property="og:type" content="website" />
-<link rel="next" href="http://localhost:4000/Portofolio/2/" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Blog" />
+<meta property="twitter:title" content="Andrean Ignasius" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"<Andrean> <Ignasius>"},"dateModified":"2025-10-06T14:20:16+11:00","description":"The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.","headline":"Blog","name":"Andrean Ignasius","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/Portofolio/assets/img/logo.png"},"name":"<Andrean> <Ignasius>"},"url":"http://localhost:4000/Portofolio/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"<Andrean> <Ignasius>"},"dateModified":"2025-10-26T20:54:24+11:00","description":"My Portofolio","headline":"Andrean Ignasius","name":"Andrean Ignasius","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/Portofolio/assets/img/logo.png"},"name":"<Andrean> <Ignasius>"},"url":"http://localhost:4000/Portofolio/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -116,7 +115,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/Portofolio/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/Portofolio/',
-    INDEX_KEY: 'index--2025-10-25T15:32:49+11:00',
+    INDEX_KEY: 'index--2025-10-26T20:54:29+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -146,46 +145,57 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 
 <!-- Add HTML tags here to be included in the head. You can delete the below: -->
-<link rel="dns-prefetch" href="https://assets.gumroad.com">
+<link rel="dns-prefetch" href="https://assets.gumroad.com" />
 <script type="module">
-  const loadJS = x => new Promise(r => window.loadJS(x).addEventListener('load', r));
+  const loadJS = (x) =>
+    new Promise((r) => window.loadJS(x).addEventListener("load", r));
 
   let p1, p2, io1, io2, embedCreated, overlayCreated;
-  document.querySelector('hy-push-state').addEventListener('load', () => {
-    io1 ||= new IntersectionObserver(async (entries) => {
-      if (entries.some(x => x.isIntersecting)) {
-        p1 = p1 || loadJS('https://gumroad.com/js/gumroad-embed.js');
-        await p1;
-        !embedCreated && await new Promise(function check1(res) {
-          if (typeof createGumroadEmbed !== 'undefined')  {
-            embedCreated = 1;
-            res(createGumroadEmbed());
-          }
-          else setTimeout(() => check1(res), 200);
-        });
-        await new Promise(function check2(res) {
-          if (typeof GumroadEmbed !== 'undefined') res(GumroadEmbed.reload());
-          else setTimeout(() => check2(res), 200);
-        });
-      }
-    }, { rootMargin: '1440px' });
+  document.querySelector("hy-push-state").addEventListener("load", () => {
+    io1 ||= new IntersectionObserver(
+      async (entries) => {
+        if (entries.some((x) => x.isIntersecting)) {
+          p1 = p1 || loadJS("https://gumroad.com/js/gumroad-embed.js");
+          await p1;
+          !embedCreated &&
+            (await new Promise(function check1(res) {
+              if (typeof createGumroadEmbed !== "undefined") {
+                embedCreated = 1;
+                res(createGumroadEmbed());
+              } else setTimeout(() => check1(res), 200);
+            }));
+          await new Promise(function check2(res) {
+            if (typeof GumroadEmbed !== "undefined") res(GumroadEmbed.reload());
+            else setTimeout(() => check2(res), 200);
+          });
+        }
+      },
+      { rootMargin: "1440px" }
+    );
 
-    io2 ||= new IntersectionObserver(async (entries) => {
-      if (entries.some(x => x.isIntersecting)) {
-        p2 = p2 || loadJS('https://gumroad.com/js/gumroad.js');
-        await p2;
-        !overlayCreated && await new Promise(function check(res) {
-          if (typeof createGumroadOverlay !== 'undefined') {
-            overlayCreated = 1;
-            res(createGumroadOverlay());
-          }
-          else setTimeout(() => check(res), 200);
-        });
-      }
-    }, { rootMargin: '300px' });
+    io2 ||= new IntersectionObserver(
+      async (entries) => {
+        if (entries.some((x) => x.isIntersecting)) {
+          p2 = p2 || loadJS("https://gumroad.com/js/gumroad.js");
+          await p2;
+          !overlayCreated &&
+            (await new Promise(function check(res) {
+              if (typeof createGumroadOverlay !== "undefined") {
+                overlayCreated = 1;
+                res(createGumroadOverlay());
+              } else setTimeout(() => check(res), 200);
+            }));
+        }
+      },
+      { rootMargin: "300px" }
+    );
 
-    document.querySelectorAll('.gumroad-product-embed').forEach(el => io1.observe(el));
-    document.querySelectorAll('.gumroad-button').forEach(el => io2.observe(el));
+    document
+      .querySelectorAll(".gumroad-product-embed")
+      .forEach((el) => io1.observe(el));
+    document
+      .querySelectorAll(".gumroad-button")
+      .forEach((el) => io2.observe(el));
   });
 </script>
 
@@ -212,13 +222,320 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   hashchange
 >
   
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-page"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+  <article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title"></h1>
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  <section class="ai-home hero" style="text-align:center; padding:5rem 1rem; position:relative; overflow:hidden;">
+  <div class="ai-bg"></div>
+
+  <h1 class="ai-title">
+    Hi, I’m Andrean — 
+    <span class="ai-rotator">
+      <span class="ai-role role-1">Data Scientist</span>
+      <span class="ai-role role-2">AI Engineer</span>
+      <span class="ai-role role-3">ML Researcher</span>
+    </span>
+  </h1>
+
+  <p class="ai-lead">
+    I build reliable <strong>AI and computer vision systems</strong> — from dataset to deployment.<br />
+    Projects include <em>Computer Vision Models</em>, <em>Dashboards</em>, and <em>vLLMs</em>.
+  </p>
+
+  <div class="hero-links ai-links">
+    <a href="/Portofolio/projects/" class="ai-btn ai-rotate delay-1">Explore Projects</a>
+    <a href="/Portofolio/resume/" class="ai-btn ai-rotate delay-2">View Resume</a>
+    <a href="/Portofolio/career/" class="ai-btn ai-rotate delay-3">Career Journey</a>
+  </div>
+</section>
+<hr />
+
+<h3 id="-what-i-do">🎯 What I Do</h3>
+<ul>
+  <li>Build and deploy <strong>AI/ML models</strong>.</li>
+  <li>Develop <strong>full-stack web applications</strong> using the <strong>VILT stack</strong> (Vue, Inertia, Laravel, Tailwind).</li>
+  <li>Research <strong>multimodal and vision-language models (VLMs)</strong> for smarter, context-aware AI systems.</li>
+  <li>Translate research ideas into <strong>practical, user-centered solutions</strong> through UX-driven design.</li>
+</ul>
+
+<hr />
+
+<h3 id="️-technical-toolkit">⚙️ Technical Toolkit</h3>
+<p><strong>Languages:</strong> Python, C#, PHP, JavaScript, Java, SQL<br />
+<strong>Frameworks:</strong> PyTorch, TensorFlow, FastAPI, Laravel, Vue, Tailwind<br />
+<strong>Cloud &amp; DevOps:</strong> Azure, Docker, Jenkins<br />
+<strong>Data Tools:</strong> Power BI, Tableau, TensorBoard</p>
+
+<hr />
+
+<h3 id="-outside-of-work">🌱 Outside of Work</h3>
+<p>I’m into <strong>gaming</strong>, <strong>design</strong>, and checking out the latest in <strong>AI and tech</strong>, especially new generative tools and <strong>vision-language models</strong>.<br />
+When I’m not behind a screen, you’ll probably find me <strong>pet-sitting</strong> or staying active,  it keeps a nice balance between tech, creativity, and a bit of real-world.</p>
+
+<hr />
+
+<h2 id="-a-printable-resume">🧾 A Printable Resume</h2>
+<p>You can get my Resume right here or visit my <a href="/Portofolio/resume/">Resume Page</a>:</p>
+
+<p class="page__buttons" style="margin-top: 1rem">
+  
+  <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
+   
+  <a href="/Portofolio/assets/files/resume-andrean.pdf" class="btn btn--primary" target="_blank">📄 PDF</a>
+    
+  <a href="/Portofolio/assets/files/resume.json" class="btn btn--primary" target="_blank">🧠 JSON</a>
+  
+</p>
+
+<hr />
+
+<p><a href="https://github.com/AndreanIG"><img src="https://img.shields.io/badge/GitHub-AndreanIG-black?logo=github" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/andrean-ignasius/"><img src="https://img.shields.io/badge/LinkedIn-AndreanIgnasius-blue?logo=linkedin" alt="LinkedIn" /></a>
+<a href="mailto:andrean.2000@gmail.com"><img src="https://img.shields.io/badge/Email-andrean.2000@gmail.com-red?logo=gmail" alt="Email" /></a></p>
+
+<hr />
+
+<p>“This Portofolio is built with the help of <strong><a href="https://hydejack.com">Hydejack</a></strong> v9.2.1”</p>
+
+<style>
+/* ---------- THEME BASE ---------- */
+.ai-home {
+  --ai1:#4F46E5;
+  --ai2:#06B6D4;
+  --ai-muted: var(--muted, #9ca3af);
+}
+
+/* Background animation */
+.ai-home .ai-bg{
+  position:absolute; inset:0;
+  background:
+    radial-gradient(60% 40% at 20% 25%, rgba(79,70,229,.14), transparent 70%),
+    radial-gradient(50% 35% at 80% 75%, rgba(6,182,212,.16), transparent 70%);
+  animation: ai-float 12s ease-in-out infinite alternate;
+  z-index:-1;
+}
+@keyframes ai-float { from{transform:translateY(-8px)} to{transform:translateY(8px)} }
+
+/* ---------- TITLE + ROTATOR ---------- */
+.ai-home .ai-title{
+  font-size:clamp(2rem,4vw,3rem);
+  font-weight:800;
+  line-height:1.2;
+  margin-bottom:1rem;
+  background:linear-gradient(90deg,var(--ai1),var(--ai2));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  display:inline-block;
+  position:relative;
+  white-space:nowrap;
+}
+.ai-home .ai-rotator{
+  display:inline-block;
+  position:relative;
+  height:1.2em;
+  overflow:hidden;
+  vertical-align:bottom;
+  color:var(--ai2);
+}
+.ai-home .ai-rotator span{
+  display:block;
+  height:1.2em;
+  animation: ai-slide 9s infinite;
+}
+@keyframes ai-slide {
+  0%,10%   {transform:translateY(0%);}
+  33%,43%  {transform:translateY(-100%);}
+  66%,76%  {transform:translateY(-200%);}
+  100%     {transform:translateY(0%);}
+}
+.ai-home .role-2, .ai-home .role-3 { transform: translateY(-10px); }
+
+/* ---------- BODY TEXT ---------- */
+.ai-home .ai-lead{
+  max-width:700px; margin:0 auto 2rem;
+  font-size:1.15rem; color:var(--ai-muted);
+}
+
+/* ---------- BUTTONS ---------- */
+.ai-home .ai-links{
+  display:flex; justify-content:center; flex-wrap:wrap; gap:.8rem;
+}
+.ai-home .ai-btn{
+  position:relative; display:inline-block;
+  padding:.9rem 1.7rem; border-radius:999px;
+  font-weight:700; text-decoration:none;
+  overflow:hidden;
+  border:1px solid rgba(0,0,0,.1);
+  background:rgba(255,255,255,.72);
+  color:#111;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.ai-home .ai-btn:hover{ transform:translateY(-2px); }
+
+/* ---------- SMOOTH FADE-IN/FADE-OUT SEQUENCE ---------- */
+.ai-home .ai-rotate{
+  animation: ai-btn-cycle 9s ease-in-out infinite;
+}
+.ai-home .delay-1{ animation-delay: 0s; }
+.ai-home .delay-2{ animation-delay: 3s; }
+.ai-home .delay-3{ animation-delay: 6s; }
+
+@keyframes ai-btn-cycle {
+  0% {
+    background:rgba(255,255,255,.72);
+    color:#111;
+    box-shadow:none;
+    opacity:0.7;
+    border:1px solid rgba(0,0,0,.1);
+  }
+  15% {
+    background:linear-gradient(90deg,var(--ai1),var(--ai2));
+    color:#fff;
+    opacity:1;
+    box-shadow:0 10px 24px rgba(79,70,229,.25);
+    border-color:transparent;
+  }
+  35% {
+    background:linear-gradient(90deg,var(--ai1),var(--ai2));
+    color:#fff;
+    opacity:1;
+  }
+  50% {
+    background:rgba(255,255,255,.72);
+    color:#111;
+    box-shadow:none;
+    opacity:0.7;
+    border:1px solid rgba(0,0,0,.1);
+  }
+  100% {
+    background:rgba(255,255,255,.72);
+    color:#111;
+    opacity:0.7;
+  }
+}
+
+/* ---------- DARK MODE ---------- */
+@media (prefers-color-scheme: dark){
+  .ai-home .ai-btn{
+    background:rgba(255,255,255,.08);
+    color:#fff;
+    border:1px solid rgba(255,255,255,.25);
+  }
+  @keyframes ai-btn-cycle {
+    0% {
+      background:rgba(255,255,255,.08);
+      color:#fff;
+      opacity:0.6;
+    }
+    15% {
+      background:linear-gradient(90deg,var(--ai1),var(--ai2));
+      color:#fff;
+      opacity:1;
+      box-shadow:0 10px 24px rgba(79,70,229,.35);
+      border-color:transparent;
+    }
+    35% {
+      background:linear-gradient(90deg,var(--ai1),var(--ai2));
+      opacity:1;
+    }
+    50%,100% {
+      background:rgba(255,255,255,.08);
+      color:#fff;
+      opacity:0.6;
+      box-shadow:none;
+      border:1px solid rgba(255,255,255,.25);
+    }
+  }
+}
+</style>
+
+
+</article>
+
+
+  <hr class="dingbat related mb6" />
+
+
+
+
+
+  
+<footer
+  class="content"
+  role="contentinfo"
+  style="text-align: center; padding: 2rem 0; font-size: 0.9em; color: #555"
+>
+  <hr />
+
+  
+  <p>
+    <small class="copyright">
+      <p>© 2024. All rights reserved.</p>
+
+    </small>
+  </p>
+  
+
+  <!-- Personal Branding Section -->
+  <p><strong>Andrean Ignasius</strong> | Data Scientist</p>
+
+  <p>
+    <small
+      >Powered by
+      <a class="external" href="https://hydejack.com/">Hydejack</a> v<span
+        id="_version"
+        >9.2.1</span
+      ></small
+    >
+  </p>
+
+  <hr class="sr-only" />
+</footer>
+
+
+</main>
+
   <hy-drawer
   id="_drawer"
-  class="cover"
+  class=""
   side="left"
   threshold="10"
   noscroll
-  opened
+  
 >
   <header id="_sidebar" class="sidebar" role="banner">
     
@@ -428,829 +745,6 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 </hy-drawer>
 <hr class="sr-only" hidden />
 
-  <div id="_navbar" class="navbar fixed-top">
-  <div class="content">
-    <span class="sr-only">Jump to:</span>
-    <div class="nav-btn-bar">
-      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
-        <span class="sr-only">Navigation</span>
-        <span class="icon-menu"></span>
-      </a>
-      <div class="nav-span"></div>
-    </div>
-  </div>
-</div>
-<hr class="sr-only" hidden />
-
-  <main
-  id="_main"
-  class="content layout-blog"
-  role="main"
->
-  <nav id="breadcrumbs" class="screen-only"><ul>
-  
-  
-</ul></nav>
-  
-
-
-  
-
-  
-
-
-
-
-
-<article id="post-resume" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/resume/" class="flip-title">
-        Resume
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2025-10-06T00:00:00+11:00">06 Oct 2025</time> in <span>Resume</span> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T05:57:29+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    
-<p class="page__buttons" style="margin-top: 1rem">
-  
-  <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
-   
-  <a href="/Portofolio/assets/files/resume-andrean.pdf" class="btn btn--primary" target="_blank">📄 PDF</a>
-    
-  <a href="/Portofolio/assets/files/resume.json" class="btn btn--primary" target="_blank">🧠 JSON</a>
-  
-</p>
-
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/resume/">Resume</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-career-deakin" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/career/deakin/" class="flip-title">
-        Master of Data Science (Professional)
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2025-09-18T00:00:00+10:00">18 Sep 2025</time> in <a href="/Portofolio/career/" class="flip-title">Career Journey</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      My postgraduate journey at Deakin University, where I specialised in AI and Computer Vision, explored deep learning and reinforcement learning, and developed research in real-world analytics and ethical AI.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
-This postgraduate program deepened my understanding of data science, machine learning, and AI systems, focusing on both technical proficiency and ethical application.</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/career/deakin/">Master of Data Science (Professional)</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-career-pet-sitter" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/career/pet-sitter/" class="flip-title">
-        Pet Sitter — Camp Paws
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2025-07-01T00:00:00+10:00">01 Jul 2025</time> in <a href="/Portofolio/career/" class="flip-title">Career Journey</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      My experience as a freelance pet sitter with Camp Paws in Melbourne, visiting clients’ homes to care for their dogs, facing early rejections, and learning patience and empathy through every visit.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <section class="lead" style="text-align: justify;">
-I joined <strong>Camp Paws</strong> in Melbourne because I have always loved animals. I missed my pets back home and wanted to do something that let me reconnect with that sense of care. Working as a pet sitter was also a way for me to improve my communication skills and learn to handle responsibility in new environments.
-</section>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/career/pet-sitter/">Pet Sitter — Camp Paws</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-projects-vit-and-llms" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/projects/cser-emotion-recognition/" class="flip-title">
-        CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2025-01-01T00:00:00+11:00">01 Jan 2025</time> in <a href="/Portofolio/projects/" class="flip-title">Projects Overview</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Reflection on developing the CSER framework — a context-sensitive emotion recognition model combining Vision Transformers and Vision-Language Models, and the challenges faced during research and dataset curation.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p>This project was one of the hardest and most technically demanding research works I have ever completed.<br />
-The paper, <strong>CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</strong>, introduces a multimodal system that include both <strong>Vision Transformers (ViT)</strong> and <strong>Vision-Language Models (VLMs)</strong> , specifically LLaVA and BLIP to improve emotion recognition in complex, real-world settings.<br />
-This research was written in collaboration with <strong>Dr. Thuseethan Selvarajah</strong>, <strong>Prof. Sutharshan Rajasegarar</strong>, and <strong>Prof. John Yearwood</strong> all from various different institute, and submitted to <em>IEEE Transactions on Multimedia</em>.</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/projects/cser-emotion-recognition/">CSER: Context-Sensitive Emotion Recognition Framework using Visual and Textual Features</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-projects-waste-classifier" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/projects/waste-classifier/" class="flip-title">
-        Smart Recycling — Waste Classification
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2024-10-25T00:00:00+11:00">25 Oct 2024</time> in <a href="/Portofolio/projects/" class="flip-title">Projects Overview</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p>I implemented a computer-vision system that classifies household waste photos into Australia’s three-bin scheme:<br />
-<strong>Red (general)</strong>, <strong>Green (organics)</strong>, and <strong>Yellow (recyclables)</strong> — using the <strong>RealWaste</strong> dataset.</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/projects/waste-classifier/">Smart Recycling — Waste Classification</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-projects-room-reconstruction-kinectfusion" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/projects/kinectfusion-3d-reconstruction/" class="flip-title">
-        3D Reconstruction with KinectFusion
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2024-09-05T00:00:00+10:00">05 Sep 2024</time> in <a href="/Portofolio/projects/" class="flip-title">Projects Overview</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Experimented with KinectFusion using RGB-D data from the TUM dataset to perform 3D reconstruction, analyze performance metrics, and evaluate limitations in complex scenes.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
-The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.<br />
-The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/projects/kinectfusion-3d-reconstruction/">3D Reconstruction with KinectFusion</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-career-azure-ai102" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/career/azure-ai102/" class="flip-title">
-        Microsoft Certified: Azure AI Engineer Associate (AI 102)
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2024-05-30T00:00:00+10:00">30 May 2024</time> in <a href="/Portofolio/career/" class="flip-title">Career Journey</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Reflection on completing the Microsoft Certified Azure AI Engineer Associate (AI 102), learning to design, build, and deploy responsible AI applications using Azure Cognitive Services.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <section class="lead" style="text-align: justify;">
-In May 2024, I earned the Microsoft Certified Azure AI Engineer Associate credential.  
-The program deepened my understanding of how to design, implement, and manage AI applications that run in production environments on Azure.  
-It connected theoretical knowledge of machine learning with real implementation practices using cloud infrastructure.
-</section>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/career/azure-ai102/">Microsoft Certified: Azure AI Engineer Associate (AI 102)</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-career-azure-ai900" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/career/azure-ai900/" class="flip-title">
-        Microsoft Certified: Azure AI Fundamentals (AI 900)
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2024-05-01T00:00:00+10:00">01 May 2024</time> in <a href="/Portofolio/career/" class="flip-title">Career Journey</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Reflection on completing the Microsoft Certified Azure AI Fundamentals (AI 900), gaining essential knowledge of AI concepts, machine learning, and Azure Cognitive Services.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <section class="lead" style="text-align: justify;">
-In May 2024, I earned the Microsoft Certified Azure AI Fundamentals credential.  
-This certification introduced me to the core ideas behind artificial intelligence, covering both the theory and practical capabilities available through Azure’s AI services.
-</section>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/career/azure-ai900/">Microsoft Certified: Azure AI Fundamentals (AI 900)</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-career-binus" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/career/binus/" class="flip-title">
-        Bachelor of Computer Science (Global Class)
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2023-11-01T00:00:00+11:00">01 Nov 2023</time> in <a href="/Portofolio/career/" class="flip-title">Career Journey</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <section class="lead" style="text-align: justify;">
-I completed my **Bachelor of Computer Science (Global Class)** at **Bina Nusantara University**, Indonesia, with a GPA of **3.85 / 4.00**.  
-This program shaped my foundation in computer science, blending strong technical skills with creativity, teamwork, and a global perspective.
-</section>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/career/binus/">Bachelor of Computer Science (Global Class)</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-projects-bhfms" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/Portofolio/projects/bhfms/" class="flip-title">
-        BHFMS — Boarding House Finder & Management System (VILT)
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2023-09-15T00:00:00+10:00">15 Sep 2023</time> in <a href="/Portofolio/projects/" class="flip-title">Projects Overview</a> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 17 Oct 2025">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2025-10-17T23:16:10+11:00">2025-10-17</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      VILT-stack marketplace and operations hub for Indonesian boarding houses—distance-aware search, payments, chat, reviews, inventory, and admin verification.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p><img src="/Portofolio/assets/img/projects/bhfms.png" alt="BHFMS Logo" class="img-fluid rounded shadow" /></p>
-<h3 id="demo">Project Demo</h3>
-<p>
-  <a class="btn" href="https://youtu.be/u0tEqIIhDS0" target="_blank" rel="noopener">
-    <svg aria-hidden="true" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.2em;margin-right:.4em;">
-      <path fill="currentColor" d="M23.5 6.2a4 4 0 0 0-2.8-2.8C18.8 3 12 3 12 3s-6.8 0-8.7.4A4 4 0 0 0 .5 6.2 41 41 0 0 0 0 12a41 41 0 0 0 .5 5.8 4 4 0 0 0 2.8 2.8C5.2 21 12 21 12 21s6.8 0 8.7-.4a4 4 0 0 0 2.8-2.8A41 41 0 0 0 24 12a41 41 0 0 0-.5-5.8zM9.7 15.5V8.5l6 3.5-6 3.5z" />
-    </svg>
-    Watch on YouTube
-  </a>
-</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/Portofolio/projects/bhfms/">BHFMS — Boarding House Finder & Management System (VILT)</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-
-
-  <h2 class="sr-only">Pagination</h2>
-<nav class="pagination heading clearfix" role="navigation">
-  <ul>
-    <li class="pagination-item older" >
-      
-      
-      
-  <a
-    class=" "
-    href="/Portofolio/2/"
-    rel="next"
-    
-  >Older</a>
-
-
-    </li>
-    <li class="pagination-item newer" >
-      
-      
-      
-  <span class=" ">Newer</span>
-
-
-    </li>
-  </ul>
-</nav>
-
-
-
-  
-<footer
-  class="content"
-  role="contentinfo"
-  style="text-align: center; padding: 2rem 0; font-size: 0.9em; color: #555"
->
-  <hr />
-
-  
-  <p>
-    <small class="copyright">
-      <p>© 2024. All rights reserved.</p>
-
-    </small>
-  </p>
-  
-
-  <!-- Personal Branding Section -->
-  <p><strong>Andrean Ignasius</strong> | Data Scientist</p>
-
-  <p>
-    <small
-      >Powered by
-      <a class="external" href="https://hydejack.com/">Hydejack</a> v<span
-        id="_version"
-        >9.2.1</span
-      ></small
-    >
-  </p>
-
-  <hr class="sr-only" />
-</footer>
-
-
-</main>
-
-  
 </hy-push-state>
 
 

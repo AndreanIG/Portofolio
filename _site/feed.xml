@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-25T15:32:49+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-26T20:54:29+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
 </subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-17T05:57:29+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
@@ -437,7 +437,7 @@ IEEE Transactions on Multimedia (Under Review).</p>
 
 <hr />
 
-<p><small><em>“It shows how data and design can work together to make sustainability practical, one correctly sorted bin at a time.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
+<p><small><em>“It shows how data and design can work together to make sustainability practical, one correctly sorted bin at a time.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-25T15:33:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
 The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.<br />
 The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.</p>
 
@@ -496,12 +496,12 @@ Each sequence required several minutes of processing depending on scene complexi
 <p>Below are the visual reconstructions generated from the TUM RGB-D sequences.</p>
 
 <h4 id="fr1_rpy--simple-scene">FR1_RPY — Simple Scene</h4>
-<p><img src="/Portofolio/assets/img/fr1_rpy_1.png" alt="FR1_RPY reconstruction angle 1" class="img-fluid rounded shadow" width="49%" style="margin-right:2%;" />
+<p><img src="/Portofolio/assets/img/fr1_rpy_1.png" alt="FR1_RPY reconstruction angle 1" class="img-fluid rounded shadow" width="49%" />
 <img src="/Portofolio/assets/img/fr1_rpy_2.png" alt="FR1_RPY reconstruction angle 2" class="img-fluid rounded shadow" width="49%" /></p>
 <p class="figcaption"><small>*Reconstruction of FR1_RPY from two viewing angles showing stable mesh and consistent alignment.*</small></p>
 
 <h4 id="fr1_room--complex-scene">FR1_Room — Complex Scene</h4>
-<p><img src="/Portofolio/assets/img/fr1_room_1.png" alt="FR1_Room reconstruction angle 1" class="img-fluid rounded shadow" width="49%" style="margin-right:2%;" />
+<p><img src="/Portofolio/assets/img/fr1_room_1.png" alt="FR1_Room reconstruction angle 1" class="img-fluid rounded shadow" width="49%" />
 <img src="/Portofolio/assets/img/fr1_room_2.png" alt="FR1_Room reconstruction angle 2" class="img-fluid rounded shadow" width="49%" /></p>
 <p class="figcaption"><small>*Reconstruction of FR1_Room showing surface noise and polygon loss due to scene clutter and lighting variation.*</small></p>
 

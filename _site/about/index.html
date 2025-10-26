@@ -117,7 +117,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/Portofolio/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/Portofolio/',
-    INDEX_KEY: 'index--2025-10-25T15:32:49+11:00',
+    INDEX_KEY: 'index--2025-10-26T20:54:29+11:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -147,46 +147,57 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 
 <!-- Add HTML tags here to be included in the head. You can delete the below: -->
-<link rel="dns-prefetch" href="https://assets.gumroad.com">
+<link rel="dns-prefetch" href="https://assets.gumroad.com" />
 <script type="module">
-  const loadJS = x => new Promise(r => window.loadJS(x).addEventListener('load', r));
+  const loadJS = (x) =>
+    new Promise((r) => window.loadJS(x).addEventListener("load", r));
 
   let p1, p2, io1, io2, embedCreated, overlayCreated;
-  document.querySelector('hy-push-state').addEventListener('load', () => {
-    io1 ||= new IntersectionObserver(async (entries) => {
-      if (entries.some(x => x.isIntersecting)) {
-        p1 = p1 || loadJS('https://gumroad.com/js/gumroad-embed.js');
-        await p1;
-        !embedCreated && await new Promise(function check1(res) {
-          if (typeof createGumroadEmbed !== 'undefined')  {
-            embedCreated = 1;
-            res(createGumroadEmbed());
-          }
-          else setTimeout(() => check1(res), 200);
-        });
-        await new Promise(function check2(res) {
-          if (typeof GumroadEmbed !== 'undefined') res(GumroadEmbed.reload());
-          else setTimeout(() => check2(res), 200);
-        });
-      }
-    }, { rootMargin: '1440px' });
+  document.querySelector("hy-push-state").addEventListener("load", () => {
+    io1 ||= new IntersectionObserver(
+      async (entries) => {
+        if (entries.some((x) => x.isIntersecting)) {
+          p1 = p1 || loadJS("https://gumroad.com/js/gumroad-embed.js");
+          await p1;
+          !embedCreated &&
+            (await new Promise(function check1(res) {
+              if (typeof createGumroadEmbed !== "undefined") {
+                embedCreated = 1;
+                res(createGumroadEmbed());
+              } else setTimeout(() => check1(res), 200);
+            }));
+          await new Promise(function check2(res) {
+            if (typeof GumroadEmbed !== "undefined") res(GumroadEmbed.reload());
+            else setTimeout(() => check2(res), 200);
+          });
+        }
+      },
+      { rootMargin: "1440px" }
+    );
 
-    io2 ||= new IntersectionObserver(async (entries) => {
-      if (entries.some(x => x.isIntersecting)) {
-        p2 = p2 || loadJS('https://gumroad.com/js/gumroad.js');
-        await p2;
-        !overlayCreated && await new Promise(function check(res) {
-          if (typeof createGumroadOverlay !== 'undefined') {
-            overlayCreated = 1;
-            res(createGumroadOverlay());
-          }
-          else setTimeout(() => check(res), 200);
-        });
-      }
-    }, { rootMargin: '300px' });
+    io2 ||= new IntersectionObserver(
+      async (entries) => {
+        if (entries.some((x) => x.isIntersecting)) {
+          p2 = p2 || loadJS("https://gumroad.com/js/gumroad.js");
+          await p2;
+          !overlayCreated &&
+            (await new Promise(function check(res) {
+              if (typeof createGumroadOverlay !== "undefined") {
+                overlayCreated = 1;
+                res(createGumroadOverlay());
+              } else setTimeout(() => check(res), 200);
+            }));
+        }
+      },
+      { rootMargin: "300px" }
+    );
 
-    document.querySelectorAll('.gumroad-product-embed').forEach(el => io1.observe(el));
-    document.querySelectorAll('.gumroad-button').forEach(el => io2.observe(el));
+    document
+      .querySelectorAll(".gumroad-product-embed")
+      .forEach((el) => io1.observe(el));
+    document
+      .querySelectorAll(".gumroad-button")
+      .forEach((el) => io2.observe(el));
   });
 </script>
 
@@ -295,16 +306,7 @@ I also enjoy <strong>pet-sitting</strong> and staying active, balancing technica
 <hr />
 
 <h2 id="-a-printable-resume">🧾 A Printable Resume</h2>
-<p>Get my resume that’s consistent across the board, whether it’s on the web, mobile, print, or PDF.<br />
-Explore the full sections below:</p>
-
-<ul>
-  <li>🧠 <a href="/Portofolio/resume/">Resume Page</a> — structured, detailed resume</li>
-  <li>💼 <a href="/Portofolio/career/">Career Highlights</a> — my journey and experiences</li>
-  <li>🧩 <a href="/Portofolio/projects/">Projects</a> — portfolio that I’m proud of</li>
-</ul>
-
-<p>You can also download a printable PDF directly from the <strong>Resume</strong> page.</p>
+<p>You can get my Resume Right here:</p>
 
 <hr />
 

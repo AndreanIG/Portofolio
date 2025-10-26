@@ -50,8 +50,6 @@ author: author1
 
 # Add links to the sidebar.
 menu:
-  - title:             About Me
-    url:               /about/
   - title:             Resume
     url:               /resume/
   - title:             Projects
