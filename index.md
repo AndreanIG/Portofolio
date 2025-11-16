@@ -8,8 +8,7 @@ buttons:
   json: /Portofolio/assets/files/resume.json
 ---
 
-<section class="ai-home hero" style="text-align:center; padding:5rem 1rem; position:relative; overflow:hidden;">
-  <div class="ai-bg"></div>
+<section class="ai-home hero" style="text-align:center; padding:5rem 1rem; position:relative;">
 
   <h1 class="ai-title">
     Hi, I’m Andrean — 
@@ -22,7 +21,8 @@ buttons:
 
   <p class="ai-lead">
     I build reliable <strong>AI and computer vision systems</strong> — from dataset to deployment.<br>
-    Projects include <em>Computer Vision Models</em>, <em>Dashboards</em>, and <em>vLLMs</em>.
+    Projects include <em>Computer Vision Models</em>, <em>Dashboards</em>, and <em>vLLMs</em>.  
+    <br><br><strong>Currently seeking new roles in AI/ML, IT, and tech-driven positions.</strong>
   </p>
 
   <div class="hero-links ai-links">
@@ -31,14 +31,14 @@ buttons:
     <a href="{{ site.baseurl }}/career/"   class="ai-btn ai-rotate delay-3">Career Journey</a>
   </div>
 </section>
+
 ---
 
 ### 🎯 What I Do
 - Build and deploy **AI/ML models**.  
-- Develop **full-stack web applications** using the **VILT stack** (Vue, Inertia, Laravel, Tailwind).  
-- Research **multimodal and vision-language models (VLMs)** for smarter, context-aware AI systems.  
-- Translate research ideas into **practical, user-centered solutions** through UX-driven design.
-
+- Develop **full-stack web applications** using the **VILT stack**.  
+- Research **multimodal and vision-language models (VLMs)**.  
+- Translate research insights into **usable, human-centered products**.
 
 ---
 
@@ -51,13 +51,13 @@ buttons:
 ---
 
 ### 🌱 Outside of Work
-I’m into **gaming**, **design**, and checking out the latest in **AI and tech**, especially new generative tools and **vision-language models**.  
-When I’m not behind a screen, you’ll probably find me **pet-sitting** or staying active,  it keeps a nice balance between tech, creativity, and a bit of real-world.
+I enjoy **gaming**, **design**, and keeping up with the latest in **AI research**.  
+Offline, you’ll find me **pet-sitting** or staying active to keep life balanced.
 
 ---
 
 ## 🧾 A Printable Resume
-You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/resume/):
+Download it below or view the full [Resume Page]({{ site.baseurl }}/resume/):
 
 {% include resume-button.html %}
 
@@ -69,8 +69,8 @@ You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/re
 
 ---
 
+“This Portfolio is built with the help of **[Hydejack](https://hydejack.com)** v9.2.1”
 
-“This Portofolio is built with the help of **[Hydejack](https://hydejack.com)** v9.2.1”
 
 <style>
 /* ---------- THEME BASE ---------- */
@@ -80,16 +80,7 @@ You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/re
   --ai-muted: var(--muted, #9ca3af);
 }
 
-/* Background animation */
-.ai-home .ai-bg{
-  position:absolute; inset:0;
-  background:
-    radial-gradient(60% 40% at 20% 25%, rgba(79,70,229,.14), transparent 70%),
-    radial-gradient(50% 35% at 80% 75%, rgba(6,182,212,.16), transparent 70%);
-  animation: ai-float 12s ease-in-out infinite alternate;
-  z-index:-1;
-}
-@keyframes ai-float { from{transform:translateY(-8px)} to{transform:translateY(8px)} }
+/* (Background removed — no .ai-bg and no gradient) */
 
 /* ---------- TITLE + ROTATOR ---------- */
 .ai-home .ai-title{
@@ -102,9 +93,9 @@ You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/re
   background-clip:text;
   color:transparent;
   display:inline-block;
-  position:relative;
   white-space:nowrap;
 }
+
 .ai-home .ai-rotator{
   display:inline-block;
   position:relative;
@@ -124,31 +115,35 @@ You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/re
   66%,76%  {transform:translateY(-200%);}
   100%     {transform:translateY(0%);}
 }
-.ai-home .role-2, .ai-home .role-3 { transform: translateY(-10px); }
 
 /* ---------- BODY TEXT ---------- */
 .ai-home .ai-lead{
-  max-width:700px; margin:0 auto 2rem;
-  font-size:1.15rem; color:var(--ai-muted);
+  max-width:700px;
+  margin:0 auto 2rem;
+  font-size:1.15rem;
+  color:var(--ai-muted);
 }
 
 /* ---------- BUTTONS ---------- */
 .ai-home .ai-links{
-  display:flex; justify-content:center; flex-wrap:wrap; gap:.8rem;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:.8rem;
 }
 .ai-home .ai-btn{
-  position:relative; display:inline-block;
-  padding:.9rem 1.7rem; border-radius:999px;
-  font-weight:700; text-decoration:none;
-  overflow:hidden;
-  border:1px solid rgba(0,0,0,.1);
+  padding:.9rem 1.7rem;
+  border-radius:999px;
+  font-weight:700;
+  text-decoration:none;
   background:rgba(255,255,255,.72);
   color:#111;
-  transition:transform .25s ease, box-shadow .25s ease;
+  border:1px solid rgba(0,0,0,.1);
+  transition:.25s ease;
 }
 .ai-home .ai-btn:hover{ transform:translateY(-2px); }
 
-/* ---------- SMOOTH FADE-IN/FADE-OUT SEQUENCE ---------- */
+/* Button cycle (unchanged) */
 .ai-home .ai-rotate{
   animation: ai-btn-cycle 9s ease-in-out infinite;
 }
@@ -157,37 +152,11 @@ You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/re
 .ai-home .delay-3{ animation-delay: 6s; }
 
 @keyframes ai-btn-cycle {
-  0% {
-    background:rgba(255,255,255,.72);
-    color:#111;
-    box-shadow:none;
-    opacity:0.7;
-    border:1px solid rgba(0,0,0,.1);
-  }
-  15% {
-    background:linear-gradient(90deg,var(--ai1),var(--ai2));
-    color:#fff;
-    opacity:1;
-    box-shadow:0 10px 24px rgba(79,70,229,.25);
-    border-color:transparent;
-  }
-  35% {
-    background:linear-gradient(90deg,var(--ai1),var(--ai2));
-    color:#fff;
-    opacity:1;
-  }
-  50% {
-    background:rgba(255,255,255,.72);
-    color:#111;
-    box-shadow:none;
-    opacity:0.7;
-    border:1px solid rgba(0,0,0,.1);
-  }
-  100% {
-    background:rgba(255,255,255,.72);
-    color:#111;
-    opacity:0.7;
-  }
+  0%   { opacity:0.7; }
+  15%  { background:linear-gradient(90deg,var(--ai1),var(--ai2)); color:#fff; opacity:1; }
+  35%  { opacity:1; }
+  50%  { opacity:0.7; }
+  100% { opacity:0.7; }
 }
 
 /* ---------- DARK MODE ---------- */
@@ -196,31 +165,6 @@ You can get my Resume right here or visit my [Resume Page]({{ site.baseurl }}/re
     background:rgba(255,255,255,.08);
     color:#fff;
     border:1px solid rgba(255,255,255,.25);
-  }
-  @keyframes ai-btn-cycle {
-    0% {
-      background:rgba(255,255,255,.08);
-      color:#fff;
-      opacity:0.6;
-    }
-    15% {
-      background:linear-gradient(90deg,var(--ai1),var(--ai2));
-      color:#fff;
-      opacity:1;
-      box-shadow:0 10px 24px rgba(79,70,229,.35);
-      border-color:transparent;
-    }
-    35% {
-      background:linear-gradient(90deg,var(--ai1),var(--ai2));
-      opacity:1;
-    }
-    50%,100% {
-      background:rgba(255,255,255,.08);
-      color:#fff;
-      opacity:0.6;
-      box-shadow:none;
-      border:1px solid rgba(255,255,255,.25);
-    }
   }
 }
 </style>

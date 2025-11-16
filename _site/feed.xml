@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-26T20:54:29+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-16T21:37:26+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
 </subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-17T05:57:29+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
@@ -19,6 +19,16 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
 <hr />
 
 <h2 id="‍-experience">🧑‍💼 Experience</h2>
+
+<p><strong>Machine Operator — Prima PMI, Melbourne, Australia</strong><br />
+<small>Oct 2025 – Present (expected until Jan 2026)</small></p>
+<ul>
+  <li>Seasonal Christmas Casual role in the Calender Department.</li>
+  <li>Operate and assist across multiple machines during peak production periods.</li>
+  <li>Conduct routine machine maintenance, troubleshooting, and quality checks.</li>
+  <li>Support production workflow including RF scanning, packaging, and heavy lifting.</li>
+  <li>Quickly adapt across different machinery to meet high-volume demands.</li>
+</ul>
 
 <p><strong>Pet Sitter — Camp Paws, Melbourne, Australia</strong><br />
 <small>Mar 2024 – Jul 2025</small></p>
@@ -162,7 +172,92 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
   </tbody>
 </table>
 
-<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
+<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Machine Operator — Prima PMI</title><link href="http://localhost:4000/Portofolio/career/prima-pmi/" rel="alternate" type="text/html" title="Machine Operator — Prima PMI" /><published>2025-10-01T00:00:00+10:00</published><updated>2025-11-16T21:29:51+11:00</updated><id>http://localhost:4000/Portofolio/career/prima</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/prima-pmi/"><![CDATA[<section class="lead" style="text-align: justify;">
+  <p>In October 2025, I joined <strong>Prima PMI</strong> in Melbourne as a <strong>Machine Operator (Christmas Casual)</strong> in the Calender Department. It was my first experience working in a full-scale production facility, where I supported high-volume manufacturing during the busiest season of the year. This role taught me adaptability, discipline, and the importance of working efficiently as part of a larger operational system.</p>
+</section>
+
+<hr />
+
+<h2 id="-working-in-the-calender-department">🏭 Working in the Calender Department</h2>
+
+<p>The Calender Department is responsible for handling materials that go through pressing, rolling, or smoothing processes using heavy industrial machinery.<br />
+As a machine operator assistant, my daily tasks revolved around supporting this workflow:</p>
+
+<ul>
+  <li>Operating and assisting multiple machines during peak production</li>
+  <li>Performing routine maintenance checks such as cleaning, lubrication, and setup</li>
+  <li>Troubleshooting small issues to minimise downtime</li>
+  <li>Monitoring material quality and ensuring consistency</li>
+  <li>Handling RF scanning for inventory and work-tracking</li>
+  <li>Supporting heavy lifting, material movement, and loading tasks</li>
+</ul>
+
+<p>Working with different machines required quick learning and constant awareness.<br />
+Every shift was fast-paced, but it sharpened my ability to adapt across roles and maintain focus under physical and time-based pressure.</p>
+
+<hr />
+
+<h2 id="-learning-production-workflow">📦 Learning Production Workflow</h2>
+
+<p>One of the most valuable aspects of the role was understanding how each step in a manufacturing line connects to the next.<br />
+Even a small delay in one stage could impact the entire production chain.</p>
+
+<p>I learned to:</p>
+
+<ul>
+  <li>Communicate clearly with supervisors and teammates</li>
+  <li>Prepare materials ahead of schedule to prevent bottlenecks</li>
+  <li>Prioritize tasks during high-volume processing</li>
+  <li>Identify defects or irregularities before they affected output</li>
+</ul>
+
+<p>The experience helped me appreciate the importance of precision and timing in industrial operations—skills that bridge both technical and non-technical fields.</p>
+
+<hr />
+
+<h2 id="-teamwork-in-a-fast-paced-environment">🤝 Teamwork in a Fast-Paced Environment</h2>
+
+<p>Working as a Christmas Casual meant joining a fully functioning team during their busiest period.<br />
+I quickly learned how essential teamwork is on a production floor.</p>
+
+<p>Every shift required coordination:</p>
+
+<ul>
+  <li>Passing materials between operators</li>
+  <li>Sharing machine responsibilities when workloads spiked</li>
+  <li>Supporting teammates during maintenance or slowdowns</li>
+  <li>Keeping communication open to avoid safety risks</li>
+</ul>
+
+<p>The team at Prima PMI was supportive, patient, and collaborative.<br />
+They taught me not just the technical tasks but also the discipline and mindset needed to work efficiently in a manufacturing environment.</p>
+
+<hr />
+
+<h2 id="-skills-i-developed">🧠 Skills I Developed</h2>
+
+<p>Although the role was outside my usual background in IT and data science, it helped me build skills that are valuable across industries:</p>
+
+<ul>
+  <li>Adaptability under pressure</li>
+  <li>Operational discipline</li>
+  <li>Basic mechanical understanding</li>
+  <li>Quality control mindset</li>
+  <li>RF scanning and inventory handling</li>
+  <li>Physical endurance and workflow awareness</li>
+  <li>Communication and coordination in shift-based teams</li>
+</ul>
+
+<p>These experiences strengthened my readiness for roles in <strong>IT, administration, logistics, or warehouse operations</strong>, where structured processes and teamwork play a central role.</p>
+
+<hr />
+
+<h2 id="-reflection">💭 Reflection</h2>
+
+<p><small><em>“Working at Prima PMI taught me that even in fast-paced production floors, consistency, teamwork, and adaptability matter just as much as technical skill.”</em></small></p>
+
+<p>This short but meaningful experience gave me new perspectives about how things are built behind the scenes.<br />
+It taught me responsibility, efficiency, and the importance of every role—no matter how small—in keeping production running smoothly.</p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience working as a Machine Operator (Christmas Casual) at Prima PMI, where I assisted in the Calender Department, operated various machines, maintained workflow quality, and learned the importance of consistency and teamwork in a fast-paced production environment.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
 This postgraduate program deepened my understanding of data science, machine learning, and AI systems, focusing on both technical proficiency and ethical application.</p>
 
 <hr />
@@ -437,7 +532,7 @@ IEEE Transactions on Multimedia (Under Review).</p>
 
 <hr />
 
-<p><small><em>“It shows how data and design can work together to make sustainability practical, one correctly sorted bin at a time.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-25T15:33:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
+<p><small><em>“It shows how data and design can work together to make sustainability practical, one correctly sorted bin at a time.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[Built a bin-type image classifier (Red/Green/Yellow) with PyTorch, augmentation, profiling, and domain generalisation experiments. Includes reproducible notebook output and report PDFs.]]></summary></entry><entry><title type="html">3D Reconstruction with KinectFusion</title><link href="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/" rel="alternate" type="text/html" title="3D Reconstruction with KinectFusion" /><published>2024-09-05T00:00:00+10:00</published><updated>2025-10-26T20:55:35+11:00</updated><id>http://localhost:4000/Portofolio/projects/room-reconstruction-kinectfusion</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/kinectfusion-3d-reconstruction/"><![CDATA[<p>This project was completed for <strong>SIT789: Robotics, Computer Vision, and Speech Processing</strong> at Deakin University.<br />
 The objective was to experiment with the <strong>KinectFusion</strong> algorithm for real-time 3D reconstruction using RGB-D data from the <strong>TUM dataset</strong>.<br />
 The task focused on executing a published implementation, measuring reconstruction accuracy, and analyzing limitations under different environmental complexities.</p>
 
@@ -757,172 +852,4 @@ Represented BINUS in an international semester program, exploring European appro
 <p>Studying at BINUS taught me how to balance technical and intrapersonal skills from building algorithms to designing intuitive systems.<br />
 It was the foundation that fueled my passion for data science, AI, and creating technology that makes an impact.</p>
 
-<p><small><em>“My years at BINUS taught me that computer science is more than logic and code—it’s creativity, empathy, and the drive to make technology meaningful.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry><entry><title type="html">BHFMS — Boarding House Finder &amp;amp; Management System (VILT)</title><link href="http://localhost:4000/Portofolio/projects/bhfms/" rel="alternate" type="text/html" title="BHFMS — Boarding House Finder &amp;amp; Management System (VILT)" /><published>2023-09-15T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/projects/bhfms</id><content type="html" xml:base="http://localhost:4000/Portofolio/projects/bhfms/"><![CDATA[<p><img src="/Portofolio/assets/img/projects/bhfms.png" alt="BHFMS Logo" class="img-fluid rounded shadow" /></p>
-<h3 id="demo">Project Demo</h3>
-<p>
-  <a class="btn" href="https://youtu.be/u0tEqIIhDS0" target="_blank" rel="noopener">
-    <svg aria-hidden="true" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.2em;margin-right:.4em;">
-      <path fill="currentColor" d="M23.5 6.2a4 4 0 0 0-2.8-2.8C18.8 3 12 3 12 3s-6.8 0-8.7.4A4 4 0 0 0 .5 6.2 41 41 0 0 0 0 12a41 41 0 0 0 .5 5.8 4 4 0 0 0 2.8 2.8C5.2 21 12 21 12 21s6.8 0 8.7-.4a4 4 0 0 0 2.8-2.8A41 41 0 0 0 24 12a41 41 0 0 0-.5-5.8zM9.7 15.5V8.5l6 3.5-6 3.5z" />
-    </svg>
-    Watch on YouTube
-  </a>
-</p>
-
-<hr />
-<p><strong>BHFMS (Boarding House Finder &amp; Management System)</strong> is a full-featured web application created as my Bachelor’s thesis at <strong>Bina Nusantara University</strong>, developed together with <strong>Aditya Winata</strong> and <strong>Gardion Philipus Saltana</strong>, and supervised by <strong>Pualam Dipa Nusantara, S.Kom., M.Kom.</strong><br />
-The system serves both as a modern marketplace for Indonesian boarding houses (kos-kosan) and as an operational dashboard for owners, tenants, and admins.</p>
-
-<hr />
-
-<h3 id="background--problem">Background &amp; Problem</h3>
-
-<p>Jakarta’s growing urbanization and the high cost of housing make boarding houses essential for students and workers. Existing platforms only focus on listing properties, but still lack features for operations (payment management, complaints, inventory), verified information, and seamless communication between tenants and landlords.</p>
-
-<p>BHFMS fills this gap by unifying search, management, and communications in a single VILT-stack web platform.</p>
-
-<hr />
-
-<h3 id="project-overview">Project Overview</h3>
-
-<p>BHFMS enables:</p>
-<ul>
-  <li><strong>Centralized discovery:</strong> Search and filter kos-kosan by location, price, facilities, and more.</li>
-  <li><strong>Verified operations:</strong> Owners and managers can manage tenants, payments, complaints, and property inventories.</li>
-  <li><strong>Effortless communication:</strong> Tenants chat directly with owners/managers, upload payment proofs, and raise complaints; admins ensure trust and moderation.</li>
-</ul>
-
-<p>Role-based access ensures each user group (tenant, owner/manager, admin) has the right tools for their needs.</p>
-
-<hr />
-
-<h3 id="features-by-role">Features by Role</h3>
-
-<ul>
-  <li><strong>Tenant:</strong> Search, distance filter, rich listings, wishlist, reviews, chat, complaints, upload payment proofs.</li>
-  <li><strong>Owner/Manager:</strong> Dashboards for properties, tenants, payments, inventory, complaints, and chat.</li>
-  <li><strong>Admin:</strong> Listing verification, transaction oversight, moderation, pre-publish approvals.</li>
-</ul>
-
-<hr />
-
-<h3 id="tech-stack">Tech Stack</h3>
-
-<ul>
-  <li><strong>Vue.js</strong> + <strong>Tailwind CSS</strong> (frontend)</li>
-  <li><strong>Inertia.js</strong> (SPA routing)</li>
-  <li><strong>Laravel</strong> (backend)</li>
-  <li><strong>Pusher/Laravel Echo</strong> (real-time messaging)</li>
-  <li><strong>SQL</strong> (structured roles, payments, chats, reviews, complaints)</li>
-  <li><strong>AWS Lightsail + NGINX Unit</strong> (deployment)</li>
-  <li><strong>Advanced search/ranking with Haversine</strong></li>
-  <li><strong>Robust, fair review ranking with Bayesian average</strong></li>
-</ul>
-
-<hr />
-
-<h3 id="smart-search-haversine-formula">Smart Search: Haversine Formula</h3>
-
-<p>BHFMS uses the Haversine formula for accurate, location-based search—ranking boarding houses by true real-world distance (great-circle) to the user’s target location.</p>
-
-<h4 id="mathematical-formula">Mathematical Formula</h4>
-
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>ϕ</mi><mo>=</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ϕ</mi><mn>1</mn></msub><mo separator="true">,</mo><mspace width="2em"/><mi mathvariant="normal">Δ</mi><mi>λ</mi><mo>=</mo><msub><mi>λ</mi><mn>2</mn></msub><mo>−</mo><msub><mi>λ</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">\Delta\phi = \phi_2 - \phi_1,\qquad \Delta\lambda = \lambda_2 - \lambda_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">Δ</span><span class="mord mathnormal">ϕ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">Δ</span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>
-
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><msup><mrow><mi>sin</mi><mo>⁡</mo></mrow><mn>2</mn></msup><mrow><mo fence="true">(</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>ϕ</mi></mrow><mn>2</mn></mfrac><mo fence="true">)</mo></mrow><mo>+</mo><mi>cos</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy="false">)</mo><mi>cos</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy="false">)</mo><msup><mrow><mi>sin</mi><mo>⁡</mo></mrow><mn>2</mn></msup><mrow><mo fence="true">(</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>λ</mi></mrow><mn>2</mn></mfrac><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">a = \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta\lambda}{2}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mop"><span class="mop">sin</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8719em;"><span style="top:-3.1208em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">ϕ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mop">cos</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">cos</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop"><span class="mop">sin</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8719em;"><span style="top:-3.1208em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathnormal">λ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span></span></span></span></span>
-
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>c</mi><mo>=</mo><mn>2</mn><mi>arcsin</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><msqrt><mi>a</mi></msqrt><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">c = 2\arcsin\left(\sqrt{a}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.2em;vertical-align:-0.35em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">arcsin</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size1">(</span></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8492em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathnormal">a</span></span></span><span style="top:-2.8092em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
-c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
-c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
-c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
-s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
-c69,-144,104.5,-217.7,106.5,-221
-l0 -0
-c5.3,-9.3,12,-14,20,-14
-H400000v40H845.2724
-s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
-c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
-M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1908em;"><span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size1">)</span></span></span></span></span></span></span>
-
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>d</mi><mo>=</mo><mi>R</mi><mo>⋅</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">d = R \cdot c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span></span>
-
-<p>Where:</p>
-<ul>
-  <li>Using <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>≈</mo><mn>6371</mn><mtext> </mtext><mrow><mi mathvariant="normal">k</mi><mi mathvariant="normal">m</mi></mrow></mrow><annotation encoding="application/x-tex">R \approx 6371\,\mathrm{km}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">6371</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">km</span></span></span></span></span></li>
-  <li>All angles must be in radians.</li>
-</ul>
-
-<p>Convert degrees to radians before applying the formula. For performance, results may be pre-filtered by a bounding box.</p>
-
-<hr />
-
-<h4 id="laravelsql-implementation-example-of-harvesian">Laravel/SQL Implementation Example of Harvesian</h4>
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: "snippets/mysql_haversine.php"</span>
-<span class="nv">$lat</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="nf">request</span><span class="p">(</span><span class="s1">'lat'</span><span class="p">);</span>
-<span class="nv">$lon</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="nf">request</span><span class="p">(</span><span class="s1">'lon'</span><span class="p">);</span>
-<span class="nv">$R</span>   <span class="o">=</span> <span class="mi">6371</span><span class="p">;</span> <span class="c1">// km</span>
-
-<span class="nv">$haversine</span> <span class="o">=</span> <span class="s2">"(
-    </span><span class="nv">$R</span><span class="s2"> * 2 * ASIN(
-        SQRT(
-            POW(SIN(RADIANS(properties.latitude  - ?) / 2), 2) +
-            COS(RADIANS(?)) * COS(RADIANS(properties.latitude)) *
-            POW(SIN(RADIANS(properties.longitude - ?) / 2), 2)
-        )
-    )
-)"</span><span class="p">;</span>
-
-<span class="nv">$properties</span> <span class="o">=</span> <span class="nc">Property</span><span class="o">::</span><span class="nf">query</span><span class="p">()</span>
-    <span class="o">-&gt;</span><span class="nf">select</span><span class="p">(</span><span class="s1">'properties.*'</span><span class="p">)</span>
-    <span class="o">-&gt;</span><span class="nf">selectRaw</span><span class="p">(</span><span class="s2">"</span><span class="nv">$haversine</span><span class="s2"> AS distance_km"</span><span class="p">,</span> <span class="p">[</span><span class="nv">$lat</span><span class="p">,</span> <span class="nv">$lat</span><span class="p">,</span> <span class="nv">$lon</span><span class="p">])</span>
-    <span class="o">-&gt;</span><span class="nf">orderBy</span><span class="p">(</span><span class="s1">'distance_km'</span><span class="p">)</span>
-    <span class="o">-&gt;</span><span class="nf">paginate</span><span class="p">(</span><span class="mi">20</span><span class="p">);</span>
-<span class="nc">MySQL</span><span class="o">/</span><span class="nc">MariaDB</span> <span class="err">—</span> <span class="n">raw</span> <span class="nc">Haversine</span> <span class="n">with</span> <span class="nf">bindings</span> <span class="p">(</span><span class="sb">`properties.latitude - ?`</span><span class="p">,</span> <span class="sb">`properties.longitude - ?`</span><span class="p">;</span> <span class="n">middle</span> <span class="sb">`?`</span> <span class="n">reused</span> <span class="k">for</span> <span class="sb">`COS(lat1)`</span><span class="p">)</span><span class="mf">.</span>
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="bayesian-rating-fair-property-rankings">Bayesian Rating: Fair Property Rankings</h3>
-
-<p>To avoid ranking properties unfairly (for example, where a single 5-star review boosts a new listing to the top), BHFMS uses a <strong>Bayesian average</strong> for property ratings.</p>
-
-<h4 id="bayesian-rating-formula">Bayesian Rating Formula</h4>
-
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>Bayesian_rating</mtext><mo>=</mo><mfrac><mi>v</mi><mrow><mi>v</mi><mo>+</mo><mi>m</mi></mrow></mfrac><mo>⋅</mo><mi>R</mi><mo>+</mo><mfrac><mi>m</mi><mrow><mi>v</mi><mo>+</mo><mi>m</mi></mrow></mfrac><mo>⋅</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">\text{Bayesian\_rating} = \frac{v}{v+m} \cdot R + \frac{m}{v+m} \cdot C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9933em;vertical-align:-0.31em;"></span><span class="mord text"><span class="mord">Bayesian_rating</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.8769em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">m</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.8769em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1076em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">m</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span></span>
-
-<p>Where:</p>
-
-<ul>
-  <li>Average rating for the property: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span></li>
-  <li>Number of reviews for the property: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span></li>
-  <li>Minimum reviews required for confidence (e.g., 5 or 10): <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span></span></span></span></li>
-  <li>Mean rating across all properties: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span></li>
-</ul>
-
-<p>How it works:</p>
-
-<p>Properties with few ratings are pulled closer to the global mean <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>.<br />
-As reviews grow, the score reflects the property’s real reputation <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span>.<br />
-Prevents new or manipulated listings from unfairly topping search results.</p>
-
-<hr />
-
-<h4 id="laravelsql-implementation-example-of-harvesian-1">Laravel/SQL Implementation Example of Harvesian</h4>
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: "snippets/mysql_bayesian.php"</span>
-<span class="nv">$m</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
-<span class="nv">$C</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="p">(</span><span class="nc">Review</span><span class="o">::</span><span class="nf">avg</span><span class="p">(</span><span class="s1">'rating'</span><span class="p">)</span> <span class="o">??</span> <span class="mf">0.0</span><span class="p">);</span>
-
-<span class="nv">$properties</span> <span class="o">=</span> <span class="nc">Property</span><span class="o">::</span><span class="nf">query</span><span class="p">()</span>
-<span class="o">-&gt;</span><span class="nf">withCount</span><span class="p">(</span><span class="s1">'reviews'</span><span class="p">)</span> <span class="c1">// -&gt;reviews_count</span>
-<span class="o">-&gt;</span><span class="nf">withAvg</span><span class="p">(</span><span class="s1">'reviews'</span><span class="p">,</span> <span class="s1">'rating'</span><span class="p">)</span> <span class="c1">// -&gt;reviews_avg_rating</span>
-<span class="o">-&gt;</span><span class="nf">get</span><span class="p">()</span>
-<span class="o">-&gt;</span><span class="nf">map</span><span class="p">(</span><span class="k">function</span> <span class="p">(</span><span class="nv">$p</span><span class="p">)</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$m</span><span class="p">,</span> <span class="nv">$C</span><span class="p">)</span> <span class="p">{</span>
-<span class="nv">$v</span> <span class="o">=</span> <span class="p">(</span><span class="n">int</span><span class="p">)</span> <span class="p">(</span><span class="nv">$p</span><span class="o">-&gt;</span><span class="n">reviews_count</span> <span class="o">??</span> <span class="mi">0</span><span class="p">);</span>
-<span class="nv">$R</span> <span class="o">=</span> <span class="p">(</span><span class="n">float</span><span class="p">)</span> <span class="p">(</span><span class="nv">$p</span><span class="o">-&gt;</span><span class="n">reviews_avg_rating</span> <span class="o">??</span> <span class="mf">0.0</span><span class="p">);</span>
-<span class="nv">$p</span><span class="o">-&gt;</span><span class="n">bayesian_rating</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$v</span><span class="o">/</span><span class="p">(</span><span class="nv">$v</span><span class="o">+</span><span class="nv">$m</span><span class="p">))</span> <span class="o">*</span> <span class="nv">$R</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$m</span><span class="o">/</span><span class="p">(</span><span class="nv">$v</span><span class="o">+</span><span class="nv">$m</span><span class="p">))</span> <span class="o">*</span> <span class="nv">$C</span><span class="p">;</span>
-<span class="k">return</span> <span class="nv">$p</span><span class="p">;</span>
-<span class="p">})</span>
-<span class="o">-&gt;</span><span class="nf">sortByDesc</span><span class="p">(</span><span class="s1">'bayesian_rating'</span><span class="p">)</span>
-<span class="o">-&gt;</span><span class="nf">values</span><span class="p">();</span>
-</code></pre></div></div>
-
-<p><small><em>“BHFMS proved that technology can bring structure and trust to everyday living by connecting people and places through critical design.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="projects" /><summary type="html"><![CDATA[VILT-stack marketplace and operations hub for Indonesian boarding houses—distance-aware search, payments, chat, reviews, inventory, and admin verification.]]></summary></entry></feed>
+<p><small><em>“My years at BINUS taught me that computer science is more than logic and code—it’s creativity, empathy, and the drive to make technology meaningful.”</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My journey as a Computer Science student at BINUS University (Global Class), where I explored AI, software development, and design thinking while earning a High GPA of 3.85.]]></summary></entry></feed>
