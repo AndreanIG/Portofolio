@@ -19,7 +19,8 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 
 | Year | Milestone | Organization |
 |:----:|:-----------|:-------------|
-| **2025** | [Graduated M.DataSci (Professional) — AI & Computer Vision](deakin/) | Deakin University |
+| **2025** | [Machine Operator (Christmas Casual)](prima-pmi/) | Prima PMI |
+|  | [Graduated M.DataSci (Professional) — AI & Computer Vision](deakin/) | Deakin University |
 |  | [Pet Sitter](pet-sitter/) | Camp Paws |
 |  | [Microsoft Certified: Azure AI Engineer Associate (AI-102)](azure-ai102/) | Microsoft |
 |  | [Microsoft Certified: Azure AI Fundamentals (AI-900)](azure-ai900/) | Microsoft |
@@ -30,7 +31,6 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 | **2019** | [Librarian](librarian/) | Citra Kasih Grade School |
 | **2018** | [Finalist — Mobile App Programming Competition](sgu-finalist/) | Swiss German University |
 |  | [Teaching Volunteer](teaching-volunteer/) | Bojong Koneng Village |
-
 
 ---
 
