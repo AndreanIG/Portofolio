@@ -20,8 +20,8 @@ buttons:
   </h1>
 
   <p class="ai-lead">
-    I build reliable <strong>AI and computer vision systems</strong> — from dataset to deployment.<br>
-    Projects include <em>Computer Vision Models</em>, <em>Dashboards</em>, and <em>vLLMs</em>.  
+    I build reliable <strong>AI and computer vision systems</strong> starting from dataset till deployment.<br>
+    My Projects include <em>Computer Vision Models</em>, <em>Dashboards</em>, and <em>vLLMs</em>.  
     <br><br><strong>Currently seeking new roles in AI/ML, IT, and tech-driven positions.</strong>
   </p>
 

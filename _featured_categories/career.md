@@ -19,7 +19,7 @@ Each chapter has its own lessons, challenges, and a little fun along the way.
 
 | Year | Milestone | Organization |
 |:----:|:-----------|:-------------|
-| **2025** | [Machine Operator (Christmas Casual)](prima-pmi/) | Prima PMI |
+| **2025** | [Machine Operator](prima-pmi/) | Prima PMI |
 |  | [Graduated M.DataSci (Professional) — AI & Computer Vision](deakin/) | Deakin University |
 |  | [Pet Sitter](pet-sitter/) | Camp Paws |
 |  | [Microsoft Certified: Azure AI Engineer Associate (AI-102)](azure-ai102/) | Microsoft |

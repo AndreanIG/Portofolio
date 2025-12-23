@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-16T21:37:26+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
-</subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-10-17T05:57:29+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-23T23:38:50+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+</subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-11-16T21:41:27+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
    
@@ -21,13 +21,12 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
 <h2 id="‍-experience">🧑‍💼 Experience</h2>
 
 <p><strong>Machine Operator — Prima PMI, Melbourne, Australia</strong><br />
-<small>Oct 2025 – Present (expected until Jan 2026)</small></p>
+<small>Oct 2025 – Present</small></p>
 <ul>
-  <li>Seasonal Christmas Casual role in the Calender Department.</li>
-  <li>Operate and assist across multiple machines during peak production periods.</li>
-  <li>Conduct routine machine maintenance, troubleshooting, and quality checks.</li>
-  <li>Support production workflow including RF scanning, packaging, and heavy lifting.</li>
-  <li>Quickly adapt across different machinery to meet high-volume demands.</li>
+  <li>Worked across Calender, Guillotine (cut finishing), and Shipping departments during peak production periods</li>
+  <li>Operating industrial print-finishing machinery including Renz Inline 500, Renz AP 360 Digital, Uchida VS20 paper drill, and Uchida Countron tabbing machine</li>
+  <li>Contributed to meeting daily and monthly production KPIs of 14,000 finished units during peak seasonal demand</li>
+  <li>Used RF scanning systems for job tracking, inventory control, and workflow coordination</li>
 </ul>
 
 <p><strong>Pet Sitter — Camp Paws, Melbourne, Australia</strong><br />
@@ -163,7 +162,7 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
     </tr>
     <tr>
       <td><strong>Address</strong></td>
-      <td>51 Station Street, Burwood VIC 3125</td>
+      <td>4 Lawrence Cres, Noble Park North VIC 3174</td>
     </tr>
     <tr>
       <td><strong>LinkedIn</strong></td>
@@ -172,92 +171,178 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
   </tbody>
 </table>
 
-<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Machine Operator — Prima PMI</title><link href="http://localhost:4000/Portofolio/career/prima-pmi/" rel="alternate" type="text/html" title="Machine Operator — Prima PMI" /><published>2025-10-01T00:00:00+10:00</published><updated>2025-11-16T21:29:51+11:00</updated><id>http://localhost:4000/Portofolio/career/prima</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/prima-pmi/"><![CDATA[<section class="lead" style="text-align: justify;">
-  <p>In October 2025, I joined <strong>Prima PMI</strong> in Melbourne as a <strong>Machine Operator (Christmas Casual)</strong> in the Calender Department. It was my first experience working in a full-scale production facility, where I supported high-volume manufacturing during the busiest season of the year. This role taught me adaptability, discipline, and the importance of working efficiently as part of a larger operational system.</p>
+<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Machine Operator — Prima PMI</title><link href="http://localhost:4000/Portofolio/career/prima-pmi/" rel="alternate" type="text/html" title="Machine Operator — Prima PMI" /><published>2025-10-01T00:00:00+10:00</published><updated>2025-11-16T21:41:27+11:00</updated><id>http://localhost:4000/Portofolio/career/prima</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/prima-pmi/"><![CDATA[<section class="lead" style="text-align: justify;">
+  <p>In October 2025, I joined <strong>Prima PMI</strong> in Melbourne as a <strong>Machine Operator (Christmas Casual)</strong>.<br />
+During the peak production season, I worked across <strong>three departments — Calender, Guillotine (Cut Finishing), and Shipping</strong>, supporting high-volume manufacturing and fulfilment operations.</p>
+
+  <p>This role was my first experience in a full-scale industrial production environment, where I learned the importance of precision, adaptability, safety, and teamwork in keeping operations running efficiently under time pressure.</p>
 </section>
 
 <hr />
 
-<h2 id="-working-in-the-calender-department">🏭 Working in the Calender Department</h2>
+<h2 id="-calender-department-primary-role">🏭 Calender Department (Primary Role)</h2>
 
-<p>The Calender Department is responsible for handling materials that go through pressing, rolling, or smoothing processes using heavy industrial machinery.<br />
-As a machine operator assistant, my daily tasks revolved around supporting this workflow:</p>
-
-<ul>
-  <li>Operating and assisting multiple machines during peak production</li>
-  <li>Performing routine maintenance checks such as cleaning, lubrication, and setup</li>
-  <li>Troubleshooting small issues to minimise downtime</li>
-  <li>Monitoring material quality and ensuring consistency</li>
-  <li>Handling RF scanning for inventory and work-tracking</li>
-  <li>Supporting heavy lifting, material movement, and loading tasks</li>
-</ul>
-
-<p>Working with different machines required quick learning and constant awareness.<br />
-Every shift was fast-paced, but it sharpened my ability to adapt across roles and maintain focus under physical and time-based pressure.</p>
+<p>The Calender Department handles punching, drilling, tabbing, and finishing processes for a wide range of paper-based products.<br />
+I spent most of my shifts here, supporting both mainline production and specialised finishing tasks.</p>
 
 <hr />
 
-<h2 id="-learning-production-workflow">📦 Learning Production Workflow</h2>
+<h3 id="-renz-inline-500--main-production-machine">🔹 Renz Inline 500 — Main Production Machine</h3>
+<p><strong>High-volume punching &amp; binding system</strong></p>
 
-<p>One of the most valuable aspects of the role was understanding how each step in a manufacturing line connects to the next.<br />
-Even a small delay in one stage could impact the entire production chain.</p>
+<p>🔗 <a href="https://www.renz.com/products/renz-ring-wire/inline-500/" target="_blank">View official product page →</a></p>
 
-<p>I learned to:</p>
-
+<p><strong>My involvement:</strong></p>
 <ul>
-  <li>Communicate clearly with supervisors and teammates</li>
-  <li>Prepare materials ahead of schedule to prevent bottlenecks</li>
-  <li>Prioritize tasks during high-volume processing</li>
-  <li>Identify defects or irregularities before they affected output</li>
+  <li>Assisted with continuous high-volume production runs</li>
+  <li>Material feeding, alignment checks, and output monitoring</li>
+  <li>Ensured punch consistency and workflow stability</li>
+  <li>Performed routine cleaning and basic maintenance during shift changes</li>
 </ul>
 
-<p>The experience helped me appreciate the importance of precision and timing in industrial operations—skills that bridge both technical and non-technical fields.</p>
+<p>This machine formed the backbone of daily calender production and required constant attention to maintain speed and quality.</p>
 
 <hr />
 
-<h2 id="-teamwork-in-a-fast-paced-environment">🤝 Teamwork in a Fast-Paced Environment</h2>
+<h3 id="-renz-ap-360-digital--punching-specialised-jobs">🔹 Renz AP 360 Digital — Punching (Specialised Jobs)</h3>
+<p><strong>Digital punching for customised product requirements</strong></p>
 
-<p>Working as a Christmas Casual meant joining a fully functioning team during their busiest period.<br />
-I quickly learned how essential teamwork is on a production floor.</p>
+<p>🔗 <a href="https://www.renz.com/products/punching/ap-360-digital/" target="_blank">View official product page →</a></p>
 
-<p>Every shift required coordination:</p>
-
+<p><strong>My involvement:</strong></p>
 <ul>
-  <li>Passing materials between operators</li>
-  <li>Sharing machine responsibilities when workloads spiked</li>
-  <li>Supporting teammates during maintenance or slowdowns</li>
-  <li>Keeping communication open to avoid safety risks</li>
+  <li>Assisted with setup for customised punching jobs</li>
+  <li>Adjusted material positioning based on job specifications</li>
+  <li>Checked punch accuracy and hole alignment</li>
+  <li>Supported changeovers between different product types</li>
 </ul>
 
-<p>The team at Prima PMI was supportive, patient, and collaborative.<br />
-They taught me not just the technical tasks but also the discipline and mindset needed to work efficiently in a manufacturing environment.</p>
+<p>Used for more precise or smaller-batch punching compared to the Inline 500.</p>
+
+<hr />
+
+<h3 id="-uchida-vs-20--paper-drilling-machine">🔹 Uchida VS-20 — Paper Drilling Machine</h3>
+<p><strong>Precision drilling for paper products</strong></p>
+
+<p>🔗 <a href="https://www.fingerprintdigital.com/product/uchida-vs-20-paper-drill/" target="_blank">View distributor product page →</a></p>
+
+<p><strong>My involvement:</strong></p>
+<ul>
+  <li>Assisted with paper positioning and drilling accuracy</li>
+  <li>Monitored hole consistency across batches</li>
+  <li>Helped with drill-bit checks and cleaning</li>
+  <li>Ensured safe operation during repetitive drilling tasks</li>
+</ul>
+
+<p>This role required high attention to detail, as drilling errors could affect entire batches.</p>
+
+<hr />
+
+<h3 id="-uchida-countron--tabbing-machine">🔹 Uchida Countron — Tabbing Machine</h3>
+<p><strong>Automatic tabbing and finishing</strong></p>
+
+<p>::contentReference[oaicite:3]{index=3}</p>
+
+<p>🔗 <a href="https://www.uchida-machinery.com/en/products/" target="_blank">Learn more about Uchida finishing equipment →</a></p>
+
+<p><strong>My involvement:</strong></p>
+<ul>
+  <li>Assisted with setup and tab placement alignment</li>
+  <li>Monitored tab consistency and adhesion</li>
+  <li>Supported material handling and output collection</li>
+  <li>Performed basic cleaning and jam clearing</li>
+</ul>
+
+<p>Often used at later finishing stages where visual quality was critical.</p>
+
+<hr />
+
+<h2 id="️-guillotine-department-cut-finishing">✂️ Guillotine Department (Cut Finishing)</h2>
+
+<p>In the Guillotine Department, I supported cut finishing for paper-based products across various production jobs.</p>
+
+<p><strong>Key responsibilities:</strong></p>
+<ul>
+  <li>Assisting with guillotine cutting operations</li>
+  <li>Preparing stacks and materials for accurate cutting</li>
+  <li>Checking measurements and alignment before and after cuts</li>
+  <li>Handling finished products and preparing them for downstream processes</li>
+  <li>Maintaining cleanliness and safety around cutting equipment</li>
+</ul>
+
+<p>This role reinforced the importance of precision and safety, as small errors could impact large production batches.</p>
+
+<hr />
+
+<h2 id="-shipping-department">📦 Shipping Department</h2>
+
+<p>In the Shipping Department, I supported the final stage of the production pipeline — fulfilment and dispatch.</p>
+
+<p><strong>Key responsibilities:</strong></p>
+<ul>
+  <li>Preparing finished products for shipment</li>
+  <li>Ensuring correct labelling, packing, and documentation</li>
+  <li>Verifying orders using RF scanning systems</li>
+  <li>Coordinating with team members to meet dispatch deadlines</li>
+  <li>Supporting loading and movement of outgoing goods</li>
+</ul>
+
+<p>This role gave me visibility into how production outputs connect directly to customer delivery.</p>
+
+<hr />
+
+<h2 id="-understanding-end-to-end-production-workflow">🔄 Understanding End-to-End Production Workflow</h2>
+
+<p>Working across <strong>Calender → Guillotine → Shipping</strong> allowed me to understand the full production lifecycle.</p>
+
+<p>Key learnings:</p>
+<ul>
+  <li>Early-stage quality control prevents downstream rework</li>
+  <li>Clear communication between departments avoids bottlenecks</li>
+  <li>Timing and preparation are as important as speed</li>
+  <li>Small delays can impact the entire workflow</li>
+</ul>
+
+<p>This experience strengthened my operational awareness and process mindset.</p>
+
+<hr />
+
+<h2 id="-maintenance--machine-care">🔧 Maintenance &amp; Machine Care</h2>
+
+<p>In addition to machine operation, I regularly supported basic maintenance tasks across departments:</p>
+
+<ul>
+  <li>Cleaning machine components and work areas</li>
+  <li>Clearing paper jams safely</li>
+  <li>Preparing machines for the next production run</li>
+  <li>Identifying minor issues early to minimise downtime</li>
+</ul>
+
+<p>This hands-on exposure helped me build strong safety awareness and respect for machine care.</p>
 
 <hr />
 
 <h2 id="-skills-i-developed">🧠 Skills I Developed</h2>
 
-<p>Although the role was outside my usual background in IT and data science, it helped me build skills that are valuable across industries:</p>
-
 <ul>
-  <li>Adaptability under pressure</li>
-  <li>Operational discipline</li>
-  <li>Basic mechanical understanding</li>
-  <li>Quality control mindset</li>
+  <li>Industrial machine assistance and basic maintenance</li>
+  <li>Quality control and attention to detail</li>
   <li>RF scanning and inventory handling</li>
-  <li>Physical endurance and workflow awareness</li>
-  <li>Communication and coordination in shift-based teams</li>
+  <li>Workflow awareness in production environments</li>
+  <li>Physical endurance and safe material handling</li>
+  <li>Team communication in shift-based operations</li>
+  <li>Adaptability under high-volume, time-sensitive conditions</li>
 </ul>
 
-<p>These experiences strengthened my readiness for roles in <strong>IT, administration, logistics, or warehouse operations</strong>, where structured processes and teamwork play a central role.</p>
+<p>These skills are transferable to roles in <strong>manufacturing, print finishing, logistics, warehousing, and operations</strong>.</p>
 
 <hr />
 
 <h2 id="-reflection">💭 Reflection</h2>
 
-<p><small><em>“Working at Prima PMI taught me that even in fast-paced production floors, consistency, teamwork, and adaptability matter just as much as technical skill.”</em></small></p>
+<p><small><em>“Working at Prima PMI taught me that even on fast-paced production floors, consistency, teamwork, and adaptability matter just as much as technical skill.”</em></small></p>
 
-<p>This short but meaningful experience gave me new perspectives about how things are built behind the scenes.<br />
-It taught me responsibility, efficiency, and the importance of every role—no matter how small—in keeping production running smoothly.</p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience working as a Machine Operator (Christmas Casual) at Prima PMI, where I assisted in the Calender Department, operated various machines, maintained workflow quality, and learned the importance of consistency and teamwork in a fast-paced production environment.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
+<p>This experience gave me a deeper appreciation for how products are produced, finished, and delivered behind the scenes, and strengthened my discipline, work ethic, and operational mindset.</p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience working as a Machine Operator (Christmas Casual) at Prima PMI, where I supported production across the Calender, Guillotine (cut finishing), and Shipping departments, assisted with industrial machinery, performed basic maintenance, and ensured workflow quality during peak season.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
 This postgraduate program deepened my understanding of data science, machine learning, and AI systems, focusing on both technical proficiency and ethical application.</p>
 
 <hr />
