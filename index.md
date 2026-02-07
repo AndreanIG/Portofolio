@@ -46,7 +46,7 @@ buttons:
 **Languages:** Python, C#, PHP, JavaScript, Java, SQL  
 **Frameworks:** PyTorch, TensorFlow, FastAPI, Laravel, Vue, Tailwind  
 **Cloud & DevOps:** Azure, Docker, Jenkins  
-**Data Tools:** Power BI, Tableau, TensorBoard  
+**Data Tools:** Power BI, Tableu, TensorBoard  
 
 ---
 
@@ -79,8 +79,6 @@ Download it below or view the full [Resume Page]({{ site.baseurl }}/resume/):
   --ai2:#06B6D4;
   --ai-muted: var(--muted, #9ca3af);
 }
-
-/* (Background removed — no .ai-bg and no gradient) */
 
 /* ---------- TITLE + ROTATOR ---------- */
 .ai-home .ai-title{
@@ -124,13 +122,14 @@ Download it below or view the full [Resume Page]({{ site.baseurl }}/resume/):
   color:var(--ai-muted);
 }
 
-/* ---------- BUTTONS ---------- */
+/* ---------- BUTTONS & INSTANT CYCLE ---------- */
 .ai-home .ai-links{
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
   gap:.8rem;
 }
+
 .ai-home .ai-btn{
   padding:.9rem 1.7rem;
   border-radius:999px;
@@ -140,23 +139,36 @@ Download it below or view the full [Resume Page]({{ site.baseurl }}/resume/):
   color:#111;
   border:1px solid rgba(0,0,0,.1);
   transition:.25s ease;
+  opacity: 0.7;
 }
-.ai-home .ai-btn:hover{ transform:translateY(-2px); }
 
-/* Button cycle (unchanged) */
+.ai-home .ai-btn:hover{ transform:translateY(-2px); opacity: 1; }
+
 .ai-home .ai-rotate{
-  animation: ai-btn-cycle 9s ease-in-out infinite;
+  /* Total 9s cycle (3 buttons * 3s each) using linear for instant handoff */
+  animation: ai-btn-cycle 9s linear infinite;
 }
+
 .ai-home .delay-1{ animation-delay: 0s; }
 .ai-home .delay-2{ animation-delay: 3s; }
 .ai-home .delay-3{ animation-delay: 6s; }
 
 @keyframes ai-btn-cycle {
-  0%   { opacity:0.7; }
-  15%  { background:linear-gradient(90deg,var(--ai1),var(--ai2)); color:#fff; opacity:1; }
-  35%  { opacity:1; }
-  50%  { opacity:0.7; }
-  100% { opacity:0.7; }
+  /* Button is ACTIVE for the first 33% (3 seconds) */
+  0%, 33% { 
+    background: linear-gradient(90deg, var(--ai1), var(--ai2)); 
+    color: #fff; 
+    opacity: 1; 
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+  }
+  /* Button is IDLE for the remaining 66% (6 seconds) */
+  33.01%, 100% { 
+    background: rgba(255,255,255,0.1); 
+    color: inherit; 
+    opacity: 0.7; 
+    box-shadow: none;
+  }
 }
 
 /* ---------- DARK MODE ---------- */
