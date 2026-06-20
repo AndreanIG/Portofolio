@@ -6,27 +6,20 @@
 >
   <hr />
 
-  {% if site.copyright.size > 0 %}
   <p>
     <small class="copyright">
-      {{ site.copyright | markdownify | replace:'
-      <p>','' | replace:'</p>
-      ','' }}
+      © {{ site.time | date: "%Y" }} All rights reserved.
     </small>
   </p>
-  {% endif %}
 
   <!-- Personal Branding Section -->
   <p><strong>Andrean Ignasius</strong> | Data Scientist</p>
 
   <p>
-    <small
-      >Powered by
-      <a class="external" href="https://hydejack.com/">Hydejack</a> v<span
-        id="_version"
-        >9.2.1</span
-      ></small
-    >
+    <small>
+      Made with the help of
+      <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.2.1</span>
+    </small>
   </p>
 
   <hr class="sr-only" />

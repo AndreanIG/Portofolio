@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-23T23:40:30+11:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
-</subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2025-12-23T23:39:55+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portofolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portofolio/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-20T22:01:23+10:00</updated><id>http://localhost:4000/Portofolio/feed.xml</id><title type="html">Andrean Ignasius</title><subtitle>My Portofolio
+</subtitle><author><name>author1</name></author><entry><title type="html">Resume</title><link href="http://localhost:4000/Portofolio/resume/" rel="alternate" type="text/html" title="Resume" /><published>2025-10-06T00:00:00+11:00</published><updated>2026-02-07T21:53:08+11:00</updated><id>http://localhost:4000/Portofolio/resume</id><content type="html" xml:base="http://localhost:4000/Portofolio/resume/"><![CDATA[<p class="page__buttons" style="margin-top: 1rem">
   
   <a href="#" onclick="window.print();" class="btn btn--primary">🖨 Print</a>
    
@@ -18,58 +18,62 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
 
 <hr />
 
-<h2 id="‍-experience">🧑‍💼 Experience</h2>
+<h2 id="-experience">🧑‍💼 Experience</h2>
 
-<p><strong>Machine Operator — Prima PMI, Melbourne, Australia</strong><br />
-<small>Oct 2025 – Present</small></p>
+<p><strong>UV Lamination Operator — Prima PMI, Melbourne, Australia</strong> <small>Oct 2025 – Present</small></p>
 <ul>
-  <li>Worked across Calender, Guillotine (cut finishing), and Shipping departments during peak production periods</li>
-  <li>Operating industrial print-finishing machinery including Renz Inline 500, Renz AP 360 Digital, Uchida VS20 paper drill, and Uchida Countron tabbing machine</li>
-  <li>Contributed to meeting daily and monthly production KPIs of 14,000 finished units during peak seasonal demand</li>
-  <li>Used RF scanning systems for job tracking, inventory control, and workflow coordination</li>
+  <li>Sole operator responsible for industrial UV lamination systems during production shifts</li>
+  <li>Operate and calibrate UV lamination machines to ensure high-quality protective finishing for printed materials</li>
+  <li>Manage machine settings including heat, speed, and feed based on material requirements</li>
+  <li>Monitor production quality to ensure consistent coating without defects such as bubbles, creases, or contamination</li>
+  <li>Perform real-time troubleshooting to prevent jams, misfeeds, and production interruptions</li>
+  <li>Maintain stable high-volume production output while ensuring strict quality standards</li>
+  <li>Recognised for handling a technically complex machine requiring precision and independent operation</li>
 </ul>
 
-<p><strong>Pet Sitter — Camp Paws, Melbourne, Australia</strong><br />
-<small>Mar 2024 – Jul 2025</small></p>
+<p><strong>Machine Operator (Casual Support Roles) — Prima PMI, Melbourne, Australia</strong> <small>Oct 2025 – Early Phase</small></p>
 <ul>
-  <li>Managed pet care across multiple households, including feeding, walking, and medication.</li>
-  <li>Maintained daily communication and updates for pet owners.</li>
+  <li>Supported production across Calender, Shipping, and Guillotine departments during initial employment period</li>
+  <li>Assisted with automated punching, cutting, and finishing processes in the Calender department</li>
+  <li>Supported guillotine cutting operations for accurate trimming of printed materials</li>
+  <li>Assisted Shipping department with packing, RF scanning, and dispatch preparation</li>
+  <li>Ensured workflow efficiency during peak seasonal production demand</li>
 </ul>
 
-<p><strong>Data Scientist — Telkom Indonesia, Jakarta, Indonesia</strong><br />
-<small>Sep 2022 – Mar 2023</small></p>
+<p><strong>Pet Sitter — Camp Paws, Melbourne, Australia</strong> <small>Mar 2024 – Jul 2025</small></p>
 <ul>
-  <li>Built computer vision model for employee face detection (80% accuracy across 1000 faces).</li>
-  <li>Improved machine learning pipeline accuracy by <strong>5–6%</strong>.</li>
-  <li>Collaborated cross-functionally to align ML projects with business needs.</li>
-  <li>Created documentation and led stakeholder knowledge transfer.</li>
+  <li>Managed pet care across multiple households, including feeding, walking, and medication</li>
+  <li>Maintained daily communication and updates for pet owners</li>
 </ul>
 
-<p><strong>Librarian — Citra Kasih Grade School, Jakarta, Indonesia</strong><br />
-<small>Apr 2019 – May 2019</small></p>
+<p><strong>Data Scientist — Telkom Indonesia, Jakarta, Indonesia</strong> <small>Sep 2022 – Mar 2023</small></p>
 <ul>
-  <li>Managed loan requests, cataloging, and data entry.</li>
-  <li>Supported cataloging of new acquisitions and organized library inventory.</li>
+  <li>Built computer vision model for employee face detection (80% accuracy across 1000 faces)</li>
+  <li>Improved machine learning pipeline accuracy by <strong>5–6%</strong></li>
+  <li>Collaborated cross-functionally to align ML projects with business needs</li>
+  <li>Created documentation and led stakeholder knowledge transfer</li>
+</ul>
+
+<p><strong>Librarian — Citra Kasih Grade School, Jakarta, Indonesia</strong> <small>Apr 2019 – May 2019</small></p>
+<ul>
+  <li>Managed loan requests, cataloging, and data entry</li>
+  <li>Supported cataloging of new acquisitions and organized library inventory</li>
 </ul>
 
 <hr />
 
 <h2 id="-education">🎓 Education</h2>
 
-<p><strong>Master of Data Science (Professional)</strong><br />
-<em>Deakin University, Burwood, Australia</em><br />
+<p><strong>Master of Data Science (Professional)</strong> <em>Deakin University, Burwood, Australia</em><br />
 <small>Nov 2023 – Jun 2025</small></p>
 <ul>
-  <li>Graduated with <strong>High Distinction</strong></li>
-  <li>Awarded <strong>International Scholarship</strong></li>
+  <li>Graduated with <strong>High Distinction</strong> - Awarded <strong>International Scholarship</strong></li>
 </ul>
 
-<p><strong>Bachelor of Computer Science (Global Class)</strong><br />
-<em>Bina Nusantara University, Indonesia</em><br />
+<p><strong>Bachelor of Computer Science (Global Class)</strong> <em>Bina Nusantara University, Indonesia</em><br />
 <small>Aug 2019 – Aug 2023</small></p>
 <ul>
-  <li>GPA: <strong>3.85 / 4.00</strong></li>
-  <li><strong>Best Research Paper Award</strong>, ICCSCI 2021</li>
+  <li>GPA: <strong>3.85 / 4.00</strong> - <strong>Best Research Paper Award</strong>, ICCSCI 2021</li>
   <li>Thesis: <em>Development of Web-Based Boarding House Marketplace and Management Application using VILT Stack</em></li>
 </ul>
 
@@ -121,23 +125,22 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
 <h2 id="-certifications--awards">🏆 Certifications &amp; Awards</h2>
 
 <ul>
-  <li><strong>Microsoft Certified — Azure AI Engineer Associate (AI-102)</strong> — Microsoft, <em>May 2024</em></li>
-  <li><strong>Microsoft Certified — Azure AI Fundamentals (AI-900)</strong> — Microsoft, <em>May 2024</em></li>
-  <li><strong>Student Exchange Program</strong> — Kaunas University of Technology, Lithuania, <em>Jan–Jul 2022</em></li>
-  <li><strong>Learn with Google AI: Explore ML</strong> — Google, <em>Mar 2022</em></li>
-  <li><strong>Best Research Paper Award</strong> — ICCSCI 2021, <em>Nov 2021</em></li>
-  <li><strong>Finalist — SGU Mobile App Programming Competition</strong> — Swiss German University, <em>Aug 2018</em></li>
+  <li><strong>Microsoft Certified — Azure AI Engineer Associate (AI-102)</strong> — Microsoft, May 2024</li>
+  <li><strong>Microsoft Certified — Azure AI Fundamentals (AI-900)</strong> — Microsoft, May 2024</li>
+  <li><strong>Student Exchange Program</strong> — Kaunas University of Technology, Lithuania, Jan–Jul 2022</li>
+  <li><strong>Learn with Google AI: Explore ML</strong> — Google, Mar 2022</li>
+  <li><strong>Best Research Paper Award</strong> — ICCSCI 2021, Nov 2021</li>
+  <li><strong>Finalist — SGU Mobile App Programming Competition</strong> — Swiss German University, Aug 2018</li>
 </ul>
 
 <hr />
 
 <h2 id="-volunteering">🤝 Volunteering</h2>
 
-<p><strong>Teaching Volunteer — Bojong Koneng, Bogor, Indonesia</strong><br />
-<small>Jul 2018</small></p>
+<p><strong>Teaching Volunteer — Bojong Koneng, Bogor, Indonesia</strong> <small>Jul 2018</small></p>
 <ul>
-  <li>Taught 6th-grade students in preparation for national exams.</li>
-  <li>Supervised physical education and calisthenics sessions.</li>
+  <li>Taught 6th-grade students in preparation for national exams</li>
+  <li>Supervised physical education and calisthenics sessions</li>
 </ul>
 
 <hr />
@@ -157,192 +160,103 @@ Eager to use data to solve meaningful problems and bring my skills to projects t
       <td><a href="mailto:andrean.2000@gmail.com">andrean.2000@gmail.com</a></td>
     </tr>
     <tr>
-      <td><strong>Phone</strong></td>
-      <td>047 829 1075</td>
-    </tr>
-    <tr>
-      <td><strong>Address</strong></td>
-      <td>4 Lawrence Cres, Noble Park North VIC 3174</td>
-    </tr>
-    <tr>
       <td><strong>LinkedIn</strong></td>
       <td><a href="https://www.linkedin.com/in/andrean-ignasius/">linkedin.com/in/andrean-ignasius</a></td>
     </tr>
   </tbody>
-</table>
+</table>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Machine Operator — Prima PMI</title><link href="http://localhost:4000/Portofolio/career/prima-pmi/" rel="alternate" type="text/html" title="Machine Operator — Prima PMI" /><published>2025-10-01T00:00:00+10:00</published><updated>2026-02-07T21:53:08+11:00</updated><id>http://localhost:4000/Portofolio/career/prima</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/prima-pmi/"><![CDATA[<section class="lead" style="text-align: justify;">
+  <p>In October 2025, I joined <strong>Prima PMI</strong> in Melbourne as a <strong>Machine Operator (Christmas Casual)</strong>.</p>
 
-<hr />]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="resume" /><summary type="html"><![CDATA[My Resume — Data Scientist, AI Engineer, and Machine Learning Researcher based in Melbourne.]]></summary></entry><entry><title type="html">Machine Operator — Prima PMI</title><link href="http://localhost:4000/Portofolio/career/prima-pmi/" rel="alternate" type="text/html" title="Machine Operator — Prima PMI" /><published>2025-10-01T00:00:00+10:00</published><updated>2025-12-23T23:39:55+11:00</updated><id>http://localhost:4000/Portofolio/career/prima</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/prima-pmi/"><![CDATA[<section class="lead" style="text-align: justify;">
-  <p>In October 2025, I joined <strong>Prima PMI</strong> in Melbourne as a <strong>Machine Operator (Christmas Casual)</strong>.<br />
-During the peak production season, I worked across <strong>three departments — Calender, Guillotine (Cut Finishing), and Shipping</strong>, supporting high-volume manufacturing and fulfilment operations.</p>
+  <p>During the casual period, I supported production across multiple departments including <strong>Calender, Shipping, and Guillotine</strong>, assisting with high-volume manufacturing and fulfilment operations.</p>
 
-  <p>This role was my first experience in a full-scale industrial production environment, where I learned the importance of precision, adaptability, safety, and teamwork in keeping operations running efficiently under time pressure.</p>
+  <p>As the role progressed, I transitioned into a <strong>dedicated UV Lamination Operator position</strong>, where I became solely responsible for operating and maintaining the UV lamination systems due to the technical complexity and precision required.</p>
+
+  <p>This role provided hands-on experience in a fast-paced industrial environment, where accuracy, machine control, and consistency were essential to maintaining production quality and efficiency.</p>
 </section>
 
 <hr />
 
-<h2 id="-calender-department-primary-role">🏭 Calender Department (Primary Role)</h2>
+<h2 id="-uv-lamination-department-primary-role">✨ UV Lamination Department (Primary Role)</h2>
 
-<p>The Calender Department handles punching, drilling, tabbing, and finishing processes for a wide range of paper-based products.<br />
-I spent most of my shifts here, supporting both mainline production and specialised finishing tasks.</p>
+<p>I currently work as the <strong>primary and specialised operator for UV lamination systems</strong>, a high-precision process requiring technical understanding of machine calibration, material behaviour, and quality control.</p>
 
-<hr />
-
-<h3 id="-renz-inline-500--main-production-machine">🔹 Renz Inline 500 — Main Production Machine</h3>
-<p><strong>High-volume punching &amp; binding system</strong></p>
-
-<p>🔗 <a href="https://www.renz.com/products/renz-ring-wire/inline-500/" target="_blank">View official product page →</a></p>
-
-<p><strong>My involvement:</strong></p>
-<ul>
-  <li>Assisted with continuous high-volume production runs</li>
-  <li>Material feeding, alignment checks, and output monitoring</li>
-  <li>Ensured punch consistency and workflow stability</li>
-  <li>Performed routine cleaning and basic maintenance during shift changes</li>
-</ul>
-
-<p>This machine formed the backbone of daily calender production and required constant attention to maintain speed and quality.</p>
-
-<hr />
-
-<h3 id="-renz-ap-360-digital--punching-specialised-jobs">🔹 Renz AP 360 Digital — Punching (Specialised Jobs)</h3>
-<p><strong>Digital punching for customised product requirements</strong></p>
-
-<p>🔗 <a href="https://www.renz.com/products/punching/ap-360-digital/" target="_blank">View official product page →</a></p>
-
-<p><strong>My involvement:</strong></p>
-<ul>
-  <li>Assisted with setup for customised punching jobs</li>
-  <li>Adjusted material positioning based on job specifications</li>
-  <li>Checked punch accuracy and hole alignment</li>
-  <li>Supported changeovers between different product types</li>
-</ul>
-
-<p>Used for more precise or smaller-batch punching compared to the Inline 500.</p>
-
-<hr />
-
-<h3 id="-uchida-vs-20--paper-drilling-machine">🔹 Uchida VS-20 — Paper Drilling Machine</h3>
-<p><strong>Precision drilling for paper products</strong></p>
-
-<p>🔗 <a href="https://www.fingerprintdigital.com/product/uchida-vs-20-paper-drill/" target="_blank">View distributor product page →</a></p>
-
-<p><strong>My involvement:</strong></p>
-<ul>
-  <li>Assisted with paper positioning and drilling accuracy</li>
-  <li>Monitored hole consistency across batches</li>
-  <li>Helped with drill-bit checks and cleaning</li>
-  <li>Ensured safe operation during repetitive drilling tasks</li>
-</ul>
-
-<p>This role required high attention to detail, as drilling errors could affect entire batches.</p>
-
-<hr />
-
-<h3 id="-uchida-countron--tabbing-machine">🔹 Uchida Countron — Tabbing Machine</h3>
-<p><strong>Automatic tabbing and finishing</strong></p>
-
-<p>::contentReference[oaicite:3]{index=3}</p>
-
-<p>🔗 <a href="https://www.uchida-machinery.com/en/products/" target="_blank">Learn more about Uchida finishing equipment →</a></p>
-
-<p><strong>My involvement:</strong></p>
-<ul>
-  <li>Assisted with setup and tab placement alignment</li>
-  <li>Monitored tab consistency and adhesion</li>
-  <li>Supported material handling and output collection</li>
-  <li>Performed basic cleaning and jam clearing</li>
-</ul>
-
-<p>Often used at later finishing stages where visual quality was critical.</p>
-
-<hr />
-
-<h2 id="️-guillotine-department-cut-finishing">✂️ Guillotine Department (Cut Finishing)</h2>
-
-<p>In the Guillotine Department, I supported cut finishing for paper-based products across various production jobs.</p>
+<p>I am responsible for independently operating the UV lamination line and ensuring continuous, stable production output.</p>
 
 <p><strong>Key responsibilities:</strong></p>
 <ul>
-  <li>Assisting with guillotine cutting operations</li>
-  <li>Preparing stacks and materials for accurate cutting</li>
-  <li>Checking measurements and alignment before and after cuts</li>
-  <li>Handling finished products and preparing them for downstream processes</li>
-  <li>Maintaining cleanliness and safety around cutting equipment</li>
+  <li>Operate industrial UV lamination equipment for protective and high-quality finishing of printed materials</li>
+  <li>Sole operator responsible for UV lamination systems during production shifts</li>
+  <li>Manage machine calibration including heat, speed, and feed adjustments based on material type</li>
+  <li>Monitor lamination quality to ensure consistent coating without bubbles, creases, or contamination</li>
+  <li>Perform real-time troubleshooting to prevent jams, feed errors, and production interruptions</li>
+  <li>Conduct continuous quality inspection to ensure all output meets production standards</li>
+  <li>Maintain production stability while managing high-volume workflow demands</li>
 </ul>
 
-<p>This role reinforced the importance of precision and safety, as small errors could impact large production batches.</p>
+<p>This role requires strong technical control, attention to detail, and the ability to maintain precision under continuous production pressure.</p>
 
 <hr />
 
-<h2 id="-shipping-department">📦 Shipping Department</h2>
+<h2 id="-previous-support-roles-casual-period">🏭 Previous Support Roles (Casual Period)</h2>
 
-<p>In the Shipping Department, I supported the final stage of the production pipeline — fulfilment and dispatch.</p>
+<p>During my initial casual period, I also supported operations across several departments:</p>
 
-<p><strong>Key responsibilities:</strong></p>
+<h3 id="calender-department">Calender Department</h3>
 <ul>
-  <li>Preparing finished products for shipment</li>
-  <li>Ensuring correct labelling, packing, and documentation</li>
-  <li>Verifying orders using RF scanning systems</li>
-  <li>Coordinating with team members to meet dispatch deadlines</li>
-  <li>Supporting loading and movement of outgoing goods</li>
+  <li>Assisted with automated punching and finishing machinery</li>
+  <li>Supported material feeding, alignment, and output monitoring</li>
+  <li>Performed basic machine cleaning and maintenance between shifts</li>
 </ul>
 
-<p>This role gave me visibility into how production outputs connect directly to customer delivery.</p>
+<h3 id="guillotine-department-cut-finishing">Guillotine Department (Cut Finishing)</h3>
+<ul>
+  <li>Assisted with industrial cutting operations for printed materials</li>
+  <li>Prepared and aligned material stacks for accurate trimming</li>
+  <li>Followed strict safety procedures during machine operation</li>
+</ul>
+
+<h3 id="shipping-department">Shipping Department</h3>
+<ul>
+  <li>Prepared and packed finished goods for dispatch</li>
+  <li>Verified orders using RF scanning systems</li>
+  <li>Supported timely fulfilment of outgoing shipments</li>
+</ul>
 
 <hr />
 
-<h2 id="-understanding-end-to-end-production-workflow">🔄 Understanding End-to-End Production Workflow</h2>
+<h2 id="-transition-to-specialised-technical-role">🔄 Transition to Specialised Technical Role</h2>
 
-<p>Working across <strong>Calender → Guillotine → Shipping</strong> allowed me to understand the full production lifecycle.</p>
+<p>After initial exposure to multiple production areas, I was assigned full responsibility in UV lamination due to:</p>
 
-<p>Key learnings:</p>
 <ul>
-  <li>Early-stage quality control prevents downstream rework</li>
-  <li>Clear communication between departments avoids bottlenecks</li>
-  <li>Timing and preparation are as important as speed</li>
-  <li>Small delays can impact the entire workflow</li>
+  <li>High technical complexity of machine operation</li>
+  <li>Need for consistent calibration and precision control</li>
+  <li>Requirement for experienced handling to minimise production risk</li>
 </ul>
 
-<p>This experience strengthened my operational awareness and process mindset.</p>
+<p>This transition reflects increased trust and responsibility within the production environment.</p>
 
 <hr />
 
-<h2 id="-maintenance--machine-care">🔧 Maintenance &amp; Machine Care</h2>
-
-<p>In addition to machine operation, I regularly supported basic maintenance tasks across departments:</p>
+<h2 id="-skills-developed">🧠 Skills Developed</h2>
 
 <ul>
-  <li>Cleaning machine components and work areas</li>
-  <li>Clearing paper jams safely</li>
-  <li>Preparing machines for the next production run</li>
-  <li>Identifying minor issues early to minimise downtime</li>
+  <li>Advanced UV lamination machine operation</li>
+  <li>Precision calibration and production tuning</li>
+  <li>Real-time troubleshooting in high-speed production systems</li>
+  <li>Quality assurance in industrial finishing processes</li>
+  <li>Workflow discipline under continuous production pressure</li>
+  <li>Adaptability across multiple manufacturing departments</li>
+  <li>Strong focus on consistency, accuracy, and machine stability</li>
 </ul>
-
-<p>This hands-on exposure helped me build strong safety awareness and respect for machine care.</p>
-
-<hr />
-
-<h2 id="-skills-i-developed">🧠 Skills I Developed</h2>
-
-<ul>
-  <li>Industrial machine assistance and basic maintenance</li>
-  <li>Quality control and attention to detail</li>
-  <li>RF scanning and inventory handling</li>
-  <li>Workflow awareness in production environments</li>
-  <li>Physical endurance and safe material handling</li>
-  <li>Team communication in shift-based operations</li>
-  <li>Adaptability under high-volume, time-sensitive conditions</li>
-</ul>
-
-<p>These skills are transferable to roles in <strong>manufacturing, print finishing, logistics, warehousing, and operations</strong>.</p>
 
 <hr />
 
 <h2 id="-reflection">💭 Reflection</h2>
 
-<p><small><em>“Working at Prima PMI taught me that even on fast-paced production floors, consistency, teamwork, and adaptability matter just as much as technical skill.”</em></small></p>
-
-<p>This experience gave me a deeper appreciation for how products are produced, finished, and delivered behind the scenes, and strengthened my discipline, work ethic, and operational mindset.</p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[My experience working as a Machine Operator (Christmas Casual) at Prima PMI, where I supported production across the Calender, Guillotine (cut finishing), and Shipping departments, assisted with industrial machinery, performed basic maintenance, and ensured workflow quality during peak season.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
+<p><small><em>
+This role strengthened my ability to operate complex industrial equipment independently and reinforced the importance of precision in high-volume production environments. Taking full responsibility for UV lamination operations also developed my confidence in managing technical systems under pressure while maintaining consistent quality output.
+</em></small></p>]]></content><author><name>&lt;Andrean&gt; &lt;Ignasius&gt;</name><email>&lt;andrean.2000@gmail.com&gt;</email></author><category term="career" /><summary type="html"><![CDATA[Experience as a Machine Operator at Prima PMI, focusing on high-technical UV lamination operations during peak production season.]]></summary></entry><entry><title type="html">Master of Data Science (Professional)</title><link href="http://localhost:4000/Portofolio/career/deakin/" rel="alternate" type="text/html" title="Master of Data Science (Professional)" /><published>2025-09-18T00:00:00+10:00</published><updated>2025-10-17T23:16:10+11:00</updated><id>http://localhost:4000/Portofolio/career/deakin</id><content type="html" xml:base="http://localhost:4000/Portofolio/career/deakin/"><![CDATA[<p>I completed my <strong>Master of Data Science (Professional)</strong> at <strong>Deakin University</strong>, Australia, with a specialisation in <strong>Artificial Intelligence and Computer Vision</strong>.<br />
 This postgraduate program deepened my understanding of data science, machine learning, and AI systems, focusing on both technical proficiency and ethical application.</p>
 
 <hr />

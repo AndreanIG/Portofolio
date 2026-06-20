@@ -8,7 +8,7 @@ buttons:
   json: /Portofolio/assets/files/resume.json
 ---
 
-<section class="ai-home hero" style="text-align:center; padding:5rem 1rem; position:relative;">
+<section class="ai-home hero" style="text-align:center; padding:4rem 1rem;">
 
   <h1 class="ai-title">
     Hi, I’m Andrean — 
@@ -19,94 +19,103 @@ buttons:
     </span>
   </h1>
 
+  <p class="ai-subtitle">
+    🤖 Data Scientist • AI Engineer • Machine Learning Researcher
+  </p>
+
   <p class="ai-lead">
-    I build reliable <strong>AI and computer vision systems</strong> starting from dataset till deployment.<br>
-    My Projects include <em>Computer Vision Models</em>, <em>Dashboards</em>, and <em>vLLMs</em>.  
-    <br><br><strong>Currently seeking new roles in AI/ML, IT, and tech-driven positions.</strong>
+    I build and deploy machine learning systems from data processing to production deployment.<br>
+    Focused on computer vision, scalable ML pipelines, and applied AI solutions.
+  </p>
+
+  <p class="ai-highlight">
+    Master’s in Data Science (High Distinction, Deakin University) ·
+    Former Data Scientist at Telkom Indonesia ·
+    Microsoft Certified (Azure AI Engineer) ·
+    Best Research Paper Award (ICCSCI 2021)
   </p>
 
   <div class="hero-links ai-links">
-    <a href="{{ site.baseurl }}/projects/" class="ai-btn ai-rotate delay-1">Explore Projects</a>
-    <a href="{{ site.baseurl }}/resume/"   class="ai-btn ai-rotate delay-2">View Resume</a>
-    <a href="{{ site.baseurl }}/career/"   class="ai-btn ai-rotate delay-3">Career Journey</a>
+    <a href="{{ site.baseurl }}/projects/" class="ai-btn">Projects</a>
+    <a href="{{ site.baseurl }}/resume/" class="ai-btn">Resume</a>
+    <a href="{{ site.baseurl }}/career/" class="ai-btn">Career</a>
   </div>
+
 </section>
 
 ---
 
-### 🎯 What I Do
-- Build and deploy **AI/ML models**.  
-- Develop **full-stack web applications** using the **VILT stack**.  
-- Research **multimodal and vision-language models (VLMs)**.  
-- Translate research insights into **usable, human-centered products**.
+### 🚀 What I Do
+
+- Build and deploy machine learning and computer vision systems
+- Develop end-to-end AI pipelines from data to production
+- Deploy models using cloud and container technologies
+- Translate research into production-ready applications
+
+---
+
+### 🏆 Highlights
+
+- Master of Data Science, High Distinction, Deakin University
+- Data Scientist at Telkom Indonesia, built face recognition system (80% accuracy, 1000+ faces)
+- Improved machine learning pipeline performance by 5–6 percent
+- Best Research Paper Award, ICCSCI 2021
+- Microsoft Certified, Azure AI Engineer (AI-102)
+- Experience across Indonesia and Australia industry environments
 
 ---
 
 ### ⚙️ Technical Toolkit
-**Languages:** Python, C#, PHP, JavaScript, Java, SQL  
-**Frameworks:** PyTorch, TensorFlow, FastAPI, Laravel, Vue, Tailwind  
-**Cloud & DevOps:** Azure, Docker, Jenkins  
-**Data Tools:** Power BI, Tableu, TensorBoard  
+
+Languages: Python, SQL, Java, JavaScript  
+Machine Learning: PyTorch, TensorFlow, Scikit-learn, OpenCV  
+Cloud & DevOps: Azure, Docker, Jenkins  
+Data Tools: Power BI, Tableau, Pandas, NumPy  
+Tools: Git, Linux, VS Code  
 
 ---
 
-### 🌱 Outside of Work
-I enjoy **gaming**, **design**, and keeping up with the latest in **AI research**.  
-Offline, you’ll find me **pet-sitting** or staying active to keep life balanced.
+### 🌱 Outside Work
+
+I enjoy gaming, designing databases, and following the latest AI research developments.  
 
 ---
+### 📬 Contact
 
-## 🧾 A Printable Resume
-Download it below or view the full [Resume Page]({{ site.baseurl }}/resume/):
+<a class="btn" href="https://github.com/AndreanIG" target="_blank">
+  <i class="icon-github"></i> GitHub
+</a>
 
-{% include resume-button.html %}
+<a class="btn" href="https://www.linkedin.com/in/andrean-ignasius/" target="_blank">
+  <i class="icon-linkedin"></i> LinkedIn
+</a>
 
----
-
-[![GitHub](https://img.shields.io/badge/GitHub-AndreanIG-black?logo=github)](https://github.com/AndreanIG)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-AndreanIgnasius-blue?logo=linkedin)](https://www.linkedin.com/in/andrean-ignasius/)
-[![Email](https://img.shields.io/badge/Email-andrean.2000@gmail.com-red?logo=gmail)](mailto:andrean.2000@gmail.com)
-
----
-
-“This Portfolio is built with the help of **[Hydejack](https://hydejack.com)** v9.2.1”
-
+<a class="btn" href="mailto:andrean.2000@gmail.com">
+  <i class="icon-mail"></i> Email
+</a>
 
 <style>
-/* ---------- THEME BASE ---------- */
-.ai-home {
-  --ai1:#4F46E5;
-  --ai2:#06B6D4;
-  --ai-muted: var(--muted, #9ca3af);
-}
-
-/* ---------- TITLE + ROTATOR ---------- */
 .ai-home .ai-title{
-  font-size:clamp(2rem,4vw,3rem);
+  font-size:2.6rem;
   font-weight:800;
-  line-height:1.2;
-  margin-bottom:1rem;
-  background:linear-gradient(90deg,var(--ai1),var(--ai2));
-  -webkit-background-clip:text;
-  background-clip:text;
-  color:transparent;
-  display:inline-block;
-  white-space:nowrap;
+  margin-bottom:0.6rem;
 }
 
-.ai-home .ai-rotator{
+/* ROTATION ONLY FOR TEXT (UNCHANGED VISUAL FEATURE) */
+.ai-rotator{
   display:inline-block;
   position:relative;
   height:1.2em;
   overflow:hidden;
   vertical-align:bottom;
-  color:var(--ai2);
+  color:#06B6D4;
 }
-.ai-home .ai-rotator span{
+
+.ai-rotator span{
   display:block;
-  height:1.2em;
   animation: ai-slide 9s infinite;
 }
+
 @keyframes ai-slide {
   0%,10%   {transform:translateY(0%);}
   33%,43%  {transform:translateY(-100%);}
@@ -114,69 +123,51 @@ Download it below or view the full [Resume Page]({{ site.baseurl }}/resume/):
   100%     {transform:translateY(0%);}
 }
 
-/* ---------- BODY TEXT ---------- */
-.ai-home .ai-lead{
-  max-width:700px;
-  margin:0 auto 2rem;
-  font-size:1.15rem;
-  color:var(--ai-muted);
+.ai-lead{
+  max-width:750px;
+  margin:0 auto 1.5rem;
+  font-size:1.1rem;
+  color:var(--muted, #777);
 }
 
-/* ---------- BUTTONS & INSTANT CYCLE ---------- */
-.ai-home .ai-links{
+.ai-highlight{
+  max-width:800px;
+  margin:0 auto 2rem;
+  font-size:1rem;
+  font-weight:600;
+  opacity:0.85;
+}
+
+/* SIMPLE BUTTONS (NO ROTATION) */
+.ai-links{
   display:flex;
   justify-content:center;
+  gap:1rem;
   flex-wrap:wrap;
-  gap:.8rem;
 }
 
-.ai-home .ai-btn{
-  padding:.9rem 1.7rem;
+.ai-btn{
+  padding:.75rem 1.5rem;
   border-radius:999px;
-  font-weight:700;
   text-decoration:none;
-  background:rgba(255,255,255,.72);
-  color:#111;
-  border:1px solid rgba(0,0,0,.1);
-  transition:.25s ease;
-  opacity: 0.7;
+  border:1px solid rgba(0,0,0,.15);
+  background:transparent;
+  color:inherit;
+  font-weight:600;
+  transition:.2s ease;
 }
 
-.ai-home .ai-btn:hover{ transform:translateY(-2px); opacity: 1; }
-
-.ai-home .ai-rotate{
-  /* Total 9s cycle (3 buttons * 3s each) using linear for instant handoff */
-  animation: ai-btn-cycle 9s linear infinite;
+.ai-btn:hover{
+  transform:translateY(-2px);
+  background:rgba(0,0,0,.05);
 }
 
-.ai-home .delay-1{ animation-delay: 0s; }
-.ai-home .delay-2{ animation-delay: 3s; }
-.ai-home .delay-3{ animation-delay: 6s; }
-
-@keyframes ai-btn-cycle {
-  /* Button is ACTIVE for the first 33% (3 seconds) */
-  0%, 33% { 
-    background: linear-gradient(90deg, var(--ai1), var(--ai2)); 
-    color: #fff; 
-    opacity: 1; 
-    border-color: transparent;
-    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
-  }
-  /* Button is IDLE for the remaining 66% (6 seconds) */
-  33.01%, 100% { 
-    background: rgba(255,255,255,0.1); 
-    color: inherit; 
-    opacity: 0.7; 
-    box-shadow: none;
-  }
-}
-
-/* ---------- DARK MODE ---------- */
 @media (prefers-color-scheme: dark){
-  .ai-home .ai-btn{
+  .ai-btn{
+    border:1px solid rgba(255,255,255,.2);
+  }
+  .ai-btn:hover{
     background:rgba(255,255,255,.08);
-    color:#fff;
-    border:1px solid rgba(255,255,255,.25);
   }
 }
 </style>
