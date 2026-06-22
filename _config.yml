@@ -9,7 +9,7 @@ url:                   https://andreanig.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               '/Portofolio' #github
+baseurl:               '/Portfolio' #github
 # baseurl:               '' #locale
 
 
@@ -26,7 +26,7 @@ title:                 Andrean Ignasius
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  My Portofolio
+  My Portfolio
 
 # A shorter description for the sidebar.
 tagline:               Data Scientist & Software Engineer

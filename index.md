@@ -4,8 +4,8 @@ permalink: /
 hide_title: true
 buttons:
   print: true
-  pdf: /Portofolio/assets/files/resume-andrean.pdf
-  json: /Portofolio/assets/files/resume.json
+  pdf: /Portfolio/assets/files/resume-andrean.pdf
+  json: /Portfolio/assets/files/resume.json
 ---
 
 <section class="ai-home hero" style="text-align:center; padding:4rem 1rem;">
