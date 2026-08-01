@@ -47,6 +47,3 @@ You can get my Resume Right here:
 [![Email](https://img.shields.io/badge/Email-andrean.2000@gmail.com-red?logo=gmail)](mailto:andrean.2000@gmail.com)
 
 ---
-
-### 💡 Powered By
-Built with the help of **[Hydejack](https://hydejack.com)**
